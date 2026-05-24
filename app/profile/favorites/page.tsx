@@ -4,7 +4,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { getFavoriteIds } from "@/lib/favorites";
+import { getFavoriteIds } from "@/lib/favorites-supabase";
 import { getChunkById } from "@/lib/chunks";
 import type { Chunk } from "@/types/chunk";
 import { PageContainer } from "@/components/layout/page-container";
@@ -13,11 +13,14 @@ import { ChevronLeft } from "lucide-react";
 
 export default function FavoritesPage() {
   const [chunks, setChunks] = useState<Chunk[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const ids = getFavoriteIds();
-    const loaded = ids.map((id) => getChunkById(id)).filter(Boolean) as Chunk[];
-    setChunks(loaded);
+    getFavoriteIds().then((ids) => {
+      const loaded = ids.map((id) => getChunkById(id)).filter(Boolean) as Chunk[];
+      setChunks(loaded);
+      setLoading(false);
+    });
   }, []);
 
   return (
@@ -31,11 +34,11 @@ export default function FavoritesPage() {
         返回
       </Link>
 
-      {chunks.length === 0 ? (
+      {loading ? (
+        <div className="py-8 text-center" style={{ color: "#a8a29e" }}>加载中...</div>
+      ) : chunks.length === 0 ? (
         <div className="flex flex-col items-center py-16 text-center">
-          <p style={{ color: "#78716c" }}>
-            还没有收藏任何词块
-          </p>
+          <p style={{ color: "#78716c" }}>还没有收藏任何词块</p>
           <Link
             href="/library"
             className="mt-3 rounded-full px-6 py-2 text-sm font-medium"
