@@ -1,0 +1,116 @@
+[
+  {
+    "id": "edu-001",
+    "word": "academic performance",
+    "translation": "学业表现",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 95,
+    "topics": ["education"],
+    "modules": ["writing", "speaking"],
+    "collocations": [
+      "improve academic performance",
+      "outstanding academic performance",
+      "decline in academic performance"
+    ],
+    "example_sentence": "Extracurricular activities can positively influence students' academic performance.",
+    "synonyms": ["educational achievement", "scholastic attainment"],
+    "common_mistakes": ["不能说 study performance，固定搭配是 academic performance"],
+    "ielts_context": "Writing Task 2: education / parenting topics"
+  },
+  {
+    "id": "env-001",
+    "word": "environmental protection",
+    "translation": "环境保护",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 96,
+    "topics": ["environment"],
+    "modules": ["writing", "speaking"],
+    "collocations": [
+      "environmental protection measures",
+      "environmental protection agency",
+      "prioritize environmental protection"
+    ],
+    "example_sentence": "Governments should invest more in environmental protection to combat climate change.",
+    "synonyms": ["conservation", "eco-protection", "environmental conservation"],
+    "common_mistakes": ["不能说 protect environment，要加 the → protect the environment"],
+    "ielts_context": "Writing Task 2: government / environment topics"
+  },
+  {
+    "id": "tech-001",
+    "word": "technological advancement",
+    "translation": "科技进步",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 87,
+    "topics": ["technology"],
+    "modules": ["writing", "speaking"],
+    "collocations": [
+      "rapid technological advancement",
+      "driven by technological advancement",
+      "keep pace with technological advancements"
+    ],
+    "example_sentence": "Technological advancement has transformed the way people communicate and access information.",
+    "synonyms": ["technological progress", "technological development"],
+    "common_mistakes": ["technology advancement 不如 technological advancement 正式"],
+    "ielts_context": "Writing Task 2: technology / society topics"
+  },
+  {
+    "id": "work-001",
+    "word": "work-life balance",
+    "translation": "工作生活平衡",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 85,
+    "topics": ["work"],
+    "modules": ["writing", "speaking"],
+    "collocations": [
+      "maintain a healthy work-life balance",
+      "struggle with work-life balance",
+      "achieve better work-life balance"
+    ],
+    "example_sentence": "Many employees today prioritize work-life balance over higher salaries.",
+    "synonyms": ["life-work balance", "work-life equilibrium"],
+    "common_mistakes": ["不是 life-work balance，固定语序是 work-life balance"],
+    "ielts_context": "Speaking Part 3: work / lifestyle topics; Writing Task 2: employment"
+  },
+  {
+    "id": "health-001",
+    "word": "mental well-being",
+    "translation": "心理健康",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "topics": ["health"],
+    "modules": ["writing", "reading"],
+    "collocations": [
+      "promote mental well-being",
+      "impact on mental well-being",
+      "prioritize mental well-being"
+    ],
+    "example_sentence": "Regular exercise has a significant impact on both physical health and mental well-being.",
+    "synonyms": ["psychological well-being", "mental health", "emotional well-being"],
+    "common_mistakes": ["mental health 更常用；well-being 注意连字符"],
+    "ielts_context": "Writing Task 2: health / lifestyle topics; Reading: health articles"
+  },
+  {
+    "id": "city-001",
+    "word": "public transport",
+    "translation": "公共交通",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 89,
+    "topics": ["city"],
+    "modules": ["speaking", "listening"],
+    "collocations": [
+      "reliable public transport",
+      "invest in public transport",
+      "accessible public transport"
+    ],
+    "example_sentence": "Improving public transport is key to reducing traffic congestion in urban areas.",
+    "synonyms": ["public transportation", "mass transit", "public transit"],
+    "common_mistakes": ["可数/不可数均可：public transport (UK) = public transportation (US)"],
+    "ielts_context": "Speaking Part 1: hometown / transport; Listening Section 1: travel"
+  }
+]
