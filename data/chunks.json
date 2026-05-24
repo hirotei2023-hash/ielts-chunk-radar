@@ -6,17 +6,1548 @@
     "part_of_speech": "noun phrase",
     "band_level": "6.0",
     "frequency_score": 95,
-    "topics": ["education"],
-    "modules": ["writing", "speaking"],
+    "topics": [
+      "education"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
     "collocations": [
       "improve academic performance",
       "outstanding academic performance",
       "decline in academic performance"
     ],
     "example_sentence": "Extracurricular activities can positively influence students' academic performance.",
-    "synonyms": ["educational achievement", "scholastic attainment"],
-    "common_mistakes": ["不能说 study performance，固定搭配是 academic performance"],
+    "synonyms": [
+      "educational achievement",
+      "scholastic attainment"
+    ],
+    "common_mistakes": [
+      "不能说 study performance，固定搭配是 academic performance"
+    ],
     "ielts_context": "Writing Task 2: education / parenting topics"
+  },
+  {
+    "id": "edu-002",
+    "word": "higher education",
+    "translation": "高等教育",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 98,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "pursue higher education",
+      "access to higher education",
+      "higher education institution",
+      "cost of higher education"
+    ],
+    "example_sentence": "Higher education plays a crucial role in preparing individuals for the competitive job market.",
+    "synonyms": [
+      "tertiary education",
+      "university education",
+      "post-secondary education"
+    ],
+    "common_mistakes": [
+      "higher education 泛指时前面不加 the"
+    ],
+    "ielts_context": "Writing Task 2: education / government spending; Speaking Part 3: education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-003",
+    "word": "critical thinking",
+    "translation": "批判性思维",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 97,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "develop critical thinking",
+      "foster critical thinking",
+      "critical thinking skills",
+      "lack of critical thinking"
+    ],
+    "example_sentence": "Schools should focus on developing students' critical thinking rather than encouraging rote memorization.",
+    "synonyms": [
+      "analytical thinking",
+      "logical reasoning",
+      "higher-order thinking"
+    ],
+    "common_mistakes": [
+      "不说 criticize thinking，critical thinking 是固定搭配"
+    ],
+    "ielts_context": "Writing Task 2: education methods / curriculum reform",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-004",
+    "word": "lifelong learning",
+    "translation": "终身学习",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 95,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "promote lifelong learning",
+      "embrace lifelong learning",
+      "lifelong learning habits",
+      "culture of lifelong learning"
+    ],
+    "example_sentence": "In today's rapidly changing job market, lifelong learning has become essential for career advancement.",
+    "synonyms": [
+      "continuous learning",
+      "ongoing education",
+      "lifelong education"
+    ],
+    "common_mistakes": [
+      "lifelong 是一个词，不要分开写成 life long"
+    ],
+    "ielts_context": "Writing Task 2: education / employment; Speaking Part 3: career development",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-005",
+    "word": "tuition fees",
+    "translation": "学费",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 94,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "rising tuition fees",
+      "afford tuition fees",
+      "tuition fees waiver",
+      "cover tuition fees"
+    ],
+    "example_sentence": "Rising tuition fees have made higher education increasingly unaffordable for students from low-income families.",
+    "synonyms": [
+      "tuition costs",
+      "school fees",
+      "educational expenses"
+    ],
+    "common_mistakes": [
+      "tuition 本身就有学费的意思，不要说 tuition fee costs"
+    ],
+    "ielts_context": "Writing Task 2: education funding / government policy; Speaking Part 3",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-006",
+    "word": "vocational training",
+    "translation": "职业培训",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 93,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "provide vocational training",
+      "vocational training program",
+      "vocational training center",
+      "undergo vocational training"
+    ],
+    "example_sentence": "Vocational training equips young people with practical skills that are directly applicable in the workplace.",
+    "synonyms": [
+      "career training",
+      "technical education",
+      "professional training"
+    ],
+    "common_mistakes": [
+      "vocational 发音 /vəʊˈkeɪʃənl/，重音在第二个音节"
+    ],
+    "ielts_context": "Writing Task 2: employment / education policy; Speaking Part 3",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-007",
+    "word": "compulsory education",
+    "translation": "义务教育",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 92,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "compulsory education law",
+      "nine-year compulsory education",
+      "complete compulsory education",
+      "beyond compulsory education"
+    ],
+    "example_sentence": "In most countries, children are legally required to complete at least nine years of compulsory education.",
+    "synonyms": [
+      "mandatory education",
+      "obligatory schooling",
+      "statutory schooling"
+    ],
+    "common_mistakes": [
+      "compulsory 是法律强制的，mandatory 更口语化但可互换"
+    ],
+    "ielts_context": "Writing Task 2: government policy / education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-008",
+    "word": "study abroad",
+    "translation": "留学",
+    "part_of_speech": "verb phrase",
+    "band_level": "5.5",
+    "frequency_score": 98,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "choose to study abroad",
+      "study abroad experience",
+      "study abroad program",
+      "opportunity to study abroad"
+    ],
+    "example_sentence": "Studying abroad exposes students to different cultures and broadens their horizons.",
+    "synonyms": [
+      "pursue overseas education",
+      "attend foreign universities",
+      "international study"
+    ],
+    "common_mistakes": [
+      "study abroad 中间没有 in/at，不要说 study in abroad"
+    ],
+    "ielts_context": "Speaking Part 1/2: personal experience; Writing Task 2: education / culture",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-009",
+    "word": "extracurricular activities",
+    "translation": "课外活动",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "participate in extracurricular activities",
+      "extracurricular activities program",
+      "engage in extracurricular activities",
+      "variety of extracurricular activities"
+    ],
+    "example_sentence": "Participating in extracurricular activities helps students develop teamwork and leadership skills.",
+    "synonyms": [
+      "after-school activities",
+      "co-curricular activities",
+      "enrichment activities"
+    ],
+    "common_mistakes": [
+      "extracurricular 拼写注意：extra + curricular，两个 r"
+    ],
+    "ielts_context": "Writing Task 2: holistic education; Speaking Part 1: school life",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-010",
+    "word": "educational system",
+    "translation": "教育体系",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 96,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "reform the educational system",
+      "educational system faces challenges",
+      "flaws in the educational system",
+      "outdated educational system"
+    ],
+    "example_sentence": "The educational system should be reformed to meet the demands of the 21st-century economy.",
+    "synonyms": [
+      "education system",
+      "school system",
+      "schooling system"
+    ],
+    "common_mistakes": [
+      "educational system 和 education system 可互换，后者更常用"
+    ],
+    "ielts_context": "Writing Task 2: education policy; Speaking Part 3: education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-011",
+    "word": "formal education",
+    "translation": "正规教育",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 99,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "complete formal education",
+      "access to formal education",
+      "formal education system",
+      "beyond formal education"
+    ],
+    "example_sentence": "Many successful entrepreneurs achieved remarkable success without completing formal education.",
+    "synonyms": [
+      "mainstream education",
+      "structured education",
+      "institutional education"
+    ],
+    "common_mistakes": [
+      "formal education 前面通常不加 the"
+    ],
+    "ielts_context": "Writing Task 2: education / career success; Speaking Part 3",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-012",
+    "word": "teaching methodology",
+    "translation": "教学方法",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 92,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "innovative teaching methodology",
+      "traditional teaching methodology",
+      "adopt new teaching methodology",
+      "effective teaching methodology"
+    ],
+    "example_sentence": "Modern teaching methodology emphasizes student-centered learning over teacher-centered instruction.",
+    "synonyms": [
+      "teaching approach",
+      "pedagogical method",
+      "instructional strategy"
+    ],
+    "common_mistakes": [
+      "methodology 强调整套体系，method 指具体方法，不可混用"
+    ],
+    "ielts_context": "Writing Task 2: education reform; Reading: pedagogy articles",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-013",
+    "word": "student engagement",
+    "translation": "学生参与度",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "increase student engagement",
+      "level of student engagement",
+      "promote student engagement",
+      "measure student engagement"
+    ],
+    "example_sentence": "Interactive teaching methods have been shown to significantly improve student engagement in the classroom.",
+    "synonyms": [
+      "student participation",
+      "student involvement",
+      "learner engagement"
+    ],
+    "common_mistakes": [
+      "engagement 是参与/投入，不要说 student engagement rate"
+    ],
+    "ielts_context": "Reading: educational research; Writing Task 2: teaching methods",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-014",
+    "word": "learning outcome",
+    "translation": "学习成果",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 93,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "improve learning outcomes",
+      "measure learning outcomes",
+      "desired learning outcomes",
+      "assess learning outcomes"
+    ],
+    "example_sentence": "Technology in the classroom can enhance learning outcomes when integrated effectively.",
+    "synonyms": [
+      "educational outcome",
+      "learning result",
+      "academic outcome"
+    ],
+    "common_mistakes": [
+      "outcome 常用复数 outcomes 更自然"
+    ],
+    "ielts_context": "Writing Task 2: education technology; Reading: academic journals",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-015",
+    "word": "academic qualification",
+    "translation": "学历",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "obtain academic qualifications",
+      "recognized academic qualification",
+      "minimum academic qualification",
+      "academic qualification requirement"
+    ],
+    "example_sentence": "While academic qualifications are important, employers increasingly value practical experience and soft skills.",
+    "synonyms": [
+      "educational credentials",
+      "academic degree",
+      "formal qualification"
+    ],
+    "common_mistakes": [
+      "qualification 表示学历时可数，常用复数 qualifications"
+    ],
+    "ielts_context": "Writing Task 2: job market; Reading: employment / education articles",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-016",
+    "word": "education reform",
+    "translation": "教育改革",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "implement education reform",
+      "comprehensive education reform",
+      "education reform policy",
+      "call for education reform"
+    ],
+    "example_sentence": "Education reform is urgently needed to equip students with 21st-century skills such as digital literacy.",
+    "synonyms": [
+      "educational reform",
+      "school reform",
+      "curriculum reform"
+    ],
+    "common_mistakes": [
+      "reform 作不可数名词指改革过程；reforms (复数) 指具体改革措施"
+    ],
+    "ielts_context": "Writing Task 2: government policy / education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-017",
+    "word": "peer pressure",
+    "translation": "同侪压力",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "succumb to peer pressure",
+      "negative peer pressure",
+      "cope with peer pressure",
+      "influence of peer pressure"
+    ],
+    "example_sentence": "Teenagers often engage in risky behaviors due to intense peer pressure from their social circles.",
+    "synonyms": [
+      "peer influence",
+      "social pressure",
+      "group pressure"
+    ],
+    "common_mistakes": [
+      "peer 指同龄人，不要说 peer's pressure"
+    ],
+    "ielts_context": "Speaking Part 2/3: teenage issues; Writing Task 2: education / parenting",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-018",
+    "word": "learning environment",
+    "translation": "学习环境",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "conducive learning environment",
+      "supportive learning environment",
+      "create a positive learning environment",
+      "inclusive learning environment"
+    ],
+    "example_sentence": "A supportive learning environment is essential for students to reach their full potential.",
+    "synonyms": [
+      "educational environment",
+      "study environment",
+      "academic setting"
+    ],
+    "common_mistakes": [
+      "conducive to learning 固定搭配，介词用 to 不用 for"
+    ],
+    "ielts_context": "Writing Task 2: school infrastructure; Reading: educational psychology",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-019",
+    "word": "academic achievement",
+    "translation": "学业成就",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 94,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "measure academic achievement",
+      "improve academic achievement",
+      "academic achievement gap",
+      "outstanding academic achievement"
+    ],
+    "example_sentence": "Parental involvement plays a crucial role in shaping children's academic achievement.",
+    "synonyms": [
+      "educational attainment",
+      "scholastic achievement",
+      "academic success"
+    ],
+    "common_mistakes": [
+      "achievement 作成就时可数也可不可数，看语境"
+    ],
+    "ielts_context": "Writing Task 2: education / parenting; Reading: education studies",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-020",
+    "word": "educational opportunity",
+    "translation": "教育机会",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 94,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "equal educational opportunity",
+      "expand educational opportunities",
+      "access to educational opportunities",
+      "limited educational opportunity"
+    ],
+    "example_sentence": "Online learning platforms have expanded educational opportunities for students in remote regions.",
+    "synonyms": [
+      "learning opportunity",
+      "access to education",
+      "educational access"
+    ],
+    "common_mistakes": [
+      "opportunity 后接 for + noun 或 to + verb，不要混淆"
+    ],
+    "ielts_context": "Writing Task 2: education equality; Speaking Part 3",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-021",
+    "word": "cognitive development",
+    "translation": "认知发展",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 85,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "promote cognitive development",
+      "cognitive development theory",
+      "early cognitive development",
+      "stage of cognitive development"
+    ],
+    "example_sentence": "Reading to children from an early age significantly promotes their cognitive development and language skills.",
+    "synonyms": [
+      "intellectual development",
+      "mental development",
+      "cognitive growth"
+    ],
+    "common_mistakes": [
+      "cognitive 发音 /ˈkɒɡnɪtɪv/，g 不发音"
+    ],
+    "ielts_context": "Reading: child development articles; Writing Task 2: early education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-022",
+    "word": "rote memorization",
+    "translation": "死记硬背",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 82,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "rely on rote memorization",
+      "discourage rote memorization",
+      "rote memorization approach",
+      "beyond rote memorization"
+    ],
+    "example_sentence": "Traditional exam-oriented education often places too much emphasis on rote memorization rather than understanding.",
+    "synonyms": [
+      "rote learning",
+      "mechanical memorization",
+      "learning by heart"
+    ],
+    "common_mistakes": [
+      "rote 拼写注意不是 wrote；rote 指机械重复"
+    ],
+    "ielts_context": "Writing Task 2: exam-oriented education; Speaking Part 3: learning styles",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-023",
+    "word": "scholarship program",
+    "translation": "奖学金项目",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 80,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "apply for a scholarship program",
+      "award a scholarship program",
+      "merit-based scholarship program",
+      "fully-funded scholarship program"
+    ],
+    "example_sentence": "The university offers a range of scholarship programs to attract talented international students.",
+    "synonyms": [
+      "financial aid program",
+      "bursary scheme",
+      "grant program",
+      "fellowship"
+    ],
+    "common_mistakes": [
+      "scholarship 指奖学金，bursary 更多指助学金，不要混淆"
+    ],
+    "ielts_context": "Listening Section 3: campus conversation; Reading: university brochures",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-024",
+    "word": "literacy rate",
+    "translation": "识字率",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 83,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "improve literacy rate",
+      "adult literacy rate",
+      "high literacy rate",
+      "national literacy rate"
+    ],
+    "example_sentence": "Developing countries have made significant progress in improving literacy rates over the past few decades.",
+    "synonyms": [
+      "reading proficiency",
+      "literate population rate",
+      "educational attainment indicator"
+    ],
+    "common_mistakes": [
+      "literacy 是不可数名词；表示识字率用 literacy rate"
+    ],
+    "ielts_context": "Writing Task 1/2: development indicators; Reading: social science",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-025",
+    "word": "academic integrity",
+    "translation": "学术诚信",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 78,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "uphold academic integrity",
+      "violation of academic integrity",
+      "academic integrity policy",
+      "maintain academic integrity"
+    ],
+    "example_sentence": "Universities must enforce strict policies to uphold academic integrity and prevent plagiarism.",
+    "synonyms": [
+      "intellectual honesty",
+      "scholarly integrity",
+      "academic honesty"
+    ],
+    "common_mistakes": [
+      "integrity 是不可数名词，不用复数形式"
+    ],
+    "ielts_context": "Reading: university policies; Writing Task 2: education standards",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-026",
+    "word": "dropout rate",
+    "translation": "辍学率",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 81,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "high dropout rate",
+      "reduce dropout rate",
+      "school dropout rate",
+      "college dropout rate"
+    ],
+    "example_sentence": "The high dropout rate in rural areas is primarily caused by poverty and lack of educational resources.",
+    "synonyms": [
+      "attrition rate",
+      "non-completion rate",
+      "withdrawal rate"
+    ],
+    "common_mistakes": [
+      "dropout 可以连写也可以写 drop-out，但 drop out 是动词"
+    ],
+    "ielts_context": "Writing Task 1/2: education data; Speaking Part 3: social issues",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-027",
+    "word": "educational resources",
+    "translation": "教育资源",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 84,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "allocate educational resources",
+      "lack of educational resources",
+      "equal distribution of educational resources",
+      "digital educational resources"
+    ],
+    "example_sentence": "The unequal distribution of educational resources between urban and rural areas remains a pressing issue.",
+    "synonyms": [
+      "learning resources",
+      "teaching resources",
+      "academic resources"
+    ],
+    "common_mistakes": [
+      "resources 表示资源时通常用复数"
+    ],
+    "ielts_context": "Writing Task 2: education equality; Speaking Part 3",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-028",
+    "word": "classroom interaction",
+    "translation": "课堂互动",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 77,
+    "modules": [
+      "listening",
+      "speaking"
+    ],
+    "collocations": [
+      "encourage classroom interaction",
+      "facilitate classroom interaction",
+      "meaningful classroom interaction",
+      "classroom interaction patterns"
+    ],
+    "example_sentence": "Teachers should encourage more classroom interaction to help students develop communication skills.",
+    "synonyms": [
+      "classroom participation",
+      "student-teacher interaction",
+      "class engagement"
+    ],
+    "common_mistakes": [
+      "interaction 后可跟 between 或 with，根据语境选择"
+    ],
+    "ielts_context": "Listening Section 3: academic discussion; Speaking Part 2: school experience",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-029",
+    "word": "hands-on experience",
+    "translation": "实践经验",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 79,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "gain hands-on experience",
+      "valuable hands-on experience",
+      "provide hands-on experience",
+      "practical hands-on experience"
+    ],
+    "example_sentence": "Internships provide students with valuable hands-on experience that cannot be gained in the classroom.",
+    "synonyms": [
+      "practical experience",
+      "real-world experience",
+      "experiential learning"
+    ],
+    "common_mistakes": [
+      "hands-on 是形容词，注意连字符；没有连字符的 hands on 是动词短语"
+    ],
+    "ielts_context": "Speaking Part 2: work/study experience; Writing Task 2: education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-030",
+    "word": "standardized testing",
+    "translation": "标准化考试",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 80,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "rely on standardized testing",
+      "criticism of standardized testing",
+      "standardized testing system",
+      "performance on standardized tests"
+    ],
+    "example_sentence": "Critics argue that standardized testing fails to measure creativity and critical thinking abilities.",
+    "synonyms": [
+      "standardized assessment",
+      "uniform testing",
+      "norm-referenced testing"
+    ],
+    "common_mistakes": [
+      "standardized 是美式拼写，英式为 standardised"
+    ],
+    "ielts_context": "Writing Task 2: education assessment; Reading: education policy",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-031",
+    "word": "academic research",
+    "translation": "学术研究",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 82,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "conduct academic research",
+      "peer-reviewed academic research",
+      "academic research paper",
+      "academic research findings"
+    ],
+    "example_sentence": "Government funding for academic research is essential for scientific and technological progress.",
+    "synonyms": [
+      "scholarly research",
+      "scientific investigation",
+      "academic inquiry"
+    ],
+    "common_mistakes": [
+      "research 是不可数名词，不说 a research，可说 a piece of research"
+    ],
+    "ielts_context": "Reading: academic journals; Writing Task 2: science / education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-032",
+    "word": "educational background",
+    "translation": "教育背景",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 76,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "academic and educational background",
+      "diverse educational background",
+      "educational background information",
+      "regardless of educational background"
+    ],
+    "example_sentence": "Applicants from diverse educational backgrounds bring unique perspectives to the program.",
+    "synonyms": [
+      "academic background",
+      "educational history",
+      "academic upbringing"
+    ],
+    "common_mistakes": [
+      "background 在此语境下为可数名词，可以说 different backgrounds"
+    ],
+    "ielts_context": "Speaking Part 2: self-introduction; Listening Section 1: application forms",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-033",
+    "word": "tertiary education",
+    "translation": "高等教育",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 84,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "enroll in tertiary education",
+      "access to tertiary education",
+      "tertiary education sector",
+      "tertiary education institution"
+    ],
+    "example_sentence": "Investing in tertiary education is crucial for a nation's long-term economic competitiveness.",
+    "synonyms": [
+      "higher education",
+      "post-secondary education",
+      "college education"
+    ],
+    "common_mistakes": [
+      "tertiary 是正式用词，IELTS Writing 中比 higher education 更正式"
+    ],
+    "ielts_context": "Writing Task 2: education policy; Reading: academic reports",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-034",
+    "word": "academic excellence",
+    "translation": "学术卓越",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 75,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "strive for academic excellence",
+      "pursue academic excellence",
+      "academic excellence award",
+      "standard of academic excellence"
+    ],
+    "example_sentence": "The school has built a reputation for academic excellence over the past three decades.",
+    "synonyms": [
+      "scholastic excellence",
+      "educational excellence",
+      "academic distinction"
+    ],
+    "common_mistakes": [
+      "excellence 是不可数名词，不说 an excellence"
+    ],
+    "ielts_context": "Reading: school profiles; Writing Task 2: education quality",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-035",
+    "word": "student enrollment",
+    "translation": "入学人数",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 78,
+    "modules": [
+      "listening",
+      "reading"
+    ],
+    "collocations": [
+      "increase in student enrollment",
+      "declining student enrollment",
+      "student enrollment figures",
+      "total student enrollment"
+    ],
+    "example_sentence": "The university has seen a steady increase in student enrollment since introducing its online programs.",
+    "synonyms": [
+      "student admission",
+      "registration numbers",
+      "pupil intake"
+    ],
+    "common_mistakes": [
+      "enrollment 美式拼写；英式是 enrolment"
+    ],
+    "ielts_context": "Listening Section 3: campus statistics; Reading: university reports",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-036",
+    "word": "intellectual development",
+    "translation": "智力发展",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 73,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "support intellectual development",
+      "intellectual development of children",
+      "stimulate intellectual development",
+      "intellectual development theories"
+    ],
+    "example_sentence": "Play-based learning has been proven to support the intellectual development of young children.",
+    "synonyms": [
+      "cognitive development",
+      "mental growth",
+      "intellectual growth"
+    ],
+    "common_mistakes": [
+      "intellectual 作形容词时重音在第三音节 /ˌɪntɪˈlektʃuəl/"
+    ],
+    "ielts_context": "Reading: child psychology; Listening Section 4: education lecture",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-037",
+    "word": "academic discipline",
+    "translation": "学科",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 74,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "core academic discipline",
+      "across academic disciplines",
+      "various academic disciplines",
+      "traditional academic discipline"
+    ],
+    "example_sentence": "Interdisciplinary research that bridges multiple academic disciplines is becoming increasingly common.",
+    "synonyms": [
+      "field of study",
+      "subject area",
+      "scholarly discipline"
+    ],
+    "common_mistakes": [
+      "discipline 表示学科；也表示纪律，根据语境区分"
+    ],
+    "ielts_context": "Reading: curriculum documents; Writing Task 2: higher education",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-038",
+    "word": "educational attainment",
+    "translation": "教育程度",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 71,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "level of educational attainment",
+      "high educational attainment",
+      "educational attainment gap",
+      "measure educational attainment"
+    ],
+    "example_sentence": "There is a strong correlation between educational attainment and lifetime earnings.",
+    "synonyms": [
+      "educational achievement",
+      "academic attainment",
+      "education level"
+    ],
+    "common_mistakes": [
+      "attainment 常作不可数名词，偶尔可数"
+    ],
+    "ielts_context": "Writing Task 1/2: social data; Reading: sociology articles",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-039",
+    "word": "learning curve",
+    "translation": "学习曲线",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 68,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "steep learning curve",
+      "manageable learning curve",
+      "learning curve theory",
+      "overcome the learning curve"
+    ],
+    "example_sentence": "Learning a new language has a steep learning curve at first, but it becomes easier with consistent practice.",
+    "synonyms": [
+      "learning trajectory",
+      "skill acquisition rate",
+      "adaptation period"
+    ],
+    "common_mistakes": [
+      "steep learning curve 表示初始很难学，不是曲线本身陡峭"
+    ],
+    "ielts_context": "Speaking Part 2: learning experience; Listening Section 3: student discussion",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-040",
+    "word": "formative assessment",
+    "translation": "形成性评价",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 65,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "conduct formative assessment",
+      "formative assessment strategies",
+      "formative vs summative assessment",
+      "ongoing formative assessment"
+    ],
+    "example_sentence": "Formative assessment provides continuous feedback that helps students improve throughout the learning process.",
+    "synonyms": [
+      "continuous assessment",
+      "ongoing evaluation",
+      "diagnostic assessment"
+    ],
+    "common_mistakes": [
+      "formative 与 summative 相对，前者关注过程，后者关注结果"
+    ],
+    "ielts_context": "Reading: education methodology; Writing Task 2: assessment methods",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-041",
+    "word": "educational equity",
+    "translation": "教育公平",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 66,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "promote educational equity",
+      "ensure educational equity",
+      "educational equity policy",
+      "issue of educational equity"
+    ],
+    "example_sentence": "Ensuring educational equity remains one of the biggest challenges facing developing nations.",
+    "synonyms": [
+      "education equality",
+      "equal access to education",
+      "fairness in education"
+    ],
+    "common_mistakes": [
+      "equity（公平/公正）与 equality（平等）不同；equity 关注结果公平"
+    ],
+    "ielts_context": "Writing Task 2: social justice / education; Speaking Part 3",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-042",
+    "word": "boarding school",
+    "translation": "寄宿学校",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 64,
+    "modules": [
+      "listening",
+      "speaking"
+    ],
+    "collocations": [
+      "attend a boarding school",
+      "boarding school education",
+      "traditional boarding school",
+      "boarding school experience"
+    ],
+    "example_sentence": "Some parents believe that boarding school education fosters independence and self-discipline in children.",
+    "synonyms": [
+      "residential school",
+      "dormitory school",
+      "live-in school"
+    ],
+    "common_mistakes": [
+      "boarding school 是寄宿制学校；boarding pass 是登机牌，不要混淆"
+    ],
+    "ielts_context": "Listening Section 3: student discussion; Speaking Part 1: school life",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-043",
+    "word": "self-directed learning",
+    "translation": "自主学习",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 69,
+    "modules": [
+      "reading",
+      "speaking"
+    ],
+    "collocations": [
+      "encourage self-directed learning",
+      "self-directed learning skills",
+      "independent and self-directed learning",
+      "promote self-directed learning"
+    ],
+    "example_sentence": "Online courses require strong self-directed learning skills as there is minimal teacher supervision.",
+    "synonyms": [
+      "autonomous learning",
+      "self-paced study",
+      "independent learning"
+    ],
+    "common_mistakes": [
+      "self-directed 有连字符，不要写成 self directed"
+    ],
+    "ielts_context": "Reading: education technology; Speaking Part 2: study habits",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-044",
+    "word": "intellectual curiosity",
+    "translation": "求知欲",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 62,
+    "modules": [
+      "reading",
+      "speaking"
+    ],
+    "collocations": [
+      "spark intellectual curiosity",
+      "nurture intellectual curiosity",
+      "intellectual curiosity and creativity",
+      "natural intellectual curiosity"
+    ],
+    "example_sentence": "Great teachers know how to spark intellectual curiosity in their students through engaging lessons.",
+    "synonyms": [
+      "inquisitiveness",
+      "thirst for knowledge",
+      "curiosity to learn"
+    ],
+    "common_mistakes": [
+      "curiosity 是不可数名词，不说 a curiosity（除非表示奇物）"
+    ],
+    "ielts_context": "Reading: education philosophy; Speaking Part 2: teachers",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-045",
+    "word": "mixed-ability class",
+    "translation": "混合能力班",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 58,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "teach a mixed-ability class",
+      "mixed-ability class challenges",
+      "in a mixed-ability class",
+      "manage mixed-ability classes"
+    ],
+    "example_sentence": "Teaching a mixed-ability class requires differentiated instruction to meet every student's needs.",
+    "synonyms": [
+      "heterogeneous class",
+      "multi-level class",
+      "mixed-level group"
+    ],
+    "common_mistakes": [
+      "mixed-ability 有连字符；ability 不要拼成 abilty"
+    ],
+    "ielts_context": "Reading: teaching methodology; Listening Section 3: teacher discussion",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-046",
+    "word": "academic pressure",
+    "translation": "学业压力",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 67,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "intense academic pressure",
+      "cope with academic pressure",
+      "under academic pressure",
+      "mounting academic pressure"
+    ],
+    "example_sentence": "Many students suffer from anxiety and depression due to intense academic pressure from parents and schools.",
+    "synonyms": [
+      "study pressure",
+      "educational stress",
+      "examination pressure"
+    ],
+    "common_mistakes": [
+      "pressure 是不可数名词，不说 a pressure"
+    ],
+    "ielts_context": "Speaking Part 2/3: student life; Writing Task 2: education / mental health",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-047",
+    "word": "learning disability",
+    "translation": "学习障碍",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 55,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "diagnosed with a learning disability",
+      "students with learning disabilities",
+      "specific learning disability",
+      "overcome learning disabilities"
+    ],
+    "example_sentence": "Students with learning disabilities require tailored support to succeed in mainstream education.",
+    "synonyms": [
+      "learning difficulty",
+      "learning disorder",
+      "special educational needs"
+    ],
+    "common_mistakes": [
+      "disability 可数；learning disability 比 learning difficulty 更正式/医学"
+    ],
+    "ielts_context": "Reading: special education; Listening Section 4: psychology lecture",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-048",
+    "word": "educational philosophy",
+    "translation": "教育理念",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 60,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "educational philosophy emphasizes",
+      "progressive educational philosophy",
+      "adopt an educational philosophy",
+      "traditional educational philosophy"
+    ],
+    "example_sentence": "Montessori's educational philosophy emphasizes hands-on learning and self-directed activity.",
+    "synonyms": [
+      "teaching philosophy",
+      "pedagogical approach",
+      "educational ideology"
+    ],
+    "common_mistakes": [
+      "philosophy 在此语境中是可数的，可以说 a philosophy of education"
+    ],
+    "ielts_context": "Reading: education theory; Writing Task 2: education approaches",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-049",
+    "word": "academic advisor",
+    "translation": "学业导师",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 63,
+    "modules": [
+      "listening",
+      "speaking"
+    ],
+    "collocations": [
+      "meet with an academic advisor",
+      "seek advice from an academic advisor",
+      "assigned academic advisor",
+      "academic advisor appointment"
+    ],
+    "example_sentence": "Students should regularly meet with their academic advisor to discuss their course selection and career plans.",
+    "synonyms": [
+      "faculty advisor",
+      "tutor",
+      "academic counselor",
+      "academic mentor"
+    ],
+    "common_mistakes": [
+      "advisor 美式拼写；英式为 adviser，IELTS 两种都接受"
+    ],
+    "ielts_context": "Listening Section 3: campus services; Speaking Part 1: university life",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "edu-050",
+    "word": "educational subsidy",
+    "translation": "教育补贴",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 57,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "government educational subsidy",
+      "receive an educational subsidy",
+      "educational subsidy program",
+      "provide educational subsidies"
+    ],
+    "example_sentence": "Government educational subsidies can help bridge the gap between rich and poor students.",
+    "synonyms": [
+      "education grant",
+      "tuition subsidy",
+      "financial aid"
+    ],
+    "common_mistakes": [
+      "subsidy 可数，复数 subsidies；注意拼写不是 subside"
+    ],
+    "ielts_context": "Writing Task 2: government spending; Reading: policy reports",
+    "topics": [
+      "education"
+    ]
   },
   {
     "id": "env-001",
@@ -25,17 +1556,1550 @@
     "part_of_speech": "noun phrase",
     "band_level": "6.0",
     "frequency_score": 96,
-    "topics": ["environment"],
-    "modules": ["writing", "speaking"],
+    "topics": [
+      "environment"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
     "collocations": [
       "environmental protection measures",
       "environmental protection agency",
       "prioritize environmental protection"
     ],
     "example_sentence": "Governments should invest more in environmental protection to combat climate change.",
-    "synonyms": ["conservation", "eco-protection", "environmental conservation"],
-    "common_mistakes": ["不能说 protect environment，要加 the → protect the environment"],
+    "synonyms": [
+      "conservation",
+      "eco-protection",
+      "environmental conservation"
+    ],
+    "common_mistakes": [
+      "不能说 protect environment，要加 the → protect the environment"
+    ],
     "ielts_context": "Writing Task 2: government / environment topics"
+  },
+  {
+    "id": "env-002",
+    "word": "climate change",
+    "translation": "气候变化",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 99,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "combat climate change",
+      "tackle climate change",
+      "impact of climate change",
+      "climate change adaptation"
+    ],
+    "example_sentence": "Climate change poses an unprecedented threat to ecosystems and human societies around the world.",
+    "synonyms": [
+      "global warming",
+      "climatic change",
+      "climate crisis"
+    ],
+    "common_mistakes": [
+      "climate change 是更综合的说法，global warming 是其中一个方面"
+    ],
+    "ielts_context": "Writing Task 2: environment; Speaking Part 3: global issues",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-003",
+    "word": "carbon footprint",
+    "translation": "碳足迹",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 96,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "reduce carbon footprint",
+      "measure carbon footprint",
+      "carbon footprint reduction",
+      "individual carbon footprint"
+    ],
+    "example_sentence": "Switching to renewable energy sources is one of the most effective ways to reduce our carbon footprint.",
+    "synonyms": [
+      "carbon emissions",
+      "greenhouse gas emissions",
+      "environmental footprint"
+    ],
+    "common_mistakes": [
+      "footprint 此处是比喻义，不说 carbon footmark"
+    ],
+    "ielts_context": "Writing Task 2: environment / lifestyle; Speaking Part 3",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-004",
+    "word": "renewable energy",
+    "translation": "可再生能源",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 97,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "invest in renewable energy",
+      "renewable energy sources",
+      "shift to renewable energy",
+      "renewable energy technology"
+    ],
+    "example_sentence": "Governments should provide incentives for businesses to invest in renewable energy sources such as solar and wind power.",
+    "synonyms": [
+      "clean energy",
+      "green energy",
+      "sustainable energy",
+      "alternative energy"
+    ],
+    "common_mistakes": [
+      "renewable 发音 /rɪˈnjuːəbəl/，注意重音在第二个音节"
+    ],
+    "ielts_context": "Writing Task 2: energy / environment; Speaking Part 3",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-005",
+    "word": "sustainable development",
+    "translation": "可持续发展",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 98,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "achieve sustainable development",
+      "promote sustainable development",
+      "sustainable development goals",
+      "path to sustainable development"
+    ],
+    "example_sentence": "Balancing economic growth with environmental protection is at the heart of sustainable development.",
+    "synonyms": [
+      "sustainability",
+      "balanced development",
+      "green growth"
+    ],
+    "common_mistakes": [
+      "sustainable 形容词形式，sustainability 是名词形式，用法不同"
+    ],
+    "ielts_context": "Writing Task 2: economy vs environment; Speaking Part 3",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-006",
+    "word": "fossil fuels",
+    "translation": "化石燃料",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 95,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "dependence on fossil fuels",
+      "burning fossil fuels",
+      "phase out fossil fuels",
+      "reliance on fossil fuels"
+    ],
+    "example_sentence": "Our heavy dependence on fossil fuels is the primary driver of global carbon emissions.",
+    "synonyms": [
+      "non-renewable fuels",
+      "conventional fuels",
+      "hydrocarbon fuels"
+    ],
+    "common_mistakes": [
+      "fossil 拼写注意两个 s；fuels 通常用复数"
+    ],
+    "ielts_context": "Writing Task 2: energy policy; Speaking Part 3: environment",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-007",
+    "word": "greenhouse gas",
+    "translation": "温室气体",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 94,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "emit greenhouse gases",
+      "reduce greenhouse gas emissions",
+      "greenhouse gas effect",
+      "major greenhouse gas"
+    ],
+    "example_sentence": "Carbon dioxide is the most significant greenhouse gas contributing to global warming.",
+    "synonyms": [
+      "heat-trapping gas",
+      "atmospheric pollutant",
+      "CO2 equivalent"
+    ],
+    "common_mistakes": [
+      "greenhouse 是一个词，不要分开写 green house"
+    ],
+    "ielts_context": "Writing Task 2: climate change; Reading: science articles",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-008",
+    "word": "natural resources",
+    "translation": "自然资源",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 93,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "deplete natural resources",
+      "conserve natural resources",
+      "abundant natural resources",
+      "exploit natural resources"
+    ],
+    "example_sentence": "Rapid industrialization has led to the depletion of natural resources at an alarming rate.",
+    "synonyms": [
+      "raw materials",
+      "natural capital",
+      "environmental resources"
+    ],
+    "common_mistakes": [
+      "resources 在此语境中总是用复数"
+    ],
+    "ielts_context": "Writing Task 2: development / environment; Speaking Part 3",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-009",
+    "word": "environmental degradation",
+    "translation": "环境退化",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 91,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "cause environmental degradation",
+      "prevent environmental degradation",
+      "severe environmental degradation",
+      "combat environmental degradation"
+    ],
+    "example_sentence": "Uncontrolled industrial expansion has resulted in severe environmental degradation in many regions.",
+    "synonyms": [
+      "environmental damage",
+      "ecological deterioration",
+      "environmental deterioration"
+    ],
+    "common_mistakes": [
+      "degradation 是不可数名词；恶劣程度用 severe/serious 修饰"
+    ],
+    "ielts_context": "Writing Task 2: industry / environment; Reading: environmental reports",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-010",
+    "word": "global warming",
+    "translation": "全球变暖",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 97,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "contribute to global warming",
+      "address global warming",
+      "impact of global warming",
+      "combat global warming"
+    ],
+    "example_sentence": "The scientific consensus is clear: human activities are the primary cause of global warming.",
+    "synonyms": [
+      "climate heating",
+      "planetary warming",
+      "temperature rise"
+    ],
+    "common_mistakes": [
+      "global warming 多用于口语/一般写作；climate change 更学术"
+    ],
+    "ielts_context": "Writing Task 2: environment; Speaking Part 3: climate topics",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-011",
+    "word": "conservation efforts",
+    "translation": "保护工作",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "support conservation efforts",
+      "wildlife conservation efforts",
+      "conservation efforts aim to",
+      "strengthen conservation efforts"
+    ],
+    "example_sentence": "International cooperation is essential for effective wildlife conservation efforts across national borders.",
+    "synonyms": [
+      "preservation initiatives",
+      "protection measures",
+      "conservation programs"
+    ],
+    "common_mistakes": [
+      "conservation 主要指保护自然资源；preservation 侧重维持原始状态"
+    ],
+    "ielts_context": "Writing Task 2: wildlife / environment; Speaking Part 3",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-012",
+    "word": "ecological balance",
+    "translation": "生态平衡",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 92,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "maintain ecological balance",
+      "disrupt ecological balance",
+      "restore ecological balance",
+      "delicate ecological balance"
+    ],
+    "example_sentence": "The introduction of invasive species can severely disrupt the ecological balance of an entire ecosystem.",
+    "synonyms": [
+      "environmental equilibrium",
+      "ecosystem balance",
+      "natural balance"
+    ],
+    "common_mistakes": [
+      "ecological 是形容词，注意拼写 eco + logical"
+    ],
+    "ielts_context": "Writing Task 2: biodiversity; Reading: ecology articles",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-013",
+    "word": "deforestation rate",
+    "translation": "森林砍伐率",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "alarming deforestation rate",
+      "reduce deforestation rate",
+      "rapid deforestation rate",
+      "slow the deforestation rate"
+    ],
+    "example_sentence": "The alarming deforestation rate in the Amazon rainforest has raised serious concerns worldwide.",
+    "synonyms": [
+      "forest clearing rate",
+      "rate of forest loss",
+      "tree cover loss"
+    ],
+    "common_mistakes": [
+      "deforestation 是不可数名词；deforest 是动词形式"
+    ],
+    "ielts_context": "Writing Task 1/2: environmental data; Reading: environmental news",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-014",
+    "word": "environmental awareness",
+    "translation": "环保意识",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 92,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "raise environmental awareness",
+      "growing environmental awareness",
+      "promote environmental awareness",
+      "lack of environmental awareness"
+    ],
+    "example_sentence": "Schools play a vital role in raising environmental awareness among the younger generation.",
+    "synonyms": [
+      "eco-consciousness",
+      "environmental consciousness",
+      "green awareness"
+    ],
+    "common_mistakes": [
+      "awareness 是不可数名词，不用复数形式"
+    ],
+    "ielts_context": "Writing Task 2: education / environment; Speaking Part 3",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-015",
+    "word": "air pollution",
+    "translation": "空气污染",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 94,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "combat air pollution",
+      "reduce air pollution",
+      "severe air pollution",
+      "indoor air pollution"
+    ],
+    "example_sentence": "Air pollution in major cities has reached hazardous levels, posing serious health risks to residents.",
+    "synonyms": [
+      "atmospheric pollution",
+      "smog",
+      "air contamination"
+    ],
+    "common_mistakes": [
+      "pollution 是不可数名词；specific types 用 air/water/noise pollution"
+    ],
+    "ielts_context": "Speaking Part 3: city life; Listening Section 2: public health announcements",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-016",
+    "word": "energy consumption",
+    "translation": "能源消耗",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 94,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "reduce energy consumption",
+      "excessive energy consumption",
+      "household energy consumption",
+      "energy consumption patterns"
+    ],
+    "example_sentence": "Installing smart meters can help households monitor and reduce their energy consumption.",
+    "synonyms": [
+      "energy use",
+      "power consumption",
+      "energy expenditure"
+    ],
+    "common_mistakes": [
+      "consumption 是不可数名词；consumer 是消费者，不要混淆"
+    ],
+    "ielts_context": "Writing Task 1/2: energy data; Reading: energy reports",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-017",
+    "word": "waste disposal",
+    "translation": "废物处理",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 93,
+    "modules": [
+      "listening",
+      "speaking"
+    ],
+    "collocations": [
+      "improper waste disposal",
+      "waste disposal system",
+      "household waste disposal",
+      "safe waste disposal"
+    ],
+    "example_sentence": "Improper waste disposal has led to widespread contamination of soil and groundwater in the area.",
+    "synonyms": [
+      "garbage disposal",
+      "refuse management",
+      "waste management"
+    ],
+    "common_mistakes": [
+      "disposal 是不可数名词；dispose of 是动词短语"
+    ],
+    "ielts_context": "Listening Section 2: community services; Speaking Part 3",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-018",
+    "word": "biodiversity loss",
+    "translation": "生物多样性丧失",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 95,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "halt biodiversity loss",
+      "rapid biodiversity loss",
+      "cause biodiversity loss",
+      "consequences of biodiversity loss"
+    ],
+    "example_sentence": "Habitat destruction is the leading cause of biodiversity loss in tropical regions worldwide.",
+    "synonyms": [
+      "species extinction",
+      "loss of biodiversity",
+      "ecological decline"
+    ],
+    "common_mistakes": [
+      "biodiversity 是 bio+ diversity 合成词，不可数"
+    ],
+    "ielts_context": "Writing Task 2: environment / wildlife; Reading: biology articles",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-019",
+    "word": "eco-friendly",
+    "translation": "环保的",
+    "part_of_speech": "adjective",
+    "band_level": "5.5",
+    "frequency_score": 93,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "eco-friendly product",
+      "eco-friendly alternative",
+      "eco-friendly lifestyle",
+      "eco-friendly packaging"
+    ],
+    "example_sentence": "Consumers are increasingly choosing eco-friendly products to minimize their environmental impact.",
+    "synonyms": [
+      "environmentally friendly",
+      "green",
+      "sustainable",
+      "earth-friendly"
+    ],
+    "common_mistakes": [
+      "eco-friendly 有连字符；不要写成 eco friendly"
+    ],
+    "ielts_context": "Speaking Part 3: consumer habits; Listening Section 2: product descriptions",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-020",
+    "word": "environmental impact",
+    "translation": "环境影响",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 92,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "assess environmental impact",
+      "minimize environmental impact",
+      "environmental impact assessment",
+      "negative environmental impact"
+    ],
+    "example_sentence": "Companies are now required to conduct environmental impact assessments before starting major projects.",
+    "synonyms": [
+      "ecological impact",
+      "environmental consequence",
+      "environmental effect"
+    ],
+    "common_mistakes": [
+      "impact 后接 on；environmental impact on local communities"
+    ],
+    "ielts_context": "Writing Task 2: business / environment; Reading: environmental reports",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-021",
+    "word": "carbon emissions",
+    "translation": "碳排放",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 85,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "cut carbon emissions",
+      "reduce carbon emissions",
+      "carbon emissions trading",
+      "net-zero carbon emissions"
+    ],
+    "example_sentence": "Many countries have pledged to achieve net-zero carbon emissions by 2050.",
+    "synonyms": [
+      "CO2 emissions",
+      "greenhouse gas output",
+      "carbon output"
+    ],
+    "common_mistakes": [
+      "emissions 表示排放物时总是用复数；emission 单数指排放过程"
+    ],
+    "ielts_context": "Writing Task 1/2: climate data; Reading: climate science",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-022",
+    "word": "water scarcity",
+    "translation": "水资源短缺",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 82,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "face water scarcity",
+      "severe water scarcity",
+      "water scarcity issue",
+      "address water scarcity"
+    ],
+    "example_sentence": "Water scarcity affects over two billion people worldwide and is expected to worsen with climate change.",
+    "synonyms": [
+      "water shortage",
+      "water stress",
+      "water deficit"
+    ],
+    "common_mistakes": [
+      "scarcity 是不可数名词；scarce 是形容词形式"
+    ],
+    "ielts_context": "Writing Task 2: resource management; Reading: global issues",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-023",
+    "word": "endangered species",
+    "translation": "濒危物种",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 84,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "protect endangered species",
+      "critically endangered species",
+      "endangered species list",
+      "habitat of endangered species"
+    ],
+    "example_sentence": "Poaching and habitat loss continue to threaten endangered species such as the giant panda and the snow leopard.",
+    "synonyms": [
+      "threatened species",
+      "vulnerable species",
+      "at-risk species"
+    ],
+    "common_mistakes": [
+      "endangered 不用于 very 修饰；说 critically endangered"
+    ],
+    "ielts_context": "Writing Task 2: wildlife conservation; Speaking Part 3: animals",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-024",
+    "word": "marine ecosystem",
+    "translation": "海洋生态系统",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 76,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "protect marine ecosystems",
+      "threat to marine ecosystems",
+      "marine ecosystem health",
+      "fragile marine ecosystem"
+    ],
+    "example_sentence": "Plastic pollution poses a growing threat to marine ecosystems and the countless species that depend on them.",
+    "synonyms": [
+      "ocean ecosystem",
+      "aquatic ecosystem",
+      "marine environment"
+    ],
+    "common_mistakes": [
+      "marine 发音 /məˈriːn/，注意重音在第二个音节"
+    ],
+    "ielts_context": "Reading: environmental science; Listening Section 4: marine biology",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-025",
+    "word": "ozone layer",
+    "translation": "臭氧层",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 80,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "deplete the ozone layer",
+      "protect the ozone layer",
+      "ozone layer depletion",
+      "hole in the ozone layer"
+    ],
+    "example_sentence": "The successful recovery of the ozone layer demonstrates that international cooperation can solve environmental problems.",
+    "synonyms": [
+      "ozone shield",
+      "stratospheric ozone",
+      "atmospheric ozone layer"
+    ],
+    "common_mistakes": [
+      "ozone layer 前通常加 the；deplete 表示消耗/枯竭"
+    ],
+    "ielts_context": "Reading: environmental science; Listening Section 4: science lecture",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-026",
+    "word": "solar energy",
+    "translation": "太阳能",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 86,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "harness solar energy",
+      "solar energy system",
+      "install solar energy panels",
+      "solar energy potential"
+    ],
+    "example_sentence": "Solar energy is becoming increasingly affordable and accessible for households in sun-rich regions.",
+    "synonyms": [
+      "solar power",
+      "sunlight energy",
+      "photovoltaic energy"
+    ],
+    "common_mistakes": [
+      "solar 表示太阳的；lunar 表示月亮的，不要混淆"
+    ],
+    "ielts_context": "Speaking Part 3: energy / technology; Writing Task 2: renewable energy",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-027",
+    "word": "environmental policy",
+    "translation": "环保政策",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 78,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "implement environmental policy",
+      "stringent environmental policy",
+      "government environmental policy",
+      "formulate environmental policy"
+    ],
+    "example_sentence": "Stringent environmental policies have proven effective in reducing industrial pollution in developed nations.",
+    "synonyms": [
+      "green policy",
+      "environmental regulation",
+      "eco-policy"
+    ],
+    "common_mistakes": [
+      "policy 可数，复数 policies；表示政策的集合时也可用单数"
+    ],
+    "ielts_context": "Writing Task 2: government; Reading: policy documents",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-028",
+    "word": "urban sprawl",
+    "translation": "城市扩张",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 74,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "uncontrolled urban sprawl",
+      "limit urban sprawl",
+      "urban sprawl contributes to",
+      "consequences of urban sprawl"
+    ],
+    "example_sentence": "Uncontrolled urban sprawl has led to the loss of valuable farmland and green spaces around many cities.",
+    "synonyms": [
+      "suburban expansion",
+      "urban expansion",
+      "city sprawl"
+    ],
+    "common_mistakes": [
+      "sprawl 是不可数名词；注意拼写不是 sprawl"
+    ],
+    "ielts_context": "Writing Task 2: urbanization; Reading: urban planning articles",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-029",
+    "word": "ecological footprint",
+    "translation": "生态足迹",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 72,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "reduce ecological footprint",
+      "measure ecological footprint",
+      "humanity's ecological footprint",
+      "exceed the ecological footprint"
+    ],
+    "example_sentence": "If everyone lived like the average American, we would need five Earths to sustain our ecological footprint.",
+    "synonyms": [
+      "environmental footprint",
+      "biocapacity demand",
+      "earth footprint"
+    ],
+    "common_mistakes": [
+      "ecological footprint 是科学术语，和 carbon footprint 不同"
+    ],
+    "ielts_context": "Writing Task 2: sustainability; Reading: environmental economics",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-030",
+    "word": "industrial pollution",
+    "translation": "工业污染",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 81,
+    "modules": [
+      "writing",
+      "listening"
+    ],
+    "collocations": [
+      "reduce industrial pollution",
+      "control industrial pollution",
+      "sources of industrial pollution",
+      "tackle industrial pollution"
+    ],
+    "example_sentence": "Strict regulations have been introduced to control industrial pollution and protect local communities.",
+    "synonyms": [
+      "factory emissions",
+      "industrial contamination",
+      "manufacturing pollution"
+    ],
+    "common_mistakes": [
+      "industrial 是形容词 (工业的)；industrious 是勤劳的，完全不同"
+    ],
+    "ielts_context": "Writing Task 2: industry regulation; Listening Section 2: community issues",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-031",
+    "word": "recycling program",
+    "translation": "回收计划",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 79,
+    "modules": [
+      "listening",
+      "speaking"
+    ],
+    "collocations": [
+      "implement a recycling program",
+      "participate in recycling programs",
+      "community recycling program",
+      "effective recycling program"
+    ],
+    "example_sentence": "The city council launched a comprehensive recycling program to reduce the amount of waste sent to landfills.",
+    "synonyms": [
+      "waste recovery scheme",
+      "reuse initiative",
+      "circular economy program"
+    ],
+    "common_mistakes": [
+      "recycling 拼写注意，中间有 c 不是 k"
+    ],
+    "ielts_context": "Listening Section 2: community announcements; Speaking Part 1: daily habits",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-032",
+    "word": "natural habitat",
+    "translation": "自然栖息地",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 83,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "destroy natural habitats",
+      "preserve natural habitats",
+      "loss of natural habitat",
+      "threatened natural habitat"
+    ],
+    "example_sentence": "Urban expansion continues to encroach upon the natural habitats of many wildlife species.",
+    "synonyms": [
+      "native habitat",
+      "wildlife habitat",
+      "ecological habitat",
+      "natural environment"
+    ],
+    "common_mistakes": [
+      "habitat 可数，复数 habitats；注意重音在第一个音节"
+    ],
+    "ielts_context": "Reading: wildlife articles; Writing Task 2: conservation",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-033",
+    "word": "wind power",
+    "translation": "风力发电",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 75,
+    "modules": [
+      "listening",
+      "reading"
+    ],
+    "collocations": [
+      "generate wind power",
+      "offshore wind power",
+      "harness wind power",
+      "wind power capacity"
+    ],
+    "example_sentence": "Offshore wind power has emerged as one of the most promising sources of clean energy in Europe.",
+    "synonyms": [
+      "wind energy",
+      "aeolian energy",
+      "wind-generated electricity"
+    ],
+    "common_mistakes": [
+      "wind 发音 /wɪnd/，不是 /waɪnd/ (那个是动词缠绕)"
+    ],
+    "ielts_context": "Listening Section 4: renewable energy; Reading: energy technology",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-034",
+    "word": "greenhouse effect",
+    "translation": "温室效应",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 84,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "the greenhouse effect causes",
+      "enhanced greenhouse effect",
+      "natural greenhouse effect",
+      "trap heat in the greenhouse effect"
+    ],
+    "example_sentence": "The greenhouse effect is a natural phenomenon, but human activities have intensified it to dangerous levels.",
+    "synonyms": [
+      "heat-trapping phenomenon",
+      "atmospheric warming process"
+    ],
+    "common_mistakes": [
+      "greenhouse 一个词，重音在前面"
+    ],
+    "ielts_context": "Reading: basic science; Listening Section 4: environmental lecture",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-035",
+    "word": "natural disaster",
+    "translation": "自然灾害",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 77,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "devastating natural disaster",
+      "prone to natural disasters",
+      "cope with natural disasters",
+      "frequency of natural disasters"
+    ],
+    "example_sentence": "Climate change has been linked to the increasing frequency and intensity of natural disasters worldwide.",
+    "synonyms": [
+      "catastrophic event",
+      "environmental disaster",
+      "act of nature"
+    ],
+    "common_mistakes": [
+      "disaster 可数；natural disaster 前可加 a/an"
+    ],
+    "ielts_context": "Speaking Part 2/3: natural disasters; Listening Section 2: news reports",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-036",
+    "word": "pollutant emission",
+    "translation": "污染物排放",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 70,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "reduce pollutant emissions",
+      "vehicle pollutant emissions",
+      "industrial pollutant emissions",
+      "regulate pollutant emissions"
+    ],
+    "example_sentence": "The government has introduced stricter standards to regulate pollutant emissions from factories and vehicles.",
+    "synonyms": [
+      "toxic discharge",
+      "contaminant release",
+      "harmful emission"
+    ],
+    "common_mistakes": [
+      "emission 可用单数表示排放过程，复数表示排放物"
+    ],
+    "ielts_context": "Reading: environmental regulations; Writing Task 2: pollution control",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-037",
+    "word": "environmental sustainability",
+    "translation": "环境可持续性",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 73,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "achieve environmental sustainability",
+      "promote environmental sustainability",
+      "ensure environmental sustainability",
+      "commitment to environmental sustainability"
+    ],
+    "example_sentence": "Achieving environmental sustainability requires a fundamental shift in how we produce and consume goods.",
+    "synonyms": [
+      "ecological sustainability",
+      "green sustainability",
+      "planetary sustainability"
+    ],
+    "common_mistakes": [
+      "sustainability 不可数；sustainable 是形容词，用法不同"
+    ],
+    "ielts_context": "Writing Task 2: sustainability / development; Reading: policy documents",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-038",
+    "word": "habitat destruction",
+    "translation": "栖息地破坏",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 71,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "cause habitat destruction",
+      "widespread habitat destruction",
+      "prevent habitat destruction",
+      "rate of habitat destruction"
+    ],
+    "example_sentence": "Habitat destruction due to agriculture and urbanization is the single greatest threat to biodiversity.",
+    "synonyms": [
+      "habitat loss",
+      "ecosystem destruction",
+      "habitat degradation"
+    ],
+    "common_mistakes": [
+      "destruction 不可数；动词是 destroy"
+    ],
+    "ielts_context": "Writing Task 2: conservation; Reading: ecology articles",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-039",
+    "word": "carbon neutral",
+    "translation": "碳中和",
+    "part_of_speech": "adjective",
+    "band_level": "6.5",
+    "frequency_score": 68,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "become carbon neutral",
+      "carbon neutral by 2050",
+      "achieve carbon neutral status",
+      "pledge to be carbon neutral"
+    ],
+    "example_sentence": "Several major corporations have pledged to become carbon neutral by 2030 to combat climate change.",
+    "synonyms": [
+      "net-zero emissions",
+      "climate neutral",
+      "carbon zero"
+    ],
+    "common_mistakes": [
+      "carbon neutral 是复合形容词，不需要连字符；carbon-neutral 也接受"
+    ],
+    "ielts_context": "Writing Task 2: climate policy; Reading: business news",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-040",
+    "word": "plastic waste",
+    "translation": "塑料垃圾",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 69,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "reduce plastic waste",
+      "plastic waste pollution",
+      "dispose of plastic waste",
+      "plastic waste problem"
+    ],
+    "example_sentence": "Single-use plastic waste has become one of the most visible and pressing environmental issues today.",
+    "synonyms": [
+      "plastic pollution",
+      "plastic debris",
+      "synthetic waste"
+    ],
+    "common_mistakes": [
+      "waste 是不可数名词；plastic waste 无复数形式"
+    ],
+    "ielts_context": "Speaking Part 3: environment; Listening Section 2: public campaigns",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-041",
+    "word": "emission standards",
+    "translation": "排放标准",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 64,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "meet emission standards",
+      "strict emission standards",
+      "vehicle emission standards",
+      "tighten emission standards"
+    ],
+    "example_sentence": "The government plans to tighten emission standards for all newly registered vehicles from next year.",
+    "synonyms": [
+      "pollution limits",
+      "discharge regulations",
+      "emission limits"
+    ],
+    "common_mistakes": [
+      "standards 通常用复数，因为涉及多项标准"
+    ],
+    "ielts_context": "Reading: regulatory documents; Writing Task 2: government policy",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-042",
+    "word": "organic farming",
+    "translation": "有机农业",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 67,
+    "modules": [
+      "speaking",
+      "reading"
+    ],
+    "collocations": [
+      "practice organic farming",
+      "organic farming methods",
+      "promote organic farming",
+      "shift to organic farming"
+    ],
+    "example_sentence": "Organic farming avoids the use of synthetic pesticides and fertilizers, making it more environmentally friendly.",
+    "synonyms": [
+      "sustainable agriculture",
+      "chemical-free farming",
+      "natural farming"
+    ],
+    "common_mistakes": [
+      "organic 在不同语境有不同含义，这里指有机/无化学合成"
+    ],
+    "ielts_context": "Speaking Part 3: food / agriculture; Reading: food industry",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-043",
+    "word": "soil erosion",
+    "translation": "土壤侵蚀",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 61,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "prevent soil erosion",
+      "cause soil erosion",
+      "severe soil erosion",
+      "soil erosion control"
+    ],
+    "example_sentence": "Deforestation on steep slopes has accelerated soil erosion, reducing the land's agricultural productivity.",
+    "synonyms": [
+      "land erosion",
+      "topsoil loss",
+      "soil degradation"
+    ],
+    "common_mistakes": [
+      "erosion 不可数；动词是 erode"
+    ],
+    "ielts_context": "Reading: agriculture / geography; Listening Section 4: environmental lecture",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-044",
+    "word": "overpopulation",
+    "translation": "人口过剩",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 66,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "problem of overpopulation",
+      "overpopulation leads to",
+      "address overpopulation",
+      "burden of overpopulation"
+    ],
+    "example_sentence": "Overpopulation puts tremendous strain on natural resources, infrastructure, and the environment.",
+    "synonyms": [
+      "population explosion",
+      "overcrowding",
+      "excessive population growth"
+    ],
+    "common_mistakes": [
+      "overpopulation 不可数；通常不加 the"
+    ],
+    "ielts_context": "Writing Task 2: global issues; Speaking Part 3: social problems",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-045",
+    "word": "energy efficiency",
+    "translation": "能源效率",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 65,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "improve energy efficiency",
+      "promote energy efficiency",
+      "energy efficiency standards",
+      "invest in energy efficiency"
+    ],
+    "example_sentence": "Improving energy efficiency in buildings is one of the most cost-effective ways to reduce carbon emissions.",
+    "synonyms": [
+      "energy conservation",
+      "fuel efficiency",
+      "power efficiency"
+    ],
+    "common_mistakes": [
+      "efficiency 不可数；efficient 是形容词"
+    ],
+    "ielts_context": "Writing Task 2: energy policy; Reading: technology reports",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-046",
+    "word": "acid rain",
+    "translation": "酸雨",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 62,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "caused by acid rain",
+      "damage from acid rain",
+      "acid rain pollution",
+      "effects of acid rain"
+    ],
+    "example_sentence": "Acid rain, primarily caused by industrial emissions, has severely damaged forests and lakes across the region.",
+    "synonyms": [
+      "acid precipitation",
+      "acid deposition",
+      "atmospheric acid"
+    ],
+    "common_mistakes": [
+      "acid rain 不可数，前面不用加 an"
+    ],
+    "ielts_context": "Reading: environmental science; Listening Section 4: environmental issues",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-047",
+    "word": "wildlife corridor",
+    "translation": "野生动物走廊",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 54,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "establish wildlife corridors",
+      "create wildlife corridors",
+      "wildlife corridor network",
+      "protect wildlife corridors"
+    ],
+    "example_sentence": "Wildlife corridors allow animals to move safely between fragmented habitats, helping maintain genetic diversity.",
+    "synonyms": [
+      "ecological corridor",
+      "habitat corridor",
+      "conservation corridor",
+      "green corridor"
+    ],
+    "common_mistakes": [
+      "corridor 表示走廊/通道；wildlife corridor 是生态学术语"
+    ],
+    "ielts_context": "Reading: conservation biology; Listening Section 4: ecology lecture",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-048",
+    "word": "afforestation",
+    "translation": "植树造林",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 56,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "promote afforestation",
+      "afforestation project",
+      "afforestation efforts",
+      "large-scale afforestation"
+    ],
+    "example_sentence": "Large-scale afforestation projects have been launched to combat desertification in arid regions.",
+    "synonyms": [
+      "tree planting",
+      "reforestation",
+      "forest restoration"
+    ],
+    "common_mistakes": [
+      "afforestation 是在无林地上造林；reforestation 是在毁林地上再造林"
+    ],
+    "ielts_context": "Reading: environmental science; Writing Task 2: land management",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-049",
+    "word": "tidal energy",
+    "translation": "潮汐能",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 52,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "harness tidal energy",
+      "tidal energy project",
+      "tidal energy potential",
+      "generate tidal energy"
+    ],
+    "example_sentence": "Tidal energy offers a predictable and reliable source of renewable power compared to wind and solar.",
+    "synonyms": [
+      "tidal power",
+      "wave energy",
+      "ocean energy"
+    ],
+    "common_mistakes": [
+      "tidal 来自 tide (潮汐)，注意拼写 tidal 不是 tidle"
+    ],
+    "ielts_context": "Reading: renewable energy; Listening Section 4: technology lecture",
+    "topics": [
+      "environment"
+    ]
+  },
+  {
+    "id": "env-050",
+    "word": "environmental ethics",
+    "translation": "环境伦理",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 58,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "principles of environmental ethics",
+      "environmental ethics argues",
+      "apply environmental ethics",
+      "field of environmental ethics"
+    ],
+    "example_sentence": "Environmental ethics challenges the anthropocentric view that nature exists solely for human exploitation.",
+    "synonyms": [
+      "ecological ethics",
+      "conservation philosophy",
+      "green ethics"
+    ],
+    "common_mistakes": [
+      "ethics 以 -s 结尾但是单数概念，视为单数"
+    ],
+    "ielts_context": "Reading: philosophy / environment; Writing Task 2: environmental values",
+    "topics": [
+      "environment"
+    ]
   },
   {
     "id": "tech-001",
@@ -44,17 +3108,1572 @@
     "part_of_speech": "noun phrase",
     "band_level": "6.5",
     "frequency_score": 87,
-    "topics": ["technology"],
-    "modules": ["writing", "speaking"],
+    "topics": [
+      "technology"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
     "collocations": [
       "rapid technological advancement",
       "driven by technological advancement",
       "keep pace with technological advancements"
     ],
     "example_sentence": "Technological advancement has transformed the way people communicate and access information.",
-    "synonyms": ["technological progress", "technological development"],
-    "common_mistakes": ["technology advancement 不如 technological advancement 正式"],
+    "synonyms": [
+      "technological progress",
+      "technological development"
+    ],
+    "common_mistakes": [
+      "technology advancement 不如 technological advancement 正式"
+    ],
     "ielts_context": "Writing Task 2: technology / society topics"
+  },
+  {
+    "id": "tech-002",
+    "word": "artificial intelligence",
+    "translation": "人工智能",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 99,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "develop artificial intelligence",
+      "application of artificial intelligence",
+      "powered by artificial intelligence",
+      "artificial intelligence algorithm"
+    ],
+    "example_sentence": "Artificial intelligence is transforming industries ranging from healthcare to transportation.",
+    "synonyms": [
+      "AI",
+      "machine intelligence",
+      "cognitive computing"
+    ],
+    "common_mistakes": [
+      "artificial 拼写注意，两个 i (art + i + ficial)"
+    ],
+    "ielts_context": "Writing Task 2: technology / employment; Reading: technology articles",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-003",
+    "word": "social media",
+    "translation": "社交媒体",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 98,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "addicted to social media",
+      "social media platform",
+      "social media influencer",
+      "impact of social media"
+    ],
+    "example_sentence": "Social media has fundamentally changed the way people interact and share information.",
+    "synonyms": [
+      "social networking sites",
+      "online platforms",
+      "digital networks"
+    ],
+    "common_mistakes": [
+      "media 是复数形式 (单数 medium)，但 social media 后常跟单数动词"
+    ],
+    "ielts_context": "Speaking Part 1/3: technology use; Writing Task 2: society",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-004",
+    "word": "digital technology",
+    "translation": "数字技术",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 95,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "embrace digital technology",
+      "advancement of digital technology",
+      "digital technology adoption",
+      "impact of digital technology"
+    ],
+    "example_sentence": "Digital technology has revolutionized the way businesses operate and deliver services to customers.",
+    "synonyms": [
+      "information technology",
+      "digital tools",
+      "electronic technology"
+    ],
+    "common_mistakes": [
+      "digital 是形容词，digit 是名词 (数字/手指)，不要混淆"
+    ],
+    "ielts_context": "Writing Task 2: technology / business; Speaking Part 3: technology",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-005",
+    "word": "online learning",
+    "translation": "在线学习",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 94,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "online learning platform",
+      "shift to online learning",
+      "online learning environment",
+      "benefits of online learning"
+    ],
+    "example_sentence": "Online learning has democratized access to education, enabling anyone with internet access to study.",
+    "synonyms": [
+      "e-learning",
+      "distance education",
+      "virtual learning",
+      "web-based learning"
+    ],
+    "common_mistakes": [
+      "online learning 和 e-learning 可互换，前者更日常，后者更技术化"
+    ],
+    "ielts_context": "Speaking Part 3: education technology; Writing Task 2: education",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-006",
+    "word": "information technology",
+    "translation": "信息技术",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 93,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "information technology sector",
+      "develop information technology",
+      "information technology infrastructure",
+      "information technology specialist"
+    ],
+    "example_sentence": "The information technology sector has been the driving force behind economic growth in many countries.",
+    "synonyms": [
+      "IT",
+      "computing technology",
+      "information systems",
+      "digital technology"
+    ],
+    "common_mistakes": [
+      "information technology 在正式写作中第一次提用全称，之后可用 IT"
+    ],
+    "ielts_context": "Writing Task 2: economy / technology; Reading: business articles",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-007",
+    "word": "screen time",
+    "translation": "屏幕时间",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 90,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "limit screen time",
+      "excessive screen time",
+      "reduce screen time",
+      "manage screen time"
+    ],
+    "example_sentence": "Parents are increasingly concerned about the effects of excessive screen time on children's development.",
+    "synonyms": [
+      "device usage time",
+      "digital exposure",
+      "electronic device use"
+    ],
+    "common_mistakes": [
+      "screen time 是名词短语，不分开使用；通常作不可数名词"
+    ],
+    "ielts_context": "Speaking Part 3: parenting / technology; Writing Task 2: children",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-008",
+    "word": "data privacy",
+    "translation": "数据隐私",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 92,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "protect data privacy",
+      "data privacy concern",
+      "data privacy regulation",
+      "violation of data privacy"
+    ],
+    "example_sentence": "Stricter data privacy regulations are needed to protect individuals in the digital age.",
+    "synonyms": [
+      "information privacy",
+      "digital privacy",
+      "personal data protection"
+    ],
+    "common_mistakes": [
+      "privacy 不可数；private 是形容词，不要写成 data private"
+    ],
+    "ielts_context": "Writing Task 2: technology / law; Reading: technology news",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-009",
+    "word": "cutting-edge technology",
+    "translation": "尖端技术",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "adopt cutting-edge technology",
+      "cutting-edge technology company",
+      "access to cutting-edge technology",
+      "invest in cutting-edge technology"
+    ],
+    "example_sentence": "The hospital invested in cutting-edge technology to improve patient diagnosis and treatment outcomes.",
+    "synonyms": [
+      "state-of-the-art technology",
+      "advanced technology",
+      "frontier technology",
+      "leading-edge technology"
+    ],
+    "common_mistakes": [
+      "cutting-edge 带连字符，是复合形容词"
+    ],
+    "ielts_context": "Writing Task 2: innovation / business; Reading: technology reviews",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-010",
+    "word": "digital literacy",
+    "translation": "数字素养",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 91,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "improve digital literacy",
+      "digital literacy skills",
+      "promote digital literacy",
+      "lack of digital literacy"
+    ],
+    "example_sentence": "Digital literacy is now considered as essential as traditional literacy in the modern workforce.",
+    "synonyms": [
+      "technological literacy",
+      "computer literacy",
+      "IT skills",
+      "tech proficiency"
+    ],
+    "common_mistakes": [
+      "literacy 是不可数名词；表示读写能力或素养"
+    ],
+    "ielts_context": "Writing Task 2: education / technology; Reading: education policy",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-011",
+    "word": "technological innovation",
+    "translation": "技术创新",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 91,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "drive technological innovation",
+      "pace of technological innovation",
+      "foster technological innovation",
+      "technological innovation leads to"
+    ],
+    "example_sentence": "Technological innovation has accelerated at an unprecedented pace over the past two decades.",
+    "synonyms": [
+      "tech innovation",
+      "scientific advancement",
+      "technological breakthrough"
+    ],
+    "common_mistakes": [
+      "innovation 可以是可数 (一项创新 innovation) 或不可数 (创新概念)"
+    ],
+    "ielts_context": "Writing Task 2: technology / progress; Reading: technology news",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-012",
+    "word": "automation technology",
+    "translation": "自动化技术",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 93,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "introduce automation technology",
+      "displaced by automation technology",
+      "industrial automation technology",
+      "invest in automation technology"
+    ],
+    "example_sentence": "Automation technology is reshaping the manufacturing sector, boosting efficiency while reducing labor costs.",
+    "synonyms": [
+      "robotic technology",
+      "mechanized systems",
+      "automated technology"
+    ],
+    "common_mistakes": [
+      "automation 不可数；automate 是动词，automatic 是形容词"
+    ],
+    "ielts_context": "Writing Task 2: employment / industry; Reading: industry reports",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-013",
+    "word": "internet access",
+    "translation": "互联网接入",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 90,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "provide internet access",
+      "broadband internet access",
+      "universal internet access",
+      "lack of internet access"
+    ],
+    "example_sentence": "Bridging the digital divide requires providing affordable internet access to underserved communities.",
+    "synonyms": [
+      "web access",
+      "online access",
+      "network connectivity"
+    ],
+    "common_mistakes": [
+      "access 是不可数名词，access to the internet 介词用 to"
+    ],
+    "ielts_context": "Speaking Part 3: technology; Writing Task 2: digital divide",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-014",
+    "word": "cybersecurity threat",
+    "translation": "网络安全威胁",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 95,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "protect against cybersecurity threats",
+      "growing cybersecurity threat",
+      "cybersecurity threat landscape",
+      "address cybersecurity threats"
+    ],
+    "example_sentence": "The growing number of cybersecurity threats has forced organizations to invest heavily in digital defenses.",
+    "synonyms": [
+      "cyber threat",
+      "digital security risk",
+      "online security threat"
+    ],
+    "common_mistakes": [
+      "cybersecurity 可以连写也可以 cyber security；两种拼写都接受"
+    ],
+    "ielts_context": "Reading: technology security; Writing Task 2: technology risks",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-015",
+    "word": "tech giant",
+    "translation": "科技巨头",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 94,
+    "modules": [
+      "reading",
+      "speaking"
+    ],
+    "collocations": [
+      "global tech giant",
+      "tech giant faces scrutiny",
+      "dominated by tech giants",
+      "regulate tech giants"
+    ],
+    "example_sentence": "Tech giants such as Google and Apple have accumulated unprecedented market power and influence.",
+    "synonyms": [
+      "technology conglomerate",
+      "big tech company",
+      "tech behemoth"
+    ],
+    "common_mistakes": [
+      "giant 此处是名词；也可作形容词 (giant corporation)"
+    ],
+    "ielts_context": "Reading: business news; Speaking Part 3: companies",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-016",
+    "word": "digital revolution",
+    "translation": "数字革命",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 92,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "sparked a digital revolution",
+      "digital revolution has transformed",
+      "era of digital revolution",
+      "impact of the digital revolution"
+    ],
+    "example_sentence": "The digital revolution has fundamentally changed how we work, communicate, and access information.",
+    "synonyms": [
+      "information revolution",
+      "tech revolution",
+      "digital transformation"
+    ],
+    "common_mistakes": [
+      "revolution 前可加冠词 a/the，根据语境选择"
+    ],
+    "ielts_context": "Writing Task 2: technology / society; Reading: technology history",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-017",
+    "word": "big data analytics",
+    "translation": "大数据分析",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 96,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "leverage big data analytics",
+      "big data analytics tools",
+      "apply big data analytics",
+      "big data analytics platform"
+    ],
+    "example_sentence": "Big data analytics enables companies to understand customer behavior and make data-driven decisions.",
+    "synonyms": [
+      "large-scale data analysis",
+      "data mining",
+      "predictive analytics"
+    ],
+    "common_mistakes": [
+      "data 严格来说是复数 (datum 的复数)，但现代英语常用作不可数单数"
+    ],
+    "ielts_context": "Reading: business technology; Writing Task 2: data / business",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-018",
+    "word": "the internet of things",
+    "translation": "物联网",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 80,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "the internet of things enables",
+      "internet of things devices",
+      "internet of things technology",
+      "rise of the internet of things"
+    ],
+    "example_sentence": "The Internet of Things connects everyday devices to the internet, enabling smarter homes and cities.",
+    "synonyms": [
+      "IoT",
+      "connected devices",
+      "smart network",
+      "ambient computing"
+    ],
+    "common_mistakes": [
+      "此短语前面通常有 the；正式写作首次提用全称后可用 IoT"
+    ],
+    "ielts_context": "Reading: technology trends; Listening Section 4: technology lectures",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-019",
+    "word": "remote working",
+    "translation": "远程办公",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 94,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "embrace remote working",
+      "remote working arrangement",
+      "shift to remote working",
+      "remote working technology"
+    ],
+    "example_sentence": "Remote working has become a permanent fixture in many industries following the global pandemic.",
+    "synonyms": [
+      "telecommuting",
+      "working from home",
+      "distributed work",
+      "flexible working"
+    ],
+    "common_mistakes": [
+      "remote working 和 working remotely 都正确，前者是名词短语"
+    ],
+    "ielts_context": "Speaking Part 3: work / technology; Writing Task 2: employment",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-020",
+    "word": "wearable device",
+    "translation": "可穿戴设备",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 78,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "wearable device market",
+      "smart wearable device",
+      "health-related wearable device",
+      "adopt wearable devices"
+    ],
+    "example_sentence": "Wearable devices such as smartwatches can monitor health indicators like heart rate and sleep patterns.",
+    "synonyms": [
+      "wearable technology",
+      "smart accessory",
+      "body-borne device"
+    ],
+    "common_mistakes": [
+      "wearable 是形容词，也可作名词 (复数 wearables)"
+    ],
+    "ielts_context": "Reading: technology reviews; Listening Section 2: product descriptions",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-021",
+    "word": "digital divide",
+    "translation": "数字鸿沟",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 79,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "bridge the digital divide",
+      "widen the digital divide",
+      "digital divide between",
+      "narrow the digital divide"
+    ],
+    "example_sentence": "Governments must take steps to bridge the digital divide between urban and rural communities.",
+    "synonyms": [
+      "technological gap",
+      "information gap",
+      "digital inequality",
+      "connectivity divide"
+    ],
+    "common_mistakes": [
+      "divide 在此是名词 (鸿沟)，不是动词"
+    ],
+    "ielts_context": "Writing Task 2: technology / inequality; Speaking Part 3: society",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-022",
+    "word": "electronic commerce",
+    "translation": "电子商务",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 77,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "electronic commerce platform",
+      "growth of electronic commerce",
+      "electronic commerce sector",
+      "cross-border electronic commerce"
+    ],
+    "example_sentence": "Electronic commerce has reshaped the retail industry by allowing businesses to reach global markets.",
+    "synonyms": [
+      "e-commerce",
+      "online retail",
+      "digital commerce",
+      "internet shopping"
+    ],
+    "common_mistakes": [
+      "electronic commerce 在正式写作中用全称，日常写作可用 e-commerce"
+    ],
+    "ielts_context": "Reading: business articles; Writing Task 2: economy / technology",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-023",
+    "word": "genetic engineering",
+    "translation": "基因工程",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 76,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "advancements in genetic engineering",
+      "genetic engineering technology",
+      "concerns about genetic engineering",
+      "field of genetic engineering"
+    ],
+    "example_sentence": "Genetic engineering has opened up new possibilities in medicine, but it also raises ethical concerns.",
+    "synonyms": [
+      "gene modification",
+      "genetic modification",
+      "biotechnology intervention"
+    ],
+    "common_mistakes": [
+      "genetic 是形容词 (基因的)；generic 是通用的/一般的，完全不同"
+    ],
+    "ielts_context": "Reading: science articles; Writing Task 2: science ethics",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-024",
+    "word": "smartphone addiction",
+    "translation": "手机沉迷",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 91,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "suffer from smartphone addiction",
+      "combat smartphone addiction",
+      "overcome smartphone addiction",
+      "signs of smartphone addiction"
+    ],
+    "example_sentence": "Smartphone addiction among teenagers has become a growing concern for parents and educators worldwide.",
+    "synonyms": [
+      "phone dependency",
+      "mobile device addiction",
+      "digital dependency"
+    ],
+    "common_mistakes": [
+      "addiction 后接 to；addiction to smartphones"
+    ],
+    "ielts_context": "Speaking Part 3: technology / health; Writing Task 2: technology / society",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-025",
+    "word": "algorithm recommendation",
+    "translation": "算法推荐",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 74,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "powered by algorithm recommendation",
+      "algorithm recommendation system",
+      "personalized algorithm recommendation",
+      "algorithm recommendation engine"
+    ],
+    "example_sentence": "Algorithm recommendation systems have raised concerns about echo chambers and information bias.",
+    "synonyms": [
+      "algorithmic suggestions",
+      "automated recommendation",
+      "machine-learning recommendations"
+    ],
+    "common_mistakes": [
+      "algorithm 发音 /ˈælɡərɪðəm/，注意和 logarithm (对数) 区分"
+    ],
+    "ielts_context": "Reading: technology analysis; Writing Task 2: AI / social media",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-026",
+    "word": "cloud computing",
+    "translation": "云计算",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "adopt cloud computing",
+      "cloud computing services",
+      "cloud computing platform",
+      "shift to cloud computing"
+    ],
+    "example_sentence": "Cloud computing allows businesses to access powerful computing resources without investing in expensive hardware.",
+    "synonyms": [
+      "cloud services",
+      "distributed computing",
+      "remote server technology"
+    ],
+    "common_mistakes": [
+      "cloud 在这里是比喻义，不是气象学意义上的云"
+    ],
+    "ielts_context": "Reading: technology news; Writing Task 2: business technology",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-027",
+    "word": "video conferencing",
+    "translation": "视频会议",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 92,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "participate in video conferencing",
+      "video conferencing tool",
+      "video conferencing software",
+      "via video conferencing"
+    ],
+    "example_sentence": "Video conferencing has become an indispensable tool for remote collaboration in the modern workplace.",
+    "synonyms": [
+      "video call",
+      "virtual meeting",
+      "online conferencing",
+      "teleconferencing"
+    ],
+    "common_mistakes": [
+      "conferencing 不可数；注意重音在第一个音节"
+    ],
+    "ielts_context": "Speaking Part 3: work; Listening Section 1/2: business context",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-028",
+    "word": "quantum computing",
+    "translation": "量子计算",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 70,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "develop quantum computing",
+      "quantum computing technology",
+      "potential of quantum computing",
+      "quantum computing breakthroughs"
+    ],
+    "example_sentence": "Quantum computing has the potential to solve complex problems that are beyond the reach of conventional computers.",
+    "synonyms": [
+      "quantum computation",
+      "quantum information processing",
+      "quantum technology"
+    ],
+    "common_mistakes": [
+      "quantum 发音 /ˈkwɒntəm/，复数 quanta，但在 computing 前不变"
+    ],
+    "ielts_context": "Reading: advanced technology; Listening Section 4: science lecture",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-029",
+    "word": "gig economy",
+    "translation": "零工经济",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 75,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "participate in the gig economy",
+      "rise of the gig economy",
+      "gig economy worker",
+      "platform-based gig economy"
+    ],
+    "example_sentence": "The gig economy offers flexibility but often lacks the job security and benefits of traditional employment.",
+    "synonyms": [
+      "freelance economy",
+      "on-demand economy",
+      "sharing economy",
+      "platform economy"
+    ],
+    "common_mistakes": [
+      "gig 原意是演出，现引申为零工；the gig economy 前通常加 the"
+    ],
+    "ielts_context": "Speaking Part 3: work trends; Writing Task 2: employment",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-030",
+    "word": "patent protection",
+    "translation": "专利保护",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 68,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "seek patent protection",
+      "intellectual property and patent protection",
+      "patent protection laws",
+      "adequate patent protection"
+    ],
+    "example_sentence": "Strong patent protection is essential for encouraging innovation and rewarding research and development.",
+    "synonyms": [
+      "intellectual property right",
+      "patent safeguard",
+      "invention protection"
+    ],
+    "common_mistakes": [
+      "patent 发音 /ˈpeɪtənt/ 或 /ˈpætənt/，两种英式发音均接受"
+    ],
+    "ielts_context": "Reading: business law; Writing Task 2: innovation policy",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-031",
+    "word": "data breach",
+    "translation": "数据泄露",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 72,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "suffer a data breach",
+      "major data breach",
+      "prevent data breaches",
+      "data breach incident"
+    ],
+    "example_sentence": "The company faced severe criticism and legal action following the massive data breach affecting millions of users.",
+    "synonyms": [
+      "data leak",
+      "security breach",
+      "information leak",
+      "privacy violation"
+    ],
+    "common_mistakes": [
+      "breach 不是 beach (海滩)；breach 表示违反/突破/泄露"
+    ],
+    "ielts_context": "Reading: cybersecurity news; Listening Section 3: business discussion",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-032",
+    "word": "social networking",
+    "translation": "社交网络",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 78,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "social networking site",
+      "online social networking",
+      "social networking platform",
+      "impact of social networking"
+    ],
+    "example_sentence": "Social networking has fundamentally altered patterns of human interaction and community formation.",
+    "synonyms": [
+      "social media networking",
+      "online networking",
+      "digital socializing"
+    ],
+    "common_mistakes": [
+      "networking 是动名词形式；network 是名词/动词形式"
+    ],
+    "ielts_context": "Speaking Part 3: social media; Writing Task 2: technology / relationships",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-033",
+    "word": "telemedicine service",
+    "translation": "远程医疗服务",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 70,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "access telemedicine services",
+      "telemedicine service platform",
+      "provide telemedicine services",
+      "telemedicine service delivery"
+    ],
+    "example_sentence": "Telemedicine services have greatly improved healthcare access for patients in rural and remote areas.",
+    "synonyms": [
+      "remote healthcare",
+      "virtual consultation",
+      "e-health service",
+      "digital healthcare"
+    ],
+    "common_mistakes": [
+      "telemedicine 前缀 tele- 表示远距离，和 television/telescope 一样"
+    ],
+    "ielts_context": "Reading: healthcare technology; Listening Section 3: healthcare discussion",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-034",
+    "word": "virtual reality",
+    "translation": "虚拟现实",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 73,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "virtual reality technology",
+      "immersive virtual reality",
+      "virtual reality application",
+      "virtual reality headset"
+    ],
+    "example_sentence": "Virtual reality is being used increasingly in education to create immersive learning experiences.",
+    "synonyms": [
+      "VR",
+      "immersive technology",
+      "simulated environment",
+      "artificial reality"
+    ],
+    "common_mistakes": [
+      "virtual 表示虚拟的/模拟的，和 actual 相对，不是美德的意思"
+    ],
+    "ielts_context": "Reading: technology reviews; Listening Section 4: technology trends",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-035",
+    "word": "digital payment",
+    "translation": "数字支付",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 76,
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "digital payment system",
+      "adopt digital payments",
+      "digital payment platform",
+      "convenience of digital payments"
+    ],
+    "example_sentence": "Digital payment systems have made financial transactions faster, safer, and more convenient than cash.",
+    "synonyms": [
+      "electronic payment",
+      "mobile payment",
+      "cashless payment",
+      "online transaction"
+    ],
+    "common_mistakes": [
+      "payment 是可数名词 (一笔支付) 也能作不可数 (支付概念)"
+    ],
+    "ielts_context": "Speaking Part 1/2: daily life; Listening Section 1: transactions",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-036",
+    "word": "innovation hub",
+    "translation": "创新中心",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 67,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "global innovation hub",
+      "establish an innovation hub",
+      "technology and innovation hub",
+      "serve as an innovation hub"
+    ],
+    "example_sentence": "Silicon Valley remains the world's most prominent innovation hub for technology startups.",
+    "synonyms": [
+      "tech hub",
+      "innovation center",
+      "technology cluster",
+      "startup ecosystem"
+    ],
+    "common_mistakes": [
+      "hub 原意是轮毂，引申为中心/枢纽"
+    ],
+    "ielts_context": "Reading: business articles; Listening Section 3: business discussion",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-037",
+    "word": "technology sector",
+    "translation": "科技行业",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 71,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "booming technology sector",
+      "work in the technology sector",
+      "technology sector growth",
+      "dominate the technology sector"
+    ],
+    "example_sentence": "The technology sector continues to attract the largest share of venture capital investment globally.",
+    "synonyms": [
+      "tech industry",
+      "IT sector",
+      "high-tech sector",
+      "technology industry"
+    ],
+    "common_mistakes": [
+      "sector 可数；注意和 section (部分/章节) 区分"
+    ],
+    "ielts_context": "Writing Task 2: employment / economy; Reading: business news",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-038",
+    "word": "scientific breakthrough",
+    "translation": "科学突破",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 74,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "major scientific breakthrough",
+      "achieve a scientific breakthrough",
+      "transformative scientific breakthrough",
+      "announce a scientific breakthrough"
+    ],
+    "example_sentence": "The discovery of the CRISPR gene-editing tool is considered one of the most significant scientific breakthroughs of this century.",
+    "synonyms": [
+      "research breakthrough",
+      "technological breakthrough",
+      "major advance",
+      "scientific discovery"
+    ],
+    "common_mistakes": [
+      "breakthrough 可数；through 不是 though"
+    ],
+    "ielts_context": "Writing Task 2: science / progress; Reading: science journals",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-039",
+    "word": "cryptocurrency",
+    "translation": "加密货币",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 72,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "invest in cryptocurrency",
+      "cryptocurrency market",
+      "cryptocurrency exchange",
+      "rise of cryptocurrency"
+    ],
+    "example_sentence": "Cryptocurrency has sparked debate about the future of money and the role of central banks.",
+    "synonyms": [
+      "digital currency",
+      "virtual currency",
+      "decentralized currency",
+      "crypto"
+    ],
+    "common_mistakes": [
+      "cryptocurrency 可数/不可数均可；crypto- 前缀表示隐藏/加密"
+    ],
+    "ielts_context": "Reading: finance technology; Listening Section 3: finance discussion",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-040",
+    "word": "intellectual property",
+    "translation": "知识产权",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 66,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "protect intellectual property",
+      "intellectual property rights",
+      "intellectual property law",
+      "violate intellectual property"
+    ],
+    "example_sentence": "Protecting intellectual property is essential for encouraging creativity and innovation in the digital age.",
+    "synonyms": [
+      "IP",
+      "creative rights",
+      "proprietary knowledge",
+      "copyright and patent"
+    ],
+    "common_mistakes": [
+      "property 不可数；intellectual property 也不可数"
+    ],
+    "ielts_context": "Writing Task 2: law / innovation; Reading: legal documents",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-041",
+    "word": "tech startup",
+    "translation": "科技创业公司",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 64,
+    "modules": [
+      "reading",
+      "speaking"
+    ],
+    "collocations": [
+      "found a tech startup",
+      "tech startup ecosystem",
+      "promising tech startup",
+      "invest in tech startups"
+    ],
+    "example_sentence": "The city has become a thriving hub for tech startups thanks to its supportive regulatory environment.",
+    "synonyms": [
+      "technology startup",
+      "tech venture",
+      "emerging tech company"
+    ],
+    "common_mistakes": [
+      "startup 可连写也可 start-up，tech startup 更常用连写形式"
+    ],
+    "ielts_context": "Reading: business news; Speaking Part 2: career",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-042",
+    "word": "algorithmic bias",
+    "translation": "算法偏见",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 58,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "address algorithmic bias",
+      "algorithmic bias in AI",
+      "detect algorithmic bias",
+      "concerns about algorithmic bias"
+    ],
+    "example_sentence": "Algorithmic bias in hiring tools can perpetuate discrimination against certain demographic groups.",
+    "synonyms": [
+      "AI bias",
+      "machine bias",
+      "data-driven discrimination",
+      "computational bias"
+    ],
+    "common_mistakes": [
+      "bias 可数/不可数均可；algorithmic 是 algorithm 的形容词形式"
+    ],
+    "ielts_context": "Reading: AI ethics; Writing Task 2: technology / ethics",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-043",
+    "word": "digital infrastructure",
+    "translation": "数字基础设施",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 62,
+    "modules": [
+      "writing",
+      "reading"
+    ],
+    "collocations": [
+      "build digital infrastructure",
+      "lack of digital infrastructure",
+      "invest in digital infrastructure",
+      "robust digital infrastructure"
+    ],
+    "example_sentence": "Developing countries need to invest in digital infrastructure to participate fully in the global economy.",
+    "synonyms": [
+      "technological infrastructure",
+      "IT infrastructure",
+      "network infrastructure",
+      "cyber infrastructure"
+    ],
+    "common_mistakes": [
+      "infrastructure 不可数；通常用单数形式"
+    ],
+    "ielts_context": "Writing Task 2: development / technology; Reading: policy documents",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-044",
+    "word": "space exploration",
+    "translation": "太空探索",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 60,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "advance space exploration",
+      "fund space exploration",
+      "space exploration mission",
+      "future of space exploration"
+    ],
+    "example_sentence": "Private companies are now playing an increasingly important role in space exploration.",
+    "synonyms": [
+      "cosmic exploration",
+      "interstellar exploration",
+      "space research",
+      "astronautics"
+    ],
+    "common_mistakes": [
+      "exploration 不可数；explore 是动词，explorer 是探索者"
+    ],
+    "ielts_context": "Reading: science articles; Listening Section 4: astronomy lecture",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-045",
+    "word": "technology addiction",
+    "translation": "科技成瘾",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 71,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "suffer from technology addiction",
+      "overcome technology addiction",
+      "technology addiction among youth",
+      "impact of technology addiction"
+    ],
+    "example_sentence": "Technology addiction is increasingly recognized as a legitimate mental health concern requiring treatment.",
+    "synonyms": [
+      "digital addiction",
+      "tech dependency",
+      "internet addiction",
+      "screen addiction"
+    ],
+    "common_mistakes": [
+      "addiction to technology，介词用 to 不是 of"
+    ],
+    "ielts_context": "Speaking Part 3: technology / health; Writing Task 2: technology / society",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-046",
+    "word": "facial recognition",
+    "translation": "面部识别",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 63,
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "facial recognition technology",
+      "use facial recognition",
+      "facial recognition system",
+      "deploy facial recognition"
+    ],
+    "example_sentence": "The use of facial recognition technology in public spaces has sparked intense debate about privacy and civil liberties.",
+    "synonyms": [
+      "face recognition",
+      "biometric identification",
+      "face detection technology"
+    ],
+    "common_mistakes": [
+      "facial 是 face 的形容词形式，不是 familiar 的缩写"
+    ],
+    "ielts_context": "Reading: technology / privacy; Writing Task 2: surveillance / privacy",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-047",
+    "word": "open source software",
+    "translation": "开源软件",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 57,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "develop open source software",
+      "open source software community",
+      "contribute to open source software",
+      "adopt open source software"
+    ],
+    "example_sentence": "Open source software has driven innovation by allowing developers worldwide to collaborate and build upon existing code.",
+    "synonyms": [
+      "free software",
+      "community-developed software",
+      "public-source software",
+      "OSS"
+    ],
+    "common_mistakes": [
+      "open source 作为形容词有连字符 open-source；作名词无连字符"
+    ],
+    "ielts_context": "Reading: technology development; Listening Section 3: IT discussion",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-048",
+    "word": "hybrid work model",
+    "translation": "混合办公模式",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 61,
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "adopt a hybrid work model",
+      "hybrid work model benefits",
+      "implement a hybrid work model",
+      "shift to hybrid work models"
+    ],
+    "example_sentence": "Many companies have adopted a hybrid work model that combines remote and in-office work.",
+    "synonyms": [
+      "flexible work arrangement",
+      "blended work model",
+      "mixed-mode working",
+      "hybrid workplace model"
+    ],
+    "common_mistakes": [
+      "hybrid 发音 /ˈhaɪbrɪd/，不是 high-brid"
+    ],
+    "ielts_context": "Speaking Part 3: work trends; Writing Task 2: future of work",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-049",
+    "word": "3D printing technology",
+    "translation": "3D打印技术",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 55,
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "advance 3D printing technology",
+      "3D printing technology enables",
+      "adopt 3D printing technology",
+      "applications of 3D printing technology"
+    ],
+    "example_sentence": "3D printing technology is revolutionizing manufacturing by enabling rapid prototyping and customized production.",
+    "synonyms": [
+      "additive manufacturing",
+      "three-dimensional printing",
+      "rapid prototyping technology"
+    ],
+    "common_mistakes": [
+      "3D 中的 D 大写；发音 three-dimensional"
+    ],
+    "ielts_context": "Reading: manufacturing technology; Listening Section 4: engineering lecture",
+    "topics": [
+      "technology"
+    ]
+  },
+  {
+    "id": "tech-050",
+    "word": "information overload",
+    "translation": "信息过载",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 59,
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "suffer from information overload",
+      "cope with information overload",
+      "digital age information overload",
+      "impact of information overload"
+    ],
+    "example_sentence": "Information overload in the digital age can lead to reduced productivity and increased stress levels.",
+    "synonyms": [
+      "data deluge",
+      "information glut",
+      "cognitive overload",
+      "content saturation"
+    ],
+    "common_mistakes": [
+      "overload 不可数；是 over + load 复合词"
+    ],
+    "ielts_context": "Writing Task 2: technology / society; Speaking Part 3: modern life",
+    "topics": [
+      "technology"
+    ]
   },
   {
     "id": "work-001",
@@ -63,16 +4682,26 @@
     "part_of_speech": "noun phrase",
     "band_level": "6.5",
     "frequency_score": 85,
-    "topics": ["work"],
-    "modules": ["writing", "speaking"],
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
     "collocations": [
       "maintain a healthy work-life balance",
       "struggle with work-life balance",
       "achieve better work-life balance"
     ],
     "example_sentence": "Many employees today prioritize work-life balance over higher salaries.",
-    "synonyms": ["life-work balance", "work-life equilibrium"],
-    "common_mistakes": ["不是 life-work balance，固定语序是 work-life balance"],
+    "synonyms": [
+      "life-work balance",
+      "work-life equilibrium"
+    ],
+    "common_mistakes": [
+      "不是 life-work balance，固定语序是 work-life balance"
+    ],
     "ielts_context": "Speaking Part 3: work / lifestyle topics; Writing Task 2: employment"
   },
   {
@@ -82,16 +4711,27 @@
     "part_of_speech": "noun phrase",
     "band_level": "6.0",
     "frequency_score": 90,
-    "topics": ["health"],
-    "modules": ["writing", "reading"],
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "reading"
+    ],
     "collocations": [
       "promote mental well-being",
       "impact on mental well-being",
       "prioritize mental well-being"
     ],
     "example_sentence": "Regular exercise has a significant impact on both physical health and mental well-being.",
-    "synonyms": ["psychological well-being", "mental health", "emotional well-being"],
-    "common_mistakes": ["mental health 更常用；well-being 注意连字符"],
+    "synonyms": [
+      "psychological well-being",
+      "mental health",
+      "emotional well-being"
+    ],
+    "common_mistakes": [
+      "mental health 更常用；well-being 注意连字符"
+    ],
     "ielts_context": "Writing Task 2: health / lifestyle topics; Reading: health articles"
   },
   {
@@ -101,16 +4741,27 @@
     "part_of_speech": "noun phrase",
     "band_level": "5.5",
     "frequency_score": 89,
-    "topics": ["city"],
-    "modules": ["speaking", "listening"],
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
     "collocations": [
       "reliable public transport",
       "invest in public transport",
       "accessible public transport"
     ],
     "example_sentence": "Improving public transport is key to reducing traffic congestion in urban areas.",
-    "synonyms": ["public transportation", "mass transit", "public transit"],
-    "common_mistakes": ["可数/不可数均可：public transport (UK) = public transportation (US)"],
+    "synonyms": [
+      "public transportation",
+      "mass transit",
+      "public transit"
+    ],
+    "common_mistakes": [
+      "可数/不可数均可：public transport (UK) = public transportation (US)"
+    ],
     "ielts_context": "Speaking Part 1: hometown / transport; Listening Section 1: travel"
   }
 ]
