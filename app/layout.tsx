@@ -1,7 +1,9 @@
 // app/layout.tsx
 
 import type { Metadata } from "next";
-import { BottomNav } from "@/components/layout/bottom-nav";
+import { AuthProvider } from "@/lib/auth";
+import { AuthGuard } from "@/components/auth/auth-guard";
+import { AuthenticatedLayout } from "@/components/layout/authenticated-layout";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -28,10 +30,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
       </head>
       <body className="antialiased">
-        <div className="mx-auto max-w-lg">
-          {children}
-          <BottomNav />
-        </div>
+        <AuthProvider>
+          <AuthGuard>
+            <AuthenticatedLayout>{children}</AuthenticatedLayout>
+          </AuthGuard>
+        </AuthProvider>
         <script
           dangerouslySetInnerHTML={{
             __html: `
