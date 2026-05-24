@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#292524"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </radialGradient>
+  </defs>
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- 雷达波纹 -->
+  <circle cx="256" cy="280" r="60" fill="none" stroke="#f59e0b" stroke-width="3" opacity="0.9"/>
+  <circle cx="256" cy="280" r="120" fill="none" stroke="#f59e0b" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="256" cy="280" r="180" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.35"/>
+  <circle cx="256" cy="280" r="240" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.15"/>
+  <!-- 雷达扫描线 -->
+  <line x1="256" y1="280" x2="256" y2="40" stroke="#ea580c" stroke-width="3" opacity="0.8"/>
+  <!-- 亮点 -->
+  <circle cx="256" cy="160" r="6" fill="#f59e0b"/>
+  <circle cx="310" cy="220" r="4" fill="#84cc16"/>
+  <circle cx="180" cy="310" r="5" fill="#f59e0b"/>
+  <!-- 文字 -->
+  <text x="256" y="440" text-anchor="middle" fill="#f59e0b" font-size="52" font-weight="bold" font-family="system-ui, sans-serif">词块</text>
+  <text x="256" y="480" text-anchor="middle" fill="#a8a29e" font-size="24" font-family="system-ui, sans-serif">IELTS Chunk Radar</text>
+</svg>

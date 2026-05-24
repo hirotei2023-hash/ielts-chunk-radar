@@ -1,0 +1,23 @@
+{
+  "name": "雅思词块雷达",
+  "short_name": "词块雷达",
+  "description": "扫出考试高频表达，只练用得上的。",
+  "start_url": "/ielts-chunk-radar/",
+  "scope": "/ielts-chunk-radar/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1c1917",
+  "theme_color": "#1c1917",
+  "icons": [
+    {
+      "src": "/ielts-chunk-radar/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/ielts-chunk-radar/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
