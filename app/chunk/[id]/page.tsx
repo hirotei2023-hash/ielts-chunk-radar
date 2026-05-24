@@ -11,8 +11,9 @@ export function generateStaticParams() {
   return getChunkIds().map((id) => ({ id }));
 }
 
-export default function ChunkPage({ params }: { params: { id: string } }) {
-  const chunk = getChunkById(params.id);
+export default async function ChunkPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const chunk = getChunkById(id);
 
   if (!chunk) {
     notFound();
