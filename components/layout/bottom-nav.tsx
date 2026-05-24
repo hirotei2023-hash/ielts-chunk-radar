@@ -1,5 +1,4 @@
 // components/layout/bottom-nav.tsx
-
 "use client";
 
 import Link from "next/link";
@@ -9,8 +8,8 @@ import { Home, Library, RotateCcw, User } from "lucide-react";
 const NAV_ITEMS = [
   { href: "/", label: "首页", icon: Home },
   { href: "/library", label: "词块库", icon: Library },
-  { href: "/review", label: "复习", icon: RotateCcw, comingSoon: true },
-  { href: "/profile", label: "我的", icon: User, comingSoon: true },
+  { href: "/review", label: "复习", icon: RotateCcw },
+  { href: "/profile", label: "我的", icon: User },
 ];
 
 export function BottomNav() {
@@ -31,23 +30,13 @@ export function BottomNav() {
               href={item.href}
               className="flex flex-col items-center gap-0.5"
             >
-              <div className="relative">
-                <Icon
-                  size={20}
-                  color={isActive ? "#f59e0b" : item.comingSoon ? "#78716c" : "#a8a29e"}
-                />
-                {item.comingSoon && (
-                  <span
-                    className="absolute -top-1 -right-4 text-[9px] rounded px-0.5"
-                    style={{ backgroundColor: "#44403c", color: "#a8a29e" }}
-                  >
-                    即将
-                  </span>
-                )}
-              </div>
+              <Icon
+                size={20}
+                color={isActive ? "#f59e0b" : "#a8a29e"}
+              />
               <span
                 className="text-[10px]"
-                style={{ color: isActive ? "#f59e0b" : item.comingSoon ? "#78716c" : "#a8a29e" }}
+                style={{ color: isActive ? "#f59e0b" : "#a8a29e" }}
               >
                 {item.label}
               </span>
