@@ -1,10 +1,9 @@
-// components/chunks/favorite-button.tsx
-
 "use client";
 
 import { useState, useEffect } from "react";
 import { Star } from "lucide-react";
-import { isFavorite, toggleFavorite } from "@/lib/favorites";
+import { useAuth } from "@/lib/auth";
+import { isFavorite, toggleFavorite } from "@/lib/favorites-supabase";
 
 interface FavoriteButtonProps {
   chunkId: string;
@@ -12,17 +11,20 @@ interface FavoriteButtonProps {
 }
 
 export function FavoriteButton({ chunkId, size = 18 }: FavoriteButtonProps) {
+  const { user } = useAuth();
   const [fav, setFav] = useState(false);
 
   useEffect(() => {
-    setFav(isFavorite(chunkId));
-  }, [chunkId]);
+    if (!user) return;
+    isFavorite(chunkId).then(setFav);
+  }, [chunkId, user]);
 
-  const handleClick = (e: React.MouseEvent) => {
+  const handleClick = async (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    toggleFavorite(chunkId);
-    setFav(!fav);
+    if (!user) return;
+    const result = await toggleFavorite(chunkId);
+    setFav(result);
   };
 
   return (
