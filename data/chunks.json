@@ -4763,5 +4763,4562 @@
       "可数/不可数均可：public transport (UK) = public transportation (US)"
     ],
     "ielts_context": "Speaking Part 1: hometown / transport; Listening Section 1: travel"
+  },
+  {
+    "id": "work-002",
+    "word": "employment opportunities",
+    "translation": "就业机会",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 98,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "create employment opportunities",
+      "limited employment opportunities",
+      "expand employment opportunities",
+      "access to employment opportunities"
+    ],
+    "example_sentence": "The government should invest in vocational training to expand employment opportunities for young people.",
+    "synonyms": [
+      "job opportunities",
+      "job prospects",
+      "career opportunities"
+    ],
+    "common_mistakes": [
+      "employment 不可数；说 job opportunities 更口语化"
+    ],
+    "ielts_context": "Writing Task 2: unemployment / government policy; Speaking Part 3: jobs"
+  },
+  {
+    "id": "work-003",
+    "word": "job satisfaction",
+    "translation": "工作满意度",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 97,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "high level of job satisfaction",
+      "improve job satisfaction",
+      "factors affecting job satisfaction",
+      "decline in job satisfaction"
+    ],
+    "example_sentence": "A supportive work environment is one of the key factors affecting job satisfaction.",
+    "synonyms": [
+      "work satisfaction",
+      "career satisfaction",
+      "occupational satisfaction"
+    ],
+    "common_mistakes": [
+      "satisfaction 介词用 with：job satisfaction with salary"
+    ],
+    "ielts_context": "Writing Task 2: work motivation / company culture; Speaking Part 3: career"
+  },
+  {
+    "id": "work-004",
+    "word": "career advancement",
+    "translation": "职业晋升",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 96,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "pursue career advancement",
+      "opportunities for career advancement",
+      "blocked career advancement",
+      "rapid career advancement"
+    ],
+    "example_sentence": "Many employees change jobs frequently in search of better career advancement opportunities.",
+    "synonyms": [
+      "career progression",
+      "career growth",
+      "professional advancement"
+    ],
+    "common_mistakes": [
+      "advancement 不用于 physical movement，仅用于抽象晋升"
+    ],
+    "ielts_context": "Writing Task 2: career development; Speaking Part 3: ambitions"
+  },
+  {
+    "id": "work-005",
+    "word": "workplace environment",
+    "translation": "工作环境",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 95,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "positive workplace environment",
+      "toxic workplace environment",
+      "create a safe workplace environment",
+      "competitive workplace environment"
+    ],
+    "example_sentence": "A positive workplace environment boosts employee morale and overall productivity.",
+    "synonyms": [
+      "working environment",
+      "work atmosphere",
+      "office environment"
+    ],
+    "common_mistakes": [
+      "workplace 和 workspace 不同：workplace 泛指工作场所，workspace 指个人工位"
+    ],
+    "ielts_context": "Writing Task 2: company culture; Speaking Part 3: job preferences"
+  },
+  {
+    "id": "work-006",
+    "word": "job security",
+    "translation": "工作稳定性",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 94,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "guarantee job security",
+      "threaten job security",
+      "loss of job security",
+      "sense of job security"
+    ],
+    "example_sentence": "In times of economic uncertainty, job security becomes a top priority for workers.",
+    "synonyms": [
+      "employment security",
+      "job stability",
+      "tenure security"
+    ],
+    "common_mistakes": [
+      "security 不可数，不说 a job security"
+    ],
+    "ielts_context": "Writing Task 2: employment trends / gig economy; Speaking Part 3: job market"
+  },
+  {
+    "id": "work-007",
+    "word": "professional development",
+    "translation": "职业发展",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 93,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "invest in professional development",
+      "ongoing professional development",
+      "professional development opportunities",
+      "support professional development"
+    ],
+    "example_sentence": "Companies that invest in employees' professional development tend to have lower staff turnover rates.",
+    "synonyms": [
+      "career development",
+      "vocational development",
+      "professional growth"
+    ],
+    "common_mistakes": [
+      "professional development 常见缩写 CPD (Continuing Professional Development)"
+    ],
+    "ielts_context": "Writing Task 2: education / training; Speaking Part 3: workplace learning"
+  },
+  {
+    "id": "work-008",
+    "word": "unemployment rate",
+    "translation": "失业率",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 99,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "rising unemployment rate",
+      "reduce the unemployment rate",
+      "youth unemployment rate",
+      "official unemployment rate"
+    ],
+    "example_sentence": "Despite technological advances, the unemployment rate in many countries remains stubbornly high.",
+    "synonyms": [
+      "jobless rate",
+      "rate of unemployment",
+      "unemployment level"
+    ],
+    "common_mistakes": [
+      "说 the unemployment rate 或 an unemployment rate of 5%"
+    ],
+    "ielts_context": "Writing Task 1: line graphs / bar charts; Writing Task 2: economy"
+  },
+  {
+    "id": "work-009",
+    "word": "transferable skills",
+    "translation": "可迁移技能",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 91,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "develop transferable skills",
+      "acquire transferable skills",
+      "demonstrate transferable skills",
+      "highly transferable skills"
+    ],
+    "example_sentence": "Volunteering helps young people develop transferable skills such as communication and teamwork.",
+    "synonyms": [
+      "portable skills",
+      "cross-functional skills",
+      "versatile skills"
+    ],
+    "common_mistakes": [
+      "transferable 两个 r：trans-fer-able"
+    ],
+    "ielts_context": "Writing Task 2: education / employment; Speaking Part 3: career preparation"
+  },
+  {
+    "id": "work-010",
+    "word": "corporate culture",
+    "translation": "企业文化",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 92,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "strong corporate culture",
+      "shape corporate culture",
+      "toxic corporate culture",
+      "corporate culture transformation"
+    ],
+    "example_sentence": "A healthy corporate culture encourages innovation and open communication among staff.",
+    "synonyms": [
+      "organizational culture",
+      "company culture",
+      "business culture"
+    ],
+    "common_mistakes": [
+      "corporate 的发音 /ˈkɔːpərət/，重音在第一音节"
+    ],
+    "ielts_context": "Reading: business articles; Writing Task 2: management"
+  },
+  {
+    "id": "work-011",
+    "word": "salary negotiation",
+    "translation": "薪资谈判",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "engage in salary negotiation",
+      "successful salary negotiation",
+      "salary negotiation skills",
+      "during salary negotiation"
+    ],
+    "example_sentence": "Many candidates feel uncomfortable with salary negotiation and accept the first offer they receive.",
+    "synonyms": [
+      "pay negotiation",
+      "wage bargaining",
+      "compensation negotiation"
+    ],
+    "common_mistakes": [
+      "negotiation 拼写注意 ti 不是 ci"
+    ],
+    "ielts_context": "Speaking Part 3: workplace / career; Listening Section 3: job interview discussion"
+  },
+  {
+    "id": "work-012",
+    "word": "performance evaluation",
+    "translation": "绩效评估",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "undergo performance evaluation",
+      "annual performance evaluation",
+      "conduct a performance evaluation",
+      "performance evaluation system"
+    ],
+    "example_sentence": "Regular performance evaluations provide employees with valuable feedback for improvement.",
+    "synonyms": [
+      "performance review",
+      "performance appraisal",
+      "performance assessment"
+    ],
+    "common_mistakes": [
+      "evaluation 的动词是 evaluate，去 e 加 ion"
+    ],
+    "ielts_context": "Reading: HR management; Writing Task 2: workplace practices"
+  },
+  {
+    "id": "work-013",
+    "word": "job market",
+    "translation": "就业市场",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 95,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "competitive job market",
+      "enter the job market",
+      "tight job market",
+      "global job market"
+    ],
+    "example_sentence": "Graduates face fierce competition when entering today's highly competitive job market.",
+    "synonyms": [
+      "labour market",
+      "employment market",
+      "work market"
+    ],
+    "common_mistakes": [
+      "job market 前不总加 the：enter the job market 但 a tight job market"
+    ],
+    "ielts_context": "Writing Task 2: graduate employment; Speaking Part 3: career planning"
+  },
+  {
+    "id": "work-014",
+    "word": "flexible working hours",
+    "translation": "弹性工作时间",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 93,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "offer flexible working hours",
+      "request flexible working hours",
+      "benefit from flexible working hours",
+      "introduce flexible working hours"
+    ],
+    "example_sentence": "Flexible working hours allow employees to better balance their professional and personal responsibilities.",
+    "synonyms": [
+      "flextime",
+      "flexible schedule",
+      "flexible work arrangements"
+    ],
+    "common_mistakes": [
+      "hours 必须用复数；flexible working hours 不是 flexible work hours"
+    ],
+    "ielts_context": "Writing Task 2: work-life balance; Speaking Part 3: ideal job"
+  },
+  {
+    "id": "work-015",
+    "word": "team collaboration",
+    "translation": "团队协作",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 96,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "enhance team collaboration",
+      "effective team collaboration",
+      "promote team collaboration",
+      "cross-functional team collaboration"
+    ],
+    "example_sentence": "Modern project management tools facilitate team collaboration across different time zones.",
+    "synonyms": [
+      "teamwork",
+      "group cooperation",
+      "collaborative work"
+    ],
+    "common_mistakes": [
+      "collaboration 介词用 with：collaboration with colleagues"
+    ],
+    "ielts_context": "Writing Task 2: workplace efficiency; Speaking Part 3: teamwork"
+  },
+  {
+    "id": "work-016",
+    "word": "staff turnover",
+    "translation": "员工流动率",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 91,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "high staff turnover",
+      "reduce staff turnover",
+      "staff turnover rate",
+      "excessive staff turnover"
+    ],
+    "example_sentence": "Industries with high staff turnover often struggle to maintain consistent service quality.",
+    "synonyms": [
+      "employee turnover",
+      "personnel turnover",
+      "labour turnover"
+    ],
+    "common_mistakes": [
+      "turnover 在此义项下不可数；注意不是 overturn"
+    ],
+    "ielts_context": "Reading: business / HR management; Writing Task 2: employment"
+  },
+  {
+    "id": "work-017",
+    "word": "career path",
+    "translation": "职业道路",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "choose a career path",
+      "follow a traditional career path",
+      "non-linear career path",
+      "change career path"
+    ],
+    "example_sentence": "Young people today are more likely to change their career path several times during their working life.",
+    "synonyms": [
+      "career trajectory",
+      "professional path",
+      "vocational path"
+    ],
+    "common_mistakes": [
+      "path 可搭配 different/alternative/non-traditional"
+    ],
+    "ielts_context": "Writing Task 2: career change; Speaking Part 3: ambitions"
+  },
+  {
+    "id": "work-018",
+    "word": "occupational health",
+    "translation": "职业健康",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "occupational health and safety",
+      "occupational health standards",
+      "occupational health risks",
+      "occupational health services"
+    ],
+    "example_sentence": "Employers have a legal duty to protect their workers' occupational health and safety.",
+    "synonyms": [
+      "workplace health",
+      "industrial health",
+      "occupational wellness"
+    ],
+    "common_mistakes": [
+      "常缩写为 OHS (Occupational Health and Safety) 或 OSH"
+    ],
+    "ielts_context": "Reading: workplace regulations; Listening Section 4: health and safety lecture"
+  },
+  {
+    "id": "work-019",
+    "word": "employee benefits",
+    "translation": "员工福利",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "attractive employee benefits",
+      "comprehensive employee benefits package",
+      "provide employee benefits",
+      "cut employee benefits"
+    ],
+    "example_sentence": "In addition to a competitive salary, the company offers a comprehensive range of employee benefits.",
+    "synonyms": [
+      "employee perks",
+      "staff benefits",
+      "workplace benefits"
+    ],
+    "common_mistakes": [
+      "benefits 常用复数；perk 是更口语的说法"
+    ],
+    "ielts_context": "Writing Task 2: employment compensation; Speaking Part 3: ideal job"
+  },
+  {
+    "id": "work-020",
+    "word": "labour productivity",
+    "translation": "劳动生产力",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "boost labour productivity",
+      "measure labour productivity",
+      "decline in labour productivity",
+      "maintain high labour productivity"
+    ],
+    "example_sentence": "Studies show that regular breaks can significantly improve labour productivity and accuracy.",
+    "synonyms": [
+      "workforce productivity",
+      "employee output",
+      "workplace productivity"
+    ],
+    "common_mistakes": [
+      "productivity 不可数；来自形容词 productive"
+    ],
+    "ielts_context": "Reading: business / economics; Writing Task 2: work efficiency"
+  },
+  {
+    "id": "work-021",
+    "word": "labour force participation",
+    "translation": "劳动力参与率",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "labour force participation rate",
+      "increase labour force participation",
+      "declining labour force participation",
+      "female labour force participation"
+    ],
+    "example_sentence": "The aging population has led to a gradual decline in labour force participation across developed nations.",
+    "synonyms": [
+      "workforce participation",
+      "labour participation",
+      "economic participation"
+    ],
+    "common_mistakes": [
+      "labour (UK) = labor (US)；两者都可用于 IELTS"
+    ],
+    "ielts_context": "Writing Task 1: demographic data; Reading: economic reports"
+  },
+  {
+    "id": "work-022",
+    "word": "career prospects",
+    "translation": "职业前景",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 85,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "bright career prospects",
+      "limited career prospects",
+      "future career prospects",
+      "improve career prospects"
+    ],
+    "example_sentence": "Many students choose their degree based on future career prospects rather than personal interest.",
+    "synonyms": [
+      "job prospects",
+      "career outlook",
+      "professional future"
+    ],
+    "common_mistakes": [
+      "prospects 常用复数；不说 career prospect（虽然单数有时可接受）"
+    ],
+    "ielts_context": "Writing Task 2: education / employment; Speaking Part 3: university choice"
+  },
+  {
+    "id": "work-023",
+    "word": "commuting time",
+    "translation": "通勤时间",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 83,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "long commuting time",
+      "reduce commuting time",
+      "average commuting time",
+      "waste hours in commuting time"
+    ],
+    "example_sentence": "Long commuting times have been linked to higher stress levels and reduced job satisfaction.",
+    "synonyms": [
+      "travel time to work",
+      "journey time",
+      "commute duration"
+    ],
+    "common_mistakes": [
+      "commuting 是 commute 的动名词；commute 既可作动词也可作名词"
+    ],
+    "ielts_context": "Speaking Part 1: daily routine; Writing Task 2: urban planning"
+  },
+  {
+    "id": "work-024",
+    "word": "salary package",
+    "translation": "薪资方案",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 80,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "competitive salary package",
+      "negotiate a better salary package",
+      "attractive salary package",
+      "overall salary package"
+    ],
+    "example_sentence": "When evaluating a job offer, candidates should consider the entire salary package rather than just the base pay.",
+    "synonyms": [
+      "compensation package",
+      "remuneration package",
+      "pay package"
+    ],
+    "common_mistakes": [
+      "salary 和 wage 的区别：salary 通常是年薪（白领），wage 通常按小时/周计算（蓝领）"
+    ],
+    "ielts_context": "Speaking Part 3: job expectations; Listening Section 3: career advice"
+  },
+  {
+    "id": "work-025",
+    "word": "promotion opportunity",
+    "translation": "晋升机会",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 82,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "limited promotion opportunities",
+      "seek promotion opportunities",
+      "equal promotion opportunities",
+      "lack of promotion opportunities"
+    ],
+    "example_sentence": "A lack of promotion opportunities is often cited as the primary reason for leaving a job.",
+    "synonyms": [
+      "career advancement opportunities",
+      "upward mobility",
+      "promotional prospects"
+    ],
+    "common_mistakes": [
+      "get a promotion（获得晋升），promotion 可数"
+    ],
+    "ielts_context": "Writing Task 2: gender equality; Speaking Part 3: career goals"
+  },
+  {
+    "id": "work-026",
+    "word": "workplace diversity",
+    "translation": "职场多元化",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 78,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "promote workplace diversity",
+      "embrace workplace diversity",
+      "cultural workplace diversity",
+      "benefits of workplace diversity"
+    ],
+    "example_sentence": "Companies with strong workplace diversity tend to be more innovative and better at problem-solving.",
+    "synonyms": [
+      "workforce diversity",
+      "employment diversity",
+      "organizational diversity"
+    ],
+    "common_mistakes": [
+      "diversity 不可数，不说 a diversity"
+    ],
+    "ielts_context": "Reading: business management; Writing Task 2: equality in workplace"
+  },
+  {
+    "id": "work-027",
+    "word": "workforce shortage",
+    "translation": "劳动力短缺",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 81,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "address workforce shortage",
+      "severe workforce shortage",
+      "skilled workforce shortage",
+      "global workforce shortage"
+    ],
+    "example_sentence": "The healthcare industry is facing a critical workforce shortage as demand for services continues to grow.",
+    "synonyms": [
+      "labour shortage",
+      "staff shortage",
+      "manpower shortage"
+    ],
+    "common_mistakes": [
+      "workforce 注意拼写：一个词，不是 work force"
+    ],
+    "ielts_context": "Reading: economic trends; Writing Task 2: immigration / employment policy"
+  },
+  {
+    "id": "work-028",
+    "word": "vocational training",
+    "translation": "职业培训",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 84,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "provide vocational training",
+      "undergo vocational training",
+      "vocational training programme",
+      "access to vocational training"
+    ],
+    "example_sentence": "Governments should invest more in vocational training to bridge the skills gap in the labour market.",
+    "synonyms": [
+      "technical training",
+      "job training",
+      "trade training"
+    ],
+    "common_mistakes": [
+      "vocational 来自 vocation（职业），不是 vacation（假期）"
+    ],
+    "ielts_context": "Writing Task 2: education policy / skills gap; Speaking Part 3: alternative to university"
+  },
+  {
+    "id": "work-029",
+    "word": "employment contract",
+    "translation": "劳动合同",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 76,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "sign an employment contract",
+      "fixed-term employment contract",
+      "breach of employment contract",
+      "under the terms of the employment contract"
+    ],
+    "example_sentence": "Before starting a new job, employees should carefully review their employment contract.",
+    "synonyms": [
+      "work contract",
+      "labour contract",
+      "contract of employment"
+    ],
+    "common_mistakes": [
+      "contract 作名词重音在前 /ˈkɒntrækt/，作动词重音在后 /kənˈtrækt/"
+    ],
+    "ielts_context": "Reading: employment law; Listening Section 3: HR discussion"
+  },
+  {
+    "id": "work-030",
+    "word": "working conditions",
+    "translation": "工作条件",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 86,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "improve working conditions",
+      "poor working conditions",
+      "safe working conditions",
+      "harsh working conditions"
+    ],
+    "example_sentence": "Improving working conditions in factories should be a priority for governments and multinational corporations.",
+    "synonyms": [
+      "work conditions",
+      "labour conditions",
+      "workplace conditions"
+    ],
+    "common_mistakes": [
+      "conditions 必用复数；working conditions 不是 work conditions"
+    ],
+    "ielts_context": "Writing Task 2: labour rights / globalization; Speaking Part 3: workplace"
+  },
+  {
+    "id": "work-031",
+    "word": "job application",
+    "translation": "求职申请",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 80,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "submit a job application",
+      "fill out a job application",
+      "successful job application",
+      "online job application"
+    ],
+    "example_sentence": "Crafting a tailored job application for each position increases the chances of securing an interview.",
+    "synonyms": [
+      "employment application",
+      "job submission",
+      "position application"
+    ],
+    "common_mistakes": [
+      "application 后介词用 for：job application for the position"
+    ],
+    "ielts_context": "Speaking Part 1: job hunting; Listening Section 2: job fair announcement"
+  },
+  {
+    "id": "work-032",
+    "word": "trade union",
+    "translation": "工会",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 77,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "join a trade union",
+      "trade union membership",
+      "trade union representatives",
+      "powerful trade union"
+    ],
+    "example_sentence": "Trade unions play a vital role in protecting workers' rights and negotiating fair wages.",
+    "synonyms": [
+      "labour union",
+      "union",
+      "labour organization"
+    ],
+    "common_mistakes": [
+      "trade union (UK) = labor union (US)"
+    ],
+    "ielts_context": "Reading: labour history; Writing Task 2: workers' rights"
+  },
+  {
+    "id": "work-033",
+    "word": "managerial position",
+    "translation": "管理职位",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 75,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "hold a managerial position",
+      "promoted to a managerial position",
+      "senior managerial position",
+      "aspire to a managerial position"
+    ],
+    "example_sentence": "Women remain underrepresented in senior managerial positions across many industries.",
+    "synonyms": [
+      "management position",
+      "executive role",
+      "leadership position"
+    ],
+    "common_mistakes": [
+      "managerial 是 manager 的形容词形式；注意拼写：-erial 不是 -eriall"
+    ],
+    "ielts_context": "Reading: gender equality; Writing Task 2: workplace inequality"
+  },
+  {
+    "id": "work-034",
+    "word": "working remotely",
+    "translation": "远程办公",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 88,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "prefer working remotely",
+      "adapt to working remotely",
+      "challenges of working remotely",
+      "advantages of working remotely"
+    ],
+    "example_sentence": "Working remotely has become the new normal for millions of office workers since the pandemic.",
+    "synonyms": [
+      "telecommuting",
+      "remote work",
+      "working from home"
+    ],
+    "common_mistakes": [
+      "remotely 副词；remote 形容词。说 work remotely 不是 work remote"
+    ],
+    "ielts_context": "Writing Task 2: future of work; Speaking Part 3: lifestyle changes"
+  },
+  {
+    "id": "work-035",
+    "word": "freelance work",
+    "translation": "自由职业",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 79,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "engage in freelance work",
+      "pursue freelance work",
+      "full-time freelance work",
+      "secure freelance work"
+    ],
+    "example_sentence": "The gig economy has made freelance work a viable career option for millions of professionals.",
+    "synonyms": [
+      "self-employment",
+      "independent contracting",
+      "freelancing"
+    ],
+    "common_mistakes": [
+      "freelance 可以作形容词、名词(freelancer)、动词(to freelance)"
+    ],
+    "ielts_context": "Writing Task 2: gig economy; Speaking Part 3: work trends"
+  },
+  {
+    "id": "work-036",
+    "word": "career break",
+    "translation": "职业中断",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 73,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "take a career break",
+      "extended career break",
+      "returning from a career break",
+      "voluntary career break"
+    ],
+    "example_sentence": "Taking a career break to travel or raise children is becoming increasingly accepted by employers.",
+    "synonyms": [
+      "career gap",
+      "employment gap",
+      "career hiatus"
+    ],
+    "common_mistakes": [
+      "break 应与 gap 区分：career break 是主动选择，unemployment gap 是被动失业"
+    ],
+    "ielts_context": "Speaking Part 1: career history; Listening Section 3: career counseling"
+  },
+  {
+    "id": "work-037",
+    "word": "apprenticeship programme",
+    "translation": "学徒项目",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 71,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "listening",
+      "reading"
+    ],
+    "collocations": [
+      "enrol in an apprenticeship programme",
+      "apprenticeship programme provider",
+      "complete an apprenticeship programme",
+      "government-funded apprenticeship programme"
+    ],
+    "example_sentence": "Apprenticeship programmes offer a practical alternative to university education for many young people.",
+    "synonyms": [
+      "trainee programme",
+      "vocational apprenticeship",
+      "skills training programme"
+    ],
+    "common_mistakes": [
+      "apprenticeship 双 p：apprentice + ship（状态）"
+    ],
+    "ielts_context": "Listening Section 2: course information; Reading: education alternatives"
+  },
+  {
+    "id": "work-038",
+    "word": "income inequality",
+    "translation": "收入不平等",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 84,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "address income inequality",
+      "rising income inequality",
+      "reduce income inequality",
+      "growing income inequality"
+    ],
+    "example_sentence": "Rising income inequality has become one of the most pressing economic challenges of our time.",
+    "synonyms": [
+      "income disparity",
+      "wage inequality",
+      "earnings gap"
+    ],
+    "common_mistakes": [
+      "inequality 不可数；注意区别 wealth inequality（财富不平等）"
+    ],
+    "ielts_context": "Writing Task 2: economic policy / social justice; Speaking Part 3: society"
+  },
+  {
+    "id": "work-039",
+    "word": "skills gap",
+    "translation": "技能缺口",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 68,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "bridge the skills gap",
+      "address the skills gap",
+      "widening skills gap",
+      "technical skills gap"
+    ],
+    "example_sentence": "Employers across the technology sector report a persistent skills gap between graduate capabilities and industry needs.",
+    "synonyms": [
+      "skill shortage",
+      "competency gap",
+      "qualifications gap"
+    ],
+    "common_mistakes": [
+      "gap 搭配 bridge/close/narrow/address；不说 solve the gap"
+    ],
+    "ielts_context": "Reading: education / employment; Writing Task 2: education reform"
+  },
+  {
+    "id": "work-040",
+    "word": "sick leave",
+    "translation": "病假",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 65,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "take sick leave",
+      "paid sick leave",
+      "entitled to sick leave",
+      "extended sick leave"
+    ],
+    "example_sentence": "Employees should not feel pressured to work when they are ill, as sick leave exists to protect both workers and colleagues.",
+    "synonyms": [
+      "medical leave",
+      "sickness absence",
+      "health leave"
+    ],
+    "common_mistakes": [
+      "sick leave 是固定搭配；leave 此处不可数"
+    ],
+    "ielts_context": "Speaking Part 1: work; Listening Section 1: absence reporting"
+  },
+  {
+    "id": "work-041",
+    "word": "performance bonus",
+    "translation": "绩效奖金",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 63,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "receive a performance bonus",
+      "annual performance bonus",
+      "eligible for a performance bonus",
+      "performance bonus scheme"
+    ],
+    "example_sentence": "The company offers a generous annual performance bonus to employees who exceed their targets.",
+    "synonyms": [
+      "merit bonus",
+      "incentive pay",
+      "performance incentive"
+    ],
+    "common_mistakes": [
+      "bonus 复数 bonuses（不是 boni）"
+    ],
+    "ielts_context": "Speaking Part 3: work motivation; Listening Section 3: HR presentation"
+  },
+  {
+    "id": "work-042",
+    "word": "labour rights",
+    "translation": "劳工权益",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 61,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "protect labour rights",
+      "violate labour rights",
+      "basic labour rights",
+      "labour rights violations"
+    ],
+    "example_sentence": "International organizations have called for stricter enforcement of labour rights in global supply chains.",
+    "synonyms": [
+      "workers' rights",
+      "employee rights",
+      "labour standards"
+    ],
+    "common_mistakes": [
+      "labour rights 常用复数；表示多项权利的整体"
+    ],
+    "ielts_context": "Reading: globalization / ethics; Writing Task 2: corporate social responsibility"
+  },
+  {
+    "id": "work-043",
+    "word": "job burnout",
+    "translation": "职业倦怠",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 66,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "experience job burnout",
+      "prevent job burnout",
+      "symptoms of job burnout",
+      "severe job burnout"
+    ],
+    "example_sentence": "Chronic overwork and high pressure can lead to job burnout, affecting both personal well-being and professional performance.",
+    "synonyms": [
+      "occupational burnout",
+      "work exhaustion",
+      "career burnout"
+    ],
+    "common_mistakes": [
+      "burnout 一个词（名词）；burn out 两个词（短语动词）"
+    ],
+    "ielts_context": "Reading: workplace psychology; Writing Task 2: work culture"
+  },
+  {
+    "id": "work-044",
+    "word": "career ladder",
+    "translation": "职业阶梯",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 62,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "climb the career ladder",
+      "move up the career ladder",
+      "bottom rung of the career ladder",
+      "corporate career ladder"
+    ],
+    "example_sentence": "Mentoring programmes can help junior staff climb the career ladder more quickly.",
+    "synonyms": [
+      "corporate ladder",
+      "promotion ladder",
+      "professional hierarchy"
+    ],
+    "common_mistakes": [
+      "climb the career ladder 是隐喻，ladder 在此不指实物"
+    ],
+    "ielts_context": "Writing Task 2: career development; Speaking Part 3: ambition"
+  },
+  {
+    "id": "work-045",
+    "word": "shift work",
+    "translation": "轮班工作",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 67,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "listening",
+      "reading"
+    ],
+    "collocations": [
+      "do shift work",
+      "night shift work",
+      "rotating shift work",
+      "shift work schedule"
+    ],
+    "example_sentence": "Long-term shift work can disrupt the body's natural circadian rhythms and lead to chronic health issues.",
+    "synonyms": [
+      "rotating work",
+      "shift-based employment",
+      "alternating shifts"
+    ],
+    "common_mistakes": [
+      "shift 的常见搭配：day/night/evening/graveyard shift"
+    ],
+    "ielts_context": "Listening Section 1: job interview; Reading: occupational health"
+  },
+  {
+    "id": "work-046",
+    "word": "minimum wage",
+    "translation": "最低工资",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 69,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "raise the minimum wage",
+      "above minimum wage",
+      "statutory minimum wage",
+      "living wage vs minimum wage"
+    ],
+    "example_sentence": "Proponents argue that raising the minimum wage helps lift low-income families out of poverty.",
+    "synonyms": [
+      "base pay",
+      "statutory minimum",
+      "wage floor"
+    ],
+    "common_mistakes": [
+      "minimum wage 前用 the：the minimum wage（政策层面）"
+    ],
+    "ielts_context": "Writing Task 2: economic policy / poverty; Speaking Part 3: inequality"
+  },
+  {
+    "id": "work-047",
+    "word": "desk job",
+    "translation": "文职工作",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 64,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "sedentary desk job",
+      "typical desk job",
+      "stuck in a desk job",
+      "leave a desk job"
+    ],
+    "example_sentence": "Having a desk job often means sitting for eight or more hours a day, which poses serious health risks.",
+    "synonyms": [
+      "office job",
+      "white-collar job",
+      "administrative job"
+    ],
+    "common_mistakes": [
+      "desk job 不是 desk work（后者指在办公桌上做的事）"
+    ],
+    "ielts_context": "Speaking Part 1: daily routine; Writing Task 2: health and lifestyle"
+  },
+  {
+    "id": "work-048",
+    "word": "exit interview",
+    "translation": "离职面谈",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 55,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "listening",
+      "speaking"
+    ],
+    "collocations": [
+      "conduct an exit interview",
+      "attend an exit interview",
+      "exit interview feedback",
+      "exit interview process"
+    ],
+    "example_sentence": "Exit interviews provide valuable insight into why employees leave and how the organization can improve.",
+    "synonyms": [
+      "departure interview",
+      "leaving interview",
+      "separation interview"
+    ],
+    "common_mistakes": [
+      "exit interview 是离职面谈；exit exam 是毕业考试 — 不同概念"
+    ],
+    "ielts_context": "Listening Section 3: HR discussion; Speaking Part 3: job change"
+  },
+  {
+    "id": "work-049",
+    "word": "economic inactivity",
+    "translation": "经济不活跃",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 58,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "rising economic inactivity",
+      "economic inactivity rate",
+      "long-term economic inactivity",
+      "reasons for economic inactivity"
+    ],
+    "example_sentence": "Economic inactivity among working-age adults has risen sharply in regions affected by industrial decline.",
+    "synonyms": [
+      "non-participation",
+      "labour market inactivity",
+      "economic non-engagement"
+    ],
+    "common_mistakes": [
+      "economic inactivity 不等于 unemployment：失业的人在 actively seeking work"
+    ],
+    "ielts_context": "Reading: economic analysis; Listening Section 4: economics lecture"
+  },
+  {
+    "id": "work-050",
+    "word": "manual labour",
+    "translation": "体力劳动",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 52,
+    "topics": [
+      "work"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "perform manual labour",
+      "heavy manual labour",
+      "decline in manual labour",
+      "skilled manual labour"
+    ],
+    "example_sentence": "Automation has significantly reduced the demand for manual labour in manufacturing industries.",
+    "synonyms": [
+      "physical labour",
+      "blue-collar work",
+      "manual work"
+    ],
+    "common_mistakes": [
+      "labour 此处不可数；作 '劳工' 义项时集合名词（不可数）"
+    ],
+    "ielts_context": "Writing Task 2: automation / employment; Reading: industrial history"
+  },
+  {
+    "id": "health-002",
+    "word": "physical health",
+    "translation": "身体健康",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 99,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "maintain physical health",
+      "benefit physical health",
+      "impact on physical health",
+      "neglect physical health"
+    ],
+    "example_sentence": "Regular exercise is essential for maintaining both physical health and mental well-being.",
+    "synonyms": [
+      "bodily health",
+      "physical well-being",
+      "physical fitness"
+    ],
+    "common_mistakes": [
+      "physical health 是相对 mental health 的概念；不加 s"
+    ],
+    "ielts_context": "Writing Task 2: health / lifestyle; Speaking Part 3: healthy habits"
+  },
+  {
+    "id": "health-003",
+    "word": "healthy lifestyle",
+    "translation": "健康生活方式",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 98,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "adopt a healthy lifestyle",
+      "promote a healthy lifestyle",
+      "lead a healthy lifestyle",
+      "maintain a healthy lifestyle"
+    ],
+    "example_sentence": "Schools should educate children about the importance of maintaining a healthy lifestyle from an early age.",
+    "synonyms": [
+      "health-conscious lifestyle",
+      "wholesome lifestyle",
+      "health-promoting lifestyle"
+    ],
+    "common_mistakes": [
+      "lifestyle 可数，说 a healthy lifestyle"
+    ],
+    "ielts_context": "Writing Task 2: public health / education; Speaking Part 3: daily habits"
+  },
+  {
+    "id": "health-004",
+    "word": "sedentary lifestyle",
+    "translation": "久坐生活方式",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 96,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "lead a sedentary lifestyle",
+      "associated with a sedentary lifestyle",
+      "risks of a sedentary lifestyle",
+      "increasingly sedentary lifestyle"
+    ],
+    "example_sentence": "A sedentary lifestyle has been linked to an increased risk of obesity, diabetes, and cardiovascular disease.",
+    "synonyms": [
+      "inactive lifestyle",
+      "sitting-based lifestyle",
+      "physically inactive lifestyle"
+    ],
+    "common_mistakes": [
+      "sedentary 发音 /ˈsednteri/，来自拉丁语 sedere（坐）"
+    ],
+    "ielts_context": "Writing Task 2: modern lifestyle / health risks; Speaking Part 3: workplace health"
+  },
+  {
+    "id": "health-005",
+    "word": "balanced diet",
+    "translation": "均衡饮食",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 97,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "maintain a balanced diet",
+      "eat a balanced diet",
+      "follow a balanced diet",
+      "lack of a balanced diet"
+    ],
+    "example_sentence": "A balanced diet rich in fruits, vegetables, and whole grains is the foundation of good health.",
+    "synonyms": [
+      "healthy diet",
+      "nutritious diet",
+      "well-rounded diet"
+    ],
+    "common_mistakes": [
+      "balanced diet 前用 a；区别于 dietary balance（更学术）"
+    ],
+    "ielts_context": "Writing Task 2: nutrition / health education; Speaking Part 1: food / diet"
+  },
+  {
+    "id": "health-006",
+    "word": "mental disorder",
+    "translation": "精神障碍",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 92,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "suffer from a mental disorder",
+      "diagnose a mental disorder",
+      "common mental disorder",
+      "treat mental disorders"
+    ],
+    "example_sentence": "Depression is one of the most common mental disorders, affecting millions of people worldwide.",
+    "synonyms": [
+      "psychiatric disorder",
+      "mental illness",
+      "psychological disorder"
+    ],
+    "common_mistakes": [
+      "mental disorder 比 mental illness 更临床、更正式"
+    ],
+    "ielts_context": "Reading: health / psychology articles; Writing Task 2: mental health"
+  },
+  {
+    "id": "health-007",
+    "word": "public health",
+    "translation": "公共卫生",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 98,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "protect public health",
+      "threaten public health",
+      "public health crisis",
+      "public health policy"
+    ],
+    "example_sentence": "Vaccination programmes are one of the most effective public health interventions in history.",
+    "synonyms": [
+      "community health",
+      "population health",
+      "public healthcare"
+    ],
+    "common_mistakes": [
+      "public health 不加 the；泛指概念时零冠词"
+    ],
+    "ielts_context": "Reading: public health reports; Writing Task 2: government health policy"
+  },
+  {
+    "id": "health-008",
+    "word": "healthcare system",
+    "translation": "医疗保健体系",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 95,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "universal healthcare system",
+      "overburdened healthcare system",
+      "reform the healthcare system",
+      "access to the healthcare system"
+    ],
+    "example_sentence": "An efficient healthcare system is essential for ensuring that all citizens receive timely medical treatment.",
+    "synonyms": [
+      "medical system",
+      "health system",
+      "health service"
+    ],
+    "common_mistakes": [
+      "healthcare 一个词（英式）或 health care 两个词（美式）；IELTS 两种均接受"
+    ],
+    "ielts_context": "Writing Task 2: government spending / health policy; Speaking Part 3: public services"
+  },
+  {
+    "id": "health-009",
+    "word": "chronic disease",
+    "translation": "慢性疾病",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 93,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "suffer from a chronic disease",
+      "manage chronic disease",
+      "prevent chronic disease",
+      "chronic disease burden"
+    ],
+    "example_sentence": "The rising prevalence of chronic diseases such as diabetes places an enormous strain on healthcare budgets.",
+    "synonyms": [
+      "long-term illness",
+      "chronic illness",
+      "non-communicable disease"
+    ],
+    "common_mistakes": [
+      "chronic /ˈkrɒnɪk/ 不是 acute（急性）；chronic 强调长期性"
+    ],
+    "ielts_context": "Reading: medical reports; Writing Task 2: aging population / health costs"
+  },
+  {
+    "id": "health-010",
+    "word": "life expectancy",
+    "translation": "预期寿命",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 96,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "increase life expectancy",
+      "average life expectancy",
+      "life expectancy has risen",
+      "longer life expectancy"
+    ],
+    "example_sentence": "Improved sanitation and medical advances have dramatically increased life expectancy over the past century.",
+    "synonyms": [
+      "longevity",
+      "expected lifespan",
+      "average lifespan"
+    ],
+    "common_mistakes": [
+      "life expectancy 不可数/可数均可；常用单数"
+    ],
+    "ielts_context": "Writing Task 1: demographic data; Writing Task 2: aging society"
+  },
+  {
+    "id": "health-011",
+    "word": "physical activity",
+    "translation": "身体活动",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 94,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "engage in physical activity",
+      "lack of physical activity",
+      "regular physical activity",
+      "benefits of physical activity"
+    ],
+    "example_sentence": "Children should engage in at least one hour of moderate physical activity every day.",
+    "synonyms": [
+      "exercise",
+      "bodily activity",
+      "physical exercise"
+    ],
+    "common_mistakes": [
+      "physical activity 比 exercise 涵盖更广（包括日常活动如走路、爬楼梯）"
+    ],
+    "ielts_context": "Writing Task 2: children's health / lifestyle; Speaking Part 3: fitness"
+  },
+  {
+    "id": "health-012",
+    "word": "health insurance",
+    "translation": "健康保险",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "purchase health insurance",
+      "comprehensive health insurance",
+      "lack health insurance",
+      "private health insurance"
+    ],
+    "example_sentence": "In countries without universal healthcare, health insurance is essential for accessing affordable medical care.",
+    "synonyms": [
+      "medical insurance",
+      "health coverage",
+      "medical coverage"
+    ],
+    "common_mistakes": [
+      "insurance 不可数；说 buy/provide/have health insurance（不加 s）"
+    ],
+    "ielts_context": "Writing Task 2: healthcare funding; Speaking Part 3: medical costs"
+  },
+  {
+    "id": "health-013",
+    "word": "obesity epidemic",
+    "translation": "肥胖流行病",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 94,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "tackle the obesity epidemic",
+      "combat the obesity epidemic",
+      "rising obesity epidemic",
+      "obesity epidemic among children"
+    ],
+    "example_sentence": "The obesity epidemic is driven by a combination of poor diet, sedentary lifestyles, and aggressive food marketing.",
+    "synonyms": [
+      "obesity crisis",
+      "overweight epidemic",
+      "weight problem epidemic"
+    ],
+    "common_mistakes": [
+      "epidemic 本义是传染病流行；比喻义为问题蔓延；obesity 发音 /əʊˈbiːsəti/"
+    ],
+    "ielts_context": "Reading: health / nutrition articles; Writing Task 2: junk food / public health"
+  },
+  {
+    "id": "health-014",
+    "word": "stress management",
+    "translation": "压力管理",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "effective stress management",
+      "stress management techniques",
+      "practice stress management",
+      "poor stress management"
+    ],
+    "example_sentence": "Employers should offer stress management workshops to help employees cope with workplace pressure.",
+    "synonyms": [
+      "stress relief",
+      "coping strategies",
+      "stress reduction"
+    ],
+    "common_mistakes": [
+      "stress management 不是 pressure management；stress 是长期压力，pressure 是短期压力"
+    ],
+    "ielts_context": "Writing Task 2: workplace wellness; Speaking Part 3: modern life pressures"
+  },
+  {
+    "id": "health-015",
+    "word": "medical treatment",
+    "translation": "医疗治疗",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 92,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "receive medical treatment",
+      "seek medical treatment",
+      "access to medical treatment",
+      "delay medical treatment"
+    ],
+    "example_sentence": "Early diagnosis and prompt medical treatment significantly improve recovery outcomes for most conditions.",
+    "synonyms": [
+      "healthcare treatment",
+      "therapeutic treatment",
+      "clinical treatment"
+    ],
+    "common_mistakes": [
+      "treatment 可数/不可数：medical treatment（整体）/ a new treatment（具体疗法）"
+    ],
+    "ielts_context": "Reading: health articles; Listening Section 3: health center consultation"
+  },
+  {
+    "id": "health-016",
+    "word": "nutritional intake",
+    "translation": "营养摄入",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "adequate nutritional intake",
+      "daily nutritional intake",
+      "monitor nutritional intake",
+      "insufficient nutritional intake"
+    ],
+    "example_sentence": "Poor nutritional intake in early childhood can have lasting effects on cognitive development.",
+    "synonyms": [
+      "dietary intake",
+      "nutrient consumption",
+      "nutritional consumption"
+    ],
+    "common_mistakes": [
+      "nutritional 和 nutritious 不同：nutritional = 关于营养的，nutritious = 有营养的"
+    ],
+    "ielts_context": "Reading: nutrition science; Writing Task 2: children's health"
+  },
+  {
+    "id": "health-017",
+    "word": "cardiovascular disease",
+    "translation": "心血管疾病",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 91,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "risk of cardiovascular disease",
+      "prevent cardiovascular disease",
+      "develop cardiovascular disease",
+      "cardiovascular disease prevention"
+    ],
+    "example_sentence": "Smoking, poor diet, and physical inactivity are the leading causes of cardiovascular disease worldwide.",
+    "synonyms": [
+      "heart disease",
+      "CVD",
+      "coronary artery disease"
+    ],
+    "common_mistakes": [
+      "cardiovascular 来自 cardio（心脏）+ vascular（血管）"
+    ],
+    "ielts_context": "Reading: medical / health articles; Listening Section 4: health lecture"
+  },
+  {
+    "id": "health-018",
+    "word": "immune system",
+    "translation": "免疫系统",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 93,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "weakened immune system",
+      "strengthen the immune system",
+      "compromised immune system",
+      "boost your immune system"
+    ],
+    "example_sentence": "Adequate sleep and proper nutrition are critical for maintaining a strong immune system.",
+    "synonyms": [
+      "body's defences",
+      "immunological system",
+      "disease defence system"
+    ],
+    "common_mistakes": [
+      "immune 发音 /ɪˈmjuːn/；注意区别于 immune to（对...免疫）"
+    ],
+    "ielts_context": "Reading: health / biology; Listening Section 4: science lecture"
+  },
+  {
+    "id": "health-019",
+    "word": "sleep deprivation",
+    "translation": "睡眠不足",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 93,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "chronic sleep deprivation",
+      "suffer from sleep deprivation",
+      "effects of sleep deprivation",
+      "severe sleep deprivation"
+    ],
+    "example_sentence": "Chronic sleep deprivation impairs cognitive function and increases the risk of accidents and chronic diseases.",
+    "synonyms": [
+      "sleep deficiency",
+      "insufficient sleep",
+      "sleep shortage"
+    ],
+    "common_mistakes": [
+      "deprivation 不可数；动词 deprive someone of sleep"
+    ],
+    "ielts_context": "Reading: health studies; Writing Task 2: modern lifestyle / student stress"
+  },
+  {
+    "id": "health-020",
+    "word": "substance abuse",
+    "translation": "药物滥用",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 94,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "struggle with substance abuse",
+      "treat substance abuse",
+      "substance abuse problem",
+      "substance abuse among teenagers"
+    ],
+    "example_sentence": "Substance abuse among young people is a growing public health crisis that requires early intervention.",
+    "synonyms": [
+      "drug abuse",
+      "substance misuse",
+      "chemical dependency"
+    ],
+    "common_mistakes": [
+      "substance 在此义项下指药物、酒精等成瘾物质"
+    ],
+    "ielts_context": "Reading: social issues / health; Writing Task 2: youth problems"
+  },
+  {
+    "id": "health-021",
+    "word": "health awareness",
+    "translation": "健康意识",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 84,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "raise health awareness",
+      "increase health awareness",
+      "public health awareness",
+      "lack of health awareness"
+    ],
+    "example_sentence": "Health awareness campaigns have played a crucial role in reducing smoking rates across many countries.",
+    "synonyms": [
+      "health consciousness",
+      "wellness awareness",
+      "health literacy"
+    ],
+    "common_mistakes": [
+      "awareness 不可数；搭配 raise/increase/promote"
+    ],
+    "ielts_context": "Writing Task 2: public health campaigns; Speaking Part 3: health education"
+  },
+  {
+    "id": "health-022",
+    "word": "dietary habits",
+    "translation": "饮食习惯",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 86,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "unhealthy dietary habits",
+      "improve dietary habits",
+      "poor dietary habits",
+      "develop dietary habits"
+    ],
+    "example_sentence": "Children's dietary habits formed in early years tend to persist into adulthood.",
+    "synonyms": [
+      "eating habits",
+      "nutritional habits",
+      "food habits"
+    ],
+    "common_mistakes": [
+      "dietary 是 diet 的形容词；发音 /ˈdaɪətəri/"
+    ],
+    "ielts_context": "Writing Task 2: nutrition / children's health; Speaking Part 1: food"
+  },
+  {
+    "id": "health-023",
+    "word": "preventive care",
+    "translation": "预防性护理",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 79,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "invest in preventive care",
+      "emphasize preventive care",
+      "access to preventive care",
+      "preventive care services"
+    ],
+    "example_sentence": "Investing in preventive care is far more cost-effective than treating advanced diseases.",
+    "synonyms": [
+      "preventive medicine",
+      "preventative care",
+      "proactive healthcare"
+    ],
+    "common_mistakes": [
+      "preventive 和 preventative 均可，preventive 更常用于学术语境"
+    ],
+    "ielts_context": "Reading: healthcare policy; Writing Task 2: government health spending"
+  },
+  {
+    "id": "health-024",
+    "word": "health screening",
+    "translation": "健康筛查",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 75,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "routine health screening",
+      "undergo health screening",
+      "regular health screening",
+      "national health screening programme"
+    ],
+    "example_sentence": "Regular health screening can detect diseases at an early stage when they are more treatable.",
+    "synonyms": [
+      "medical screening",
+      "health check-up",
+      "diagnostic screening"
+    ],
+    "common_mistakes": [
+      "screening 不可数（作过程）；screen 是可数名词/动词"
+    ],
+    "ielts_context": "Reading: medical procedures; Listening Section 3: health centre information"
+  },
+  {
+    "id": "health-025",
+    "word": "fast food consumption",
+    "translation": "快餐消费",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 82,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "excessive fast food consumption",
+      "reduce fast food consumption",
+      "rise in fast food consumption",
+      "cut down on fast food consumption"
+    ],
+    "example_sentence": "The dramatic rise in fast food consumption has been linked to increasing rates of obesity and related diseases.",
+    "synonyms": [
+      "junk food intake",
+      "convenience food consumption",
+      "fast-food eating"
+    ],
+    "common_mistakes": [
+      "fast food 中 fast 是形容词（快的），不是动词"
+    ],
+    "ielts_context": "Writing Task 2: diet / public health; Speaking Part 1: eating habits"
+  },
+  {
+    "id": "health-026",
+    "word": "psychological counselling",
+    "translation": "心理咨询",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 74,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "seek psychological counselling",
+      "provide psychological counselling",
+      "access psychological counselling",
+      "benefit from psychological counselling"
+    ],
+    "example_sentence": "Universities should offer free psychological counselling services to support students' mental well-being.",
+    "synonyms": [
+      "mental health counselling",
+      "therapy",
+      "psychological therapy"
+    ],
+    "common_mistakes": [
+      "counselling (UK) = counseling (US)；双 l 是英式拼写"
+    ],
+    "ielts_context": "Reading: mental health services; Listening Section 3: student services"
+  },
+  {
+    "id": "health-027",
+    "word": "medical breakthrough",
+    "translation": "医学突破",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 78,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "major medical breakthrough",
+      "achieve a medical breakthrough",
+      "recent medical breakthrough",
+      "scientific medical breakthrough"
+    ],
+    "example_sentence": "The development of mRNA vaccines represents one of the most significant medical breakthroughs of the 21st century.",
+    "synonyms": [
+      "medical advance",
+      "scientific breakthrough",
+      "healthcare breakthrough"
+    ],
+    "common_mistakes": [
+      "breakthrough 可数，一个重大突破 a breakthrough"
+    ],
+    "ielts_context": "Reading: medical / science articles; Listening Section 4: scientific lecture"
+  },
+  {
+    "id": "health-028",
+    "word": "eating disorder",
+    "translation": "进食障碍",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 76,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "suffer from an eating disorder",
+      "develop an eating disorder",
+      "treat eating disorders",
+      "eating disorder among adolescents"
+    ],
+    "example_sentence": "Social media has been implicated in the rising prevalence of eating disorders among teenagers.",
+    "synonyms": [
+      "disordered eating",
+      "eating disturbance",
+      "food-related disorder"
+    ],
+    "common_mistakes": [
+      "常见 eating disorders：anorexia (厌食症), bulimia (贪食症), binge eating (暴食)"
+    ],
+    "ielts_context": "Reading: psychology / health; Writing Task 2: media influence / body image"
+  },
+  {
+    "id": "health-029",
+    "word": "health expenditure",
+    "translation": "医疗支出",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 80,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "rising health expenditure",
+      "government health expenditure",
+      "control health expenditure",
+      "health expenditure per capita"
+    ],
+    "example_sentence": "Rising health expenditure is a major concern for governments facing aging populations.",
+    "synonyms": [
+      "healthcare spending",
+      "medical expenditure",
+      "health spending"
+    ],
+    "common_mistakes": [
+      "expenditure 不可数；介词搭配 expenditure on health/education"
+    ],
+    "ielts_context": "Writing Task 1: economic data; Reading: government reports"
+  },
+  {
+    "id": "health-030",
+    "word": "fitness regimen",
+    "translation": "健身计划",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 71,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "follow a fitness regimen",
+      "strict fitness regimen",
+      "maintain a fitness regimen",
+      "start a fitness regimen"
+    ],
+    "example_sentence": "Adopting a regular fitness regimen can improve both physical health and mental clarity.",
+    "synonyms": [
+      "exercise routine",
+      "workout plan",
+      "training regimen"
+    ],
+    "common_mistakes": [
+      "regimen /ˈredʒɪmən/ 不是 regime /reɪˈʒiːm/（政权）"
+    ],
+    "ielts_context": "Speaking Part 1: hobbies / exercise; Listening Section 1: gym membership"
+  },
+  {
+    "id": "health-031",
+    "word": "vaccination programme",
+    "translation": "疫苗接种计划",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 85,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "implement a vaccination programme",
+      "national vaccination programme",
+      "childhood vaccination programme",
+      "successful vaccination programme"
+    ],
+    "example_sentence": "Mass vaccination programmes have eradicated or dramatically reduced many life-threatening infectious diseases.",
+    "synonyms": [
+      "immunization programme",
+      "vaccination campaign",
+      "inoculation programme"
+    ],
+    "common_mistakes": [
+      "vaccination 和 immunization 常互换；vaccination 强调接种行为本身"
+    ],
+    "ielts_context": "Writing Task 2: public health policy; Reading: health reports"
+  },
+  {
+    "id": "health-032",
+    "word": "health education",
+    "translation": "健康教育",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 83,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "promote health education",
+      "school-based health education",
+      "provide health education",
+      "comprehensive health education"
+    ],
+    "example_sentence": "Comprehensive health education in schools can equip children with the knowledge to make informed lifestyle choices.",
+    "synonyms": [
+      "public health education",
+      "wellness education",
+      "health literacy education"
+    ],
+    "common_mistakes": [
+      "health education 不可数；泛指概念前不加冠词"
+    ],
+    "ielts_context": "Writing Task 2: school curriculum / public health; Speaking Part 3: education"
+  },
+  {
+    "id": "health-033",
+    "word": "patient care",
+    "translation": "患者护理",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 81,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "improve patient care",
+      "quality of patient care",
+      "patient-centred care",
+      "provide patient care"
+    ],
+    "example_sentence": "Improving the quality of patient care requires adequate staffing levels and ongoing professional training.",
+    "synonyms": [
+      "medical care",
+      "healthcare delivery",
+      "clinical care"
+    ],
+    "common_mistakes": [
+      "patient 发音 /ˈpeɪʃnt/，不是 patience /ˈpeɪʃəns/（耐心）"
+    ],
+    "ielts_context": "Reading: healthcare management; Listening Section 4: nursing lecture"
+  },
+  {
+    "id": "health-034",
+    "word": "junk food advertising",
+    "translation": "垃圾食品广告",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 82,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "ban junk food advertising",
+      "restrict junk food advertising",
+      "targeted junk food advertising",
+      "exposure to junk food advertising"
+    ],
+    "example_sentence": "Many health experts argue that junk food advertising aimed at children should be strictly regulated.",
+    "synonyms": [
+      "fast food advertising",
+      "unhealthy food advertising",
+      "food marketing to children"
+    ],
+    "common_mistakes": [
+      "junk food 不可数；泛指垃圾食品时不加 s"
+    ],
+    "ielts_context": "Writing Task 2: advertising / children's health; Speaking Part 3: consumer culture"
+  },
+  {
+    "id": "health-035",
+    "word": "calorie intake",
+    "translation": "卡路里摄入",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 75,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "reduce calorie intake",
+      "excessive calorie intake",
+      "daily calorie intake",
+      "monitor calorie intake"
+    ],
+    "example_sentence": "Reducing daily calorie intake combined with regular exercise is the most effective weight loss strategy.",
+    "synonyms": [
+      "caloric intake",
+      "energy intake",
+      "dietary energy consumption"
+    ],
+    "common_mistakes": [
+      "calorie 可数；常用复数 calories"
+    ],
+    "ielts_context": "Reading: nutrition / health studies; Writing Task 1: dietary data"
+  },
+  {
+    "id": "health-036",
+    "word": "mental resilience",
+    "translation": "心理韧性",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 73,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "build mental resilience",
+      "develop mental resilience",
+      "lack of mental resilience",
+      "enhance mental resilience"
+    ],
+    "example_sentence": "Building mental resilience helps individuals cope effectively with stress, adversity, and life challenges.",
+    "synonyms": [
+      "psychological resilience",
+      "emotional resilience",
+      "mental toughness"
+    ],
+    "common_mistakes": [
+      "resilience 来自动词 resile（回弹）；发音 /rɪˈzɪliəns/"
+    ],
+    "ielts_context": "Writing Task 2: education / mental health; Speaking Part 3: coping with challenges"
+  },
+  {
+    "id": "health-037",
+    "word": "disease prevention",
+    "translation": "疾病预防",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 87,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "focus on disease prevention",
+      "effective disease prevention",
+      "disease prevention strategy",
+      "prioritize disease prevention"
+    ],
+    "example_sentence": "Governments should shift their healthcare focus from treatment to disease prevention through public health campaigns.",
+    "synonyms": [
+      "illness prevention",
+      "prevention of disease",
+      "prophylactic care"
+    ],
+    "common_mistakes": [
+      "prevention 不可数；prevention of + 名词 或 disease prevention"
+    ],
+    "ielts_context": "Writing Task 2: healthcare priorities; Reading: public health policy"
+  },
+  {
+    "id": "health-038",
+    "word": "health inequality",
+    "translation": "健康不平等",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 77,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "address health inequality",
+      "social health inequality",
+      "reduce health inequality",
+      "persistent health inequality"
+    ],
+    "example_sentence": "Health inequality persists between rich and poor communities even within the same city.",
+    "synonyms": [
+      "health disparity",
+      "health gap",
+      "health inequity"
+    ],
+    "common_mistakes": [
+      "inequality 和 inequity 的区别：inequality = 客观不平等，inequity = 不公平（有道德判断）"
+    ],
+    "ielts_context": "Reading: social medicine / public health; Writing Task 2: social justice"
+  },
+  {
+    "id": "health-039",
+    "word": "contagious disease",
+    "translation": "传染病",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 67,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "spread of contagious disease",
+      "highly contagious disease",
+      "outbreak of a contagious disease",
+      "control contagious disease"
+    ],
+    "example_sentence": "Good hygiene practices are essential for preventing the spread of contagious diseases in schools and workplaces.",
+    "synonyms": [
+      "infectious disease",
+      "communicable disease",
+      "transmissible disease"
+    ],
+    "common_mistakes": [
+      "contagious 指接触传播；infectious 范围更广（包括空气/水传播）"
+    ],
+    "ielts_context": "Reading: public health; Listening Section 4: epidemiology lecture"
+  },
+  {
+    "id": "health-040",
+    "word": "prescription drug",
+    "translation": "处方药",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 62,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "take prescription drugs",
+      "over-the-counter vs prescription drugs",
+      "cost of prescription drugs",
+      "prescription drug abuse"
+    ],
+    "example_sentence": "The rising cost of prescription drugs has made essential medications unaffordable for many patients.",
+    "synonyms": [
+      "prescription medication",
+      "prescribed medicine",
+      "Rx drug"
+    ],
+    "common_mistakes": [
+      "prescription 拼写注意 scrip；区别于 subscription（订阅）"
+    ],
+    "ielts_context": "Reading: health economics; Listening Section 3: pharmacy consultation"
+  },
+  {
+    "id": "health-041",
+    "word": "genetic disorder",
+    "translation": "遗传疾病",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 59,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "inherited genetic disorder",
+      "diagnose a genetic disorder",
+      "rare genetic disorder",
+      "carrier of a genetic disorder"
+    ],
+    "example_sentence": "Advances in gene therapy offer new hope for treating previously incurable genetic disorders.",
+    "synonyms": [
+      "hereditary disease",
+      "congenital disorder",
+      "inherited condition"
+    ],
+    "common_mistakes": [
+      "genetic (遗传的) 和 hereditary (家族遗传) 有细微区别"
+    ],
+    "ielts_context": "Reading: medical / science articles; Listening Section 4: biology lecture"
+  },
+  {
+    "id": "health-042",
+    "word": "first aid",
+    "translation": "急救",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 63,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "administer first aid",
+      "basic first aid",
+      "first aid training",
+      "first aid kit"
+    ],
+    "example_sentence": "Learning basic first aid should be a mandatory part of the school curriculum.",
+    "synonyms": [
+      "emergency care",
+      "immediate assistance",
+      "emergency treatment"
+    ],
+    "common_mistakes": [
+      "first aid 不加 the；不可数概念"
+    ],
+    "ielts_context": "Speaking Part 2: describe a useful skill; Listening Section 2: first aid course"
+  },
+  {
+    "id": "health-043",
+    "word": "premature death",
+    "translation": "过早死亡",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 61,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "prevent premature death",
+      "risk of premature death",
+      "cause premature death",
+      "reduce premature death rates"
+    ],
+    "example_sentence": "Smoking is the leading cause of preventable premature death worldwide.",
+    "synonyms": [
+      "early mortality",
+      "untimely death",
+      "premature mortality"
+    ],
+    "common_mistakes": [
+      "premature 发音 /ˈpremətʃə(r)/；来自 pre（前）+ mature（成熟）"
+    ],
+    "ielts_context": "Writing Task 2: smoking / public health; Reading: health statistics"
+  },
+  {
+    "id": "health-044",
+    "word": "rehabilitation centre",
+    "translation": "康复中心",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 55,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "listening",
+      "reading"
+    ],
+    "collocations": [
+      "attend a rehabilitation centre",
+      "drug rehabilitation centre",
+      "inpatient rehabilitation centre",
+      "referral to a rehabilitation centre"
+    ],
+    "example_sentence": "The rehabilitation centre offers comprehensive programmes for patients recovering from serious injuries or addiction.",
+    "synonyms": [
+      "rehab facility",
+      "recovery centre",
+      "treatment centre"
+    ],
+    "common_mistakes": [
+      "rehabilitation 常缩略为 rehab（口语）；正式写作中用全称"
+    ],
+    "ielts_context": "Listening Section 2: facility tour; Reading: health services"
+  },
+  {
+    "id": "health-045",
+    "word": "dietary supplement",
+    "translation": "膳食补充剂",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 57,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "take dietary supplements",
+      "natural dietary supplement",
+      "vitamin dietary supplement",
+      "use of dietary supplements"
+    ],
+    "example_sentence": "While dietary supplements can fill nutritional gaps, they are no substitute for a healthy balanced diet.",
+    "synonyms": [
+      "food supplement",
+      "nutritional supplement",
+      "health supplement"
+    ],
+    "common_mistakes": [
+      "supplement 不是 replacement（替代品）；supplement 是补充"
+    ],
+    "ielts_context": "Reading: nutrition / health; Listening Section 3: health advice"
+  },
+  {
+    "id": "health-046",
+    "word": "holistic approach",
+    "translation": "整体方法",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 58,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "take a holistic approach",
+      "holistic approach to health",
+      "adopt a holistic approach",
+      "holistic treatment approach"
+    ],
+    "example_sentence": "A holistic approach to healthcare addresses not only physical symptoms but also mental and social factors.",
+    "synonyms": [
+      "comprehensive approach",
+      "integrated approach",
+      "whole-person approach"
+    ],
+    "common_mistakes": [
+      "holistic 来自 whole；发音 /həʊˈlɪstɪk/，h不发音的现象已过时"
+    ],
+    "ielts_context": "Writing Task 2: healthcare reform; Speaking Part 3: alternative medicine"
+  },
+  {
+    "id": "health-047",
+    "word": "hygiene practice",
+    "translation": "卫生习惯",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 66,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "good hygiene practice",
+      "personal hygiene practice",
+      "poor hygiene practice",
+      "promote hygiene practice"
+    ],
+    "example_sentence": "Teaching children good hygiene practices from an early age helps prevent the spread of infectious diseases.",
+    "synonyms": [
+      "sanitary practice",
+      "cleanliness habit",
+      "hygienic behaviour"
+    ],
+    "common_mistakes": [
+      "hygiene 不可数；发音 /ˈhaɪdʒiːn/"
+    ],
+    "ielts_context": "Writing Task 2: public health / education; Speaking Part 3: health in schools"
+  },
+  {
+    "id": "health-048",
+    "word": "health indicator",
+    "translation": "健康指标",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 53,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "key health indicator",
+      "measure health indicators",
+      "health indicator data",
+      "vital health indicators"
+    ],
+    "example_sentence": "Life expectancy and infant mortality are two of the most commonly used health indicators.",
+    "synonyms": [
+      "health metric",
+      "health measure",
+      "wellness indicator"
+    ],
+    "common_mistakes": [
+      "indicator 可数；key/important indicator of + 名词"
+    ],
+    "ielts_context": "Writing Task 1: health data; Listening Section 4: public health lecture"
+  },
+  {
+    "id": "health-049",
+    "word": "quality of life",
+    "translation": "生活质量",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 69,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "improve quality of life",
+      "overall quality of life",
+      "diminished quality of life",
+      "enhance quality of life"
+    ],
+    "example_sentence": "Access to green spaces and recreational facilities significantly improves residents' quality of life.",
+    "synonyms": [
+      "standard of living",
+      "life quality",
+      "well-being"
+    ],
+    "common_mistakes": [
+      "quality of life 缩写 QoL；注意区别于 standard of living（偏经济指标）"
+    ],
+    "ielts_context": "Writing Task 2: urban planning / healthcare; Speaking Part 3: happiness / well-being"
+  },
+  {
+    "id": "health-050",
+    "word": "addictive behaviour",
+    "translation": "成瘾行为",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 56,
+    "topics": [
+      "health"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "exhibit addictive behaviour",
+      "treat addictive behaviour",
+      "signs of addictive behaviour",
+      "compulsive addictive behaviour"
+    ],
+    "example_sentence": "Social media platforms are designed to encourage addictive behaviour and maximize user engagement.",
+    "synonyms": [
+      "dependency behaviour",
+      "compulsive behaviour",
+      "habit-forming behaviour"
+    ],
+    "common_mistakes": [
+      "addictive 是形容词（令人上瘾的）；addicted 是过去分词形容词（已上瘾的）"
+    ],
+    "ielts_context": "Reading: psychology / technology; Writing Task 2: social media impact"
+  },
+  {
+    "id": "city-002",
+    "word": "urban development",
+    "translation": "城市发展",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 98,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "rapid urban development",
+      "unsustainable urban development",
+      "plan urban development",
+      "urban development project"
+    ],
+    "example_sentence": "Rapid urban development has placed enormous pressure on existing infrastructure and public services.",
+    "synonyms": [
+      "city development",
+      "urban growth",
+      "metropolitan development"
+    ],
+    "common_mistakes": [
+      "urban 是形容词；泛指城市相关的。比较 city（名词）"
+    ],
+    "ielts_context": "Writing Task 2: urbanization / city planning; Speaking Part 3: hometown changes"
+  },
+  {
+    "id": "city-003",
+    "word": "traffic congestion",
+    "translation": "交通拥堵",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 99,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "ease traffic congestion",
+      "severe traffic congestion",
+      "reduce traffic congestion",
+      "stuck in traffic congestion"
+    ],
+    "example_sentence": "Traffic congestion in major cities costs billions in lost productivity and contributes to air pollution.",
+    "synonyms": [
+      "traffic jams",
+      "gridlock",
+      "heavy traffic"
+    ],
+    "common_mistakes": [
+      "congestion 不可数；heavy/severe traffic congestion 是固定搭配"
+    ],
+    "ielts_context": "Writing Task 2: transport / urban problems; Speaking Part 1: hometown"
+  },
+  {
+    "id": "city-004",
+    "word": "public transportation system",
+    "translation": "公共交通系统",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 96,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "reliable public transportation system",
+      "invest in the public transportation system",
+      "efficient public transportation system",
+      "expand the public transportation system"
+    ],
+    "example_sentence": "An efficient public transportation system is the backbone of any sustainable city.",
+    "synonyms": [
+      "mass transit system",
+      "public transport network",
+      "transit system"
+    ],
+    "common_mistakes": [
+      "transportation (US) = transport (UK)；IELTS 两种用法均接受"
+    ],
+    "ielts_context": "Writing Task 2: urban infrastructure; Speaking Part 3: city improvements"
+  },
+  {
+    "id": "city-005",
+    "word": "infrastructure investment",
+    "translation": "基础设施投资",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 95,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "increase infrastructure investment",
+      "public infrastructure investment",
+      "massive infrastructure investment",
+      "infrastructure investment project"
+    ],
+    "example_sentence": "Sustained infrastructure investment is critical for supporting economic growth and improving living standards.",
+    "synonyms": [
+      "capital investment",
+      "infrastructure spending",
+      "public works investment"
+    ],
+    "common_mistakes": [
+      "infrastructure 不可数；注意拼写 infra + structure"
+    ],
+    "ielts_context": "Writing Task 2: government spending; Reading: economic development"
+  },
+  {
+    "id": "city-006",
+    "word": "housing market",
+    "translation": "住房市场",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 94,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "overheated housing market",
+      "affordable housing market",
+      "housing market crash",
+      "regulate the housing market"
+    ],
+    "example_sentence": "The housing market in many major cities has become increasingly unaffordable for young first-time buyers.",
+    "synonyms": [
+      "property market",
+      "real estate market",
+      "residential market"
+    ],
+    "common_mistakes": [
+      "housing 不可数；泛指住房；house 是可数名词"
+    ],
+    "ielts_context": "Writing Task 2: housing affordability; Speaking Part 3: cost of living"
+  },
+  {
+    "id": "city-007",
+    "word": "sustainable city",
+    "translation": "可持续城市",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 91,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "build a sustainable city",
+      "design sustainable cities",
+      "sustainable city initiative",
+      "vision of a sustainable city"
+    ],
+    "example_sentence": "A sustainable city balances economic growth with environmental protection and social equity.",
+    "synonyms": [
+      "eco-city",
+      "green city",
+      "livable city"
+    ],
+    "common_mistakes": [
+      "sustainable 来自动词 sustain；注意 -able 后缀表示 '能够...的'"
+    ],
+    "ielts_context": "Writing Task 2: urban planning / environment; Speaking Part 3: future cities"
+  },
+  {
+    "id": "city-008",
+    "word": "city dweller",
+    "translation": "城市居民",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 95,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "modern city dweller",
+      "city dwellers face challenges",
+      "majority of city dwellers",
+      "urban city dweller"
+    ],
+    "example_sentence": "City dwellers often face higher living costs but also enjoy greater access to cultural and entertainment facilities.",
+    "synonyms": [
+      "urban resident",
+      "city inhabitant",
+      "townspeople"
+    ],
+    "common_mistakes": [
+      "dweller 来自 dwell（居住）；city dweller 是固定搭配，不说 city liver"
+    ],
+    "ielts_context": "Writing Task 2: urban life; Speaking Part 1: hometown"
+  },
+  {
+    "id": "city-009",
+    "word": "residential area",
+    "translation": "住宅区",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 93,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "quiet residential area",
+      "suburban residential area",
+      "high-density residential area",
+      "live in a residential area"
+    ],
+    "example_sentence": "The new residential area on the outskirts of the city offers more space but limited public transport links.",
+    "synonyms": [
+      "housing estate",
+      "neighbourhood",
+      "residential district"
+    ],
+    "common_mistakes": [
+      "residential 是 reside 的形容词形式；发音重音在 den"
+    ],
+    "ielts_context": "Speaking Part 1: accommodation; Listening Section 1: accommodation inquiry"
+  },
+  {
+    "id": "city-010",
+    "word": "urban planning",
+    "translation": "城市规划",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 94,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "poor urban planning",
+      "effective urban planning",
+      "urban planning policy",
+      "modern urban planning"
+    ],
+    "example_sentence": "Effective urban planning can alleviate many of the problems associated with rapid urbanization.",
+    "synonyms": [
+      "city planning",
+      "town planning",
+      "municipal planning"
+    ],
+    "common_mistakes": [
+      "urban planning 不加 the；泛指学科/活动"
+    ],
+    "ielts_context": "Reading: urban studies; Writing Task 2: city development"
+  },
+  {
+    "id": "city-011",
+    "word": "public facilities",
+    "translation": "公共设施",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 92,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "access to public facilities",
+      "improve public facilities",
+      "lack of public facilities",
+      "invest in public facilities"
+    ],
+    "example_sentence": "Investment in public facilities such as libraries, parks, and sports centres greatly enhances community well-being.",
+    "synonyms": [
+      "public amenities",
+      "community facilities",
+      "civic facilities"
+    ],
+    "common_mistakes": [
+      "facilities 常用复数；指设备、设施的整体"
+    ],
+    "ielts_context": "Writing Task 2: public spending / quality of life; Speaking Part 3: community"
+  },
+  {
+    "id": "city-012",
+    "word": "commercial district",
+    "translation": "商业区",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 90,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "bustling commercial district",
+      "central commercial district",
+      "modern commercial district",
+      "located in the commercial district"
+    ],
+    "example_sentence": "The commercial district has undergone significant redevelopment, attracting new businesses and shoppers.",
+    "synonyms": [
+      "business district",
+      "shopping district",
+      "downtown area"
+    ],
+    "common_mistakes": [
+      "commercial 发音 /kəˈmɜːʃl/；来自 commerce（商业）"
+    ],
+    "ielts_context": "Speaking Part 1: hometown; Listening Section 1: city tour information"
+  },
+  {
+    "id": "city-013",
+    "word": "green space",
+    "translation": "绿地",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 96,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "preserve green space",
+      "lack of green space",
+      "create more green spaces",
+      "urban green space"
+    ],
+    "example_sentence": "Preserving urban green spaces is essential for residents' physical and mental well-being.",
+    "synonyms": [
+      "parkland",
+      "open space",
+      "green area"
+    ],
+    "common_mistakes": [
+      "green space 可数（a green space）也可集合名词；urban green spaces 更常用"
+    ],
+    "ielts_context": "Writing Task 2: urban environment / quality of life; Speaking Part 3: city vs countryside"
+  },
+  {
+    "id": "city-014",
+    "word": "smart city",
+    "translation": "智慧城市",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 92,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "develop a smart city",
+      "smart city technology",
+      "smart city initiative",
+      "build smart cities"
+    ],
+    "example_sentence": "Smart city technologies use data and sensors to improve traffic flow, energy efficiency, and public safety.",
+    "synonyms": [
+      "intelligent city",
+      "digital city",
+      "connected city"
+    ],
+    "common_mistakes": [
+      "smart city 新兴概念，2010年代后广泛使用"
+    ],
+    "ielts_context": "Reading: technology / urban studies; Writing Task 2: future cities"
+  },
+  {
+    "id": "city-015",
+    "word": "public amenity",
+    "translation": "公共便利设施",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "provide public amenities",
+      "essential public amenities",
+      "access to public amenities",
+      "investment in public amenities"
+    ],
+    "example_sentence": "Adequate public amenities such as clean water supply and sanitation are fundamental to a healthy urban environment.",
+    "synonyms": [
+      "public service",
+      "civic amenity",
+      "community facility"
+    ],
+    "common_mistakes": [
+      "amenity 发音 /əˈmiːnəti/；可数名词，复数 amenities 更常用"
+    ],
+    "ielts_context": "Reading: urban development reports; Writing Task 2: living standards"
+  },
+  {
+    "id": "city-016",
+    "word": "population density",
+    "translation": "人口密度",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 97,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "high population density",
+      "low population density",
+      "increase population density",
+      "reduce population density"
+    ],
+    "example_sentence": "High population density in city centres creates challenges for housing, transport, and public health.",
+    "synonyms": [
+      "population concentration",
+      "density of population",
+      "crowding level"
+    ],
+    "common_mistakes": [
+      "density 形容词形式 dense（密集的）；不说 dense population density（重复）"
+    ],
+    "ielts_context": "Writing Task 1: demographic data; Writing Task 2: urban planning"
+  },
+  {
+    "id": "city-017",
+    "word": "road network",
+    "translation": "道路网络",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 91,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "extensive road network",
+      "well-developed road network",
+      "expand the road network",
+      "congested road network"
+    ],
+    "example_sentence": "An efficient road network is vital for the smooth flow of goods and people within a city.",
+    "synonyms": [
+      "street network",
+      "highway system",
+      "transport network"
+    ],
+    "common_mistakes": [
+      "road network 中 network 可数；a road network / road networks"
+    ],
+    "ielts_context": "Reading: infrastructure; Listening Section 2: traffic report"
+  },
+  {
+    "id": "city-018",
+    "word": "city council",
+    "translation": "市议会",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 90,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "local city council",
+      "city council election",
+      "city council member",
+      "run for city council"
+    ],
+    "example_sentence": "The city council has approved a new five-year plan to expand cycling lanes and pedestrian zones.",
+    "synonyms": [
+      "municipal council",
+      "town council",
+      "local council"
+    ],
+    "common_mistakes": [
+      "council 和 counsel 区分：council = 议会/委员会，counsel = 忠告/律师"
+    ],
+    "ielts_context": "Speaking Part 3: local government; Listening Section 2: community announcement"
+  },
+  {
+    "id": "city-019",
+    "word": "urban sprawl",
+    "translation": "城市蔓延（无序扩张）",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 93,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "uncontrolled urban sprawl",
+      "limit urban sprawl",
+      "consequences of urban sprawl",
+      "suburban sprawl"
+    ],
+    "example_sentence": "Urban sprawl leads to the loss of farmland, increased car dependency, and higher infrastructure costs.",
+    "synonyms": [
+      "suburban sprawl",
+      "urban expansion",
+      "metropolitan sprawl"
+    ],
+    "common_mistakes": [
+      "sprawl 通常带负面含义（无序扩张）；与 planned expansion（有序扩张）对比"
+    ],
+    "ielts_context": "Reading: environmental / urban studies; Writing Task 2: city development"
+  },
+  {
+    "id": "city-020",
+    "word": "downtown area",
+    "translation": "市中心区域",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 92,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "bustling downtown area",
+      "downtown area attractions",
+      "shopping in the downtown area",
+      "revitalized downtown area"
+    ],
+    "example_sentence": "The downtown area has been revitalized with new shops, restaurants, and cultural venues.",
+    "synonyms": [
+      "city centre",
+      "town centre",
+      "central business district"
+    ],
+    "common_mistakes": [
+      "downtown 主要北美用法；city/town centre 英国用法；两者 IELTS 均可"
+    ],
+    "ielts_context": "Speaking Part 1: hometown; Listening Section 1: tourist information"
+  },
+  {
+    "id": "city-021",
+    "word": "municipal services",
+    "translation": "市政服务",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 90,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "provide municipal services",
+      "essential municipal services",
+      "improve municipal services",
+      "access to municipal services"
+    ],
+    "example_sentence": "Efficient municipal services such as waste collection and water supply are taken for granted in most developed cities.",
+    "synonyms": [
+      "council services",
+      "city services",
+      "local government services"
+    ],
+    "common_mistakes": [
+      "municipal 发音 /mjuːˈnɪsɪpl/；来自拉丁语 municipium（自治市）"
+    ],
+    "ielts_context": "Writing Task 2: local government responsibility; Reading: public administration"
+  },
+  {
+    "id": "city-022",
+    "word": "pedestrian zone",
+    "translation": "步行区",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 83,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "create pedestrian zones",
+      "car-free pedestrian zone",
+      "expand pedestrian zones",
+      "shopping pedestrian zone"
+    ],
+    "example_sentence": "Creating more pedestrian zones in city centres encourages walking, reduces pollution, and boosts local businesses.",
+    "synonyms": [
+      "pedestrian area",
+      "walking zone",
+      "car-free area"
+    ],
+    "common_mistakes": [
+      "pedestrian 拼写注意 pedes-，来自拉丁语 pes（脚）"
+    ],
+    "ielts_context": "Writing Task 2: urban design / environment; Speaking Part 3: city improvements"
+  },
+  {
+    "id": "city-023",
+    "word": "rush hour",
+    "translation": "高峰时段",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 88,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "during rush hour",
+      "morning rush hour",
+      "avoid the rush hour",
+      "rush hour traffic"
+    ],
+    "example_sentence": "The city's metro system carries over a million commuters during the morning rush hour alone.",
+    "synonyms": [
+      "peak hour",
+      "peak time",
+      "busy hour"
+    ],
+    "common_mistakes": [
+      "rush hour 可数；during the rush hour 或 during rush hour 均可"
+    ],
+    "ielts_context": "Speaking Part 1: daily routine; Listening Section 1: travel schedule"
+  },
+  {
+    "id": "city-024",
+    "word": "housing shortage",
+    "translation": "住房短缺",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 84,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "severe housing shortage",
+      "acute housing shortage",
+      "address the housing shortage",
+      "chronic housing shortage"
+    ],
+    "example_sentence": "A severe housing shortage in major cities has pushed property prices and rents to record levels.",
+    "synonyms": [
+      "housing crisis",
+      "housing deficit",
+      "lack of housing"
+    ],
+    "common_mistakes": [
+      "shortage 可数；a shortage of + 名词 / housing shortage"
+    ],
+    "ielts_context": "Writing Task 2: housing policy / urbanization; Speaking Part 3: cost of living"
+  },
+  {
+    "id": "city-025",
+    "word": "metropolitan area",
+    "translation": "大都市区域",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 82,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "greater metropolitan area",
+      "in the metropolitan area",
+      "wider metropolitan area",
+      "metropolitan area population"
+    ],
+    "example_sentence": "The greater metropolitan area now extends over 100 kilometres from the original city centre.",
+    "synonyms": [
+      "conurbation",
+      "metro area",
+      "urban agglomeration"
+    ],
+    "common_mistakes": [
+      "metropolitan 发音 /ˌmetrəˈpɒlɪtən/；metropolis = 大都市"
+    ],
+    "ielts_context": "Reading: urban geography; Listening Section 2: regional news"
+  },
+  {
+    "id": "city-026",
+    "word": "traffic regulation",
+    "translation": "交通管制",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 76,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "enforce traffic regulations",
+      "strict traffic regulation",
+      "violate traffic regulations",
+      "obey traffic regulations"
+    ],
+    "example_sentence": "Strict traffic regulations combined with heavy fines have significantly reduced road accidents in the city.",
+    "synonyms": [
+      "traffic law",
+      "traffic rule",
+      "road regulation"
+    ],
+    "common_mistakes": [
+      "regulation 常用复数 regulations；traffic regulation 作为系统概念时可用单数"
+    ],
+    "ielts_context": "Reading: urban management; Listening Section 2: traffic announcement"
+  },
+  {
+    "id": "city-027",
+    "word": "street vendor",
+    "translation": "街头小贩",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 78,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "licensed street vendor",
+      "illegal street vendor",
+      "street vendor selling food",
+      "ban street vendors"
+    ],
+    "example_sentence": "Street vendors add vibrancy to city life but also pose challenges for sanitation and traffic management.",
+    "synonyms": [
+      "hawker",
+      "street seller",
+      "market stall trader"
+    ],
+    "common_mistakes": [
+      "vendor 发音 /ˈvendə(r)/；来自拉丁语 vendere（卖）"
+    ],
+    "ielts_context": "Speaking Part 3: city life / informal economy; Listening Section 1: city walk"
+  },
+  {
+    "id": "city-028",
+    "word": "urban infrastructure",
+    "translation": "城市基础设施",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 86,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "aging urban infrastructure",
+      "invest in urban infrastructure",
+      "improve urban infrastructure",
+      "urban infrastructure project"
+    ],
+    "example_sentence": "Aging urban infrastructure in many older cities requires massive investment to meet modern standards.",
+    "synonyms": [
+      "city infrastructure",
+      "municipal infrastructure",
+      "metropolitan infrastructure"
+    ],
+    "common_mistakes": [
+      "infrastructure 不可数；常用搭配：critical / essential infrastructure"
+    ],
+    "ielts_context": "Reading: urban development; Writing Task 2: government investment"
+  },
+  {
+    "id": "city-029",
+    "word": "urban regeneration",
+    "translation": "城市更新",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 79,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "undergo urban regeneration",
+      "urban regeneration project",
+      "urban regeneration scheme",
+      "fund urban regeneration"
+    ],
+    "example_sentence": "Urban regeneration projects have transformed derelict industrial areas into vibrant residential and cultural quarters.",
+    "synonyms": [
+      "urban renewal",
+      "city revitalization",
+      "urban redevelopment"
+    ],
+    "common_mistakes": [
+      "regeneration 来自 re（重新）+ generate（生成）；不可数"
+    ],
+    "ielts_context": "Reading: urban studies; Writing Task 2: city development"
+  },
+  {
+    "id": "city-030",
+    "word": "shopping mall",
+    "translation": "购物中心",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 81,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "huge shopping mall",
+      "visit the shopping mall",
+      "shopping mall complex",
+      "out-of-town shopping mall"
+    ],
+    "example_sentence": "The rise of online shopping has threatened the traditional business model of large shopping malls.",
+    "synonyms": [
+      "shopping centre",
+      "retail centre",
+      "mall"
+    ],
+    "common_mistakes": [
+      "mall 发音 /mɔːl/ 或 /mæl/（美式）"
+    ],
+    "ielts_context": "Speaking Part 1: leisure / shopping; Listening Section 1: directions"
+  },
+  {
+    "id": "city-031",
+    "word": "bicycle lane",
+    "translation": "自行车道",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 80,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "dedicated bicycle lane",
+      "build more bicycle lanes",
+      "separated bicycle lane",
+      "network of bicycle lanes"
+    ],
+    "example_sentence": "Investing in safe bicycle lanes encourages more people to cycle, reducing both congestion and pollution.",
+    "synonyms": [
+      "cycle lane",
+      "bike lane",
+      "cycling path"
+    ],
+    "common_mistakes": [
+      "bicycle 可缩写为 bike；lane 强调道路上的划线车道"
+    ],
+    "ielts_context": "Writing Task 2: green transport; Speaking Part 3: city transport"
+  },
+  {
+    "id": "city-032",
+    "word": "living standard",
+    "translation": "生活水平",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 87,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "improve living standards",
+      "high living standard",
+      "declining living standard",
+      "raise living standards"
+    ],
+    "example_sentence": "Good urban planning can significantly improve living standards for all city residents.",
+    "synonyms": [
+      "standard of living",
+      "quality of life",
+      "living condition"
+    ],
+    "common_mistakes": [
+      "living standards（复数）比 living standard（单数）更常用"
+    ],
+    "ielts_context": "Writing Task 2: urban quality of life; Speaking Part 3: city vs countryside"
+  },
+  {
+    "id": "city-033",
+    "word": "commuting distance",
+    "translation": "通勤距离",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 74,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "writing"
+    ],
+    "collocations": [
+      "long commuting distance",
+      "average commuting distance",
+      "reduce commuting distance",
+      "acceptable commuting distance"
+    ],
+    "example_sentence": "Long commuting distances are a major source of stress and reduced leisure time for city workers.",
+    "synonyms": [
+      "travel distance to work",
+      "journey distance",
+      "commute length"
+    ],
+    "common_mistakes": [
+      "commute 作名词可数；a long commute / my daily commute"
+    ],
+    "ielts_context": "Speaking Part 1: daily routine; Writing Task 2: work-life balance"
+  },
+  {
+    "id": "city-034",
+    "word": "public security",
+    "translation": "公共安全",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 79,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "ensure public security",
+      "threaten public security",
+      "maintain public security",
+      "public security concern"
+    ],
+    "example_sentence": "The installation of CCTV cameras has been justified on the grounds of improving public security.",
+    "synonyms": [
+      "public safety",
+      "public order",
+      "civic security"
+    ],
+    "common_mistakes": [
+      "security 和 safety 区别：security 强调免受故意伤害，safety 强调免受意外伤害"
+    ],
+    "ielts_context": "Reading: urban crime; Listening Section 3: city council debate"
+  },
+  {
+    "id": "city-035",
+    "word": "street lighting",
+    "translation": "街道照明",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 72,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "adequate street lighting",
+      "poor street lighting",
+      "improve street lighting",
+      "energy-efficient street lighting"
+    ],
+    "example_sentence": "Better street lighting has been demonstrated to reduce crime rates and improve pedestrian safety at night.",
+    "synonyms": [
+      "road lighting",
+      "public lighting",
+      "street illumination"
+    ],
+    "common_mistakes": [
+      "lighting 不可数；street lights 指具体的灯（可数）"
+    ],
+    "ielts_context": "Speaking Part 3: neighbourhood safety; Listening Section 1: complaint"
+  },
+  {
+    "id": "city-036",
+    "word": "rental market",
+    "translation": "租赁市场",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 83,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "competitive rental market",
+      "tight rental market",
+      "regulation of the rental market",
+      "booming rental market"
+    ],
+    "example_sentence": "The rental market in the city has become so competitive that prospective tenants routinely offer above the asking price.",
+    "synonyms": [
+      "lettings market",
+      "tenancy market",
+      "housing rental market"
+    ],
+    "common_mistakes": [
+      "rental 可作形容词（租赁的）或名词（租金）"
+    ],
+    "ielts_context": "Writing Task 2: housing policy; Speaking Part 3: housing challenges"
+  },
+  {
+    "id": "city-037",
+    "word": "urban migration",
+    "translation": "城市迁移（人口向城市流动）",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 80,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "rural-to-urban migration",
+      "mass urban migration",
+      "drive urban migration",
+      "rapid urban migration"
+    ],
+    "example_sentence": "Rural-to-urban migration has accelerated in developing countries as people seek better employment opportunities.",
+    "synonyms": [
+      "urbanization",
+      "rural-urban drift",
+      "internal migration to cities"
+    ],
+    "common_mistakes": [
+      "migration 是不可数名词（作为过程）或集合名词"
+    ],
+    "ielts_context": "Reading: demographic studies; Writing Task 2: urbanization causes / effects"
+  },
+  {
+    "id": "city-038",
+    "word": "civic engagement",
+    "translation": "公民参与",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.5",
+    "frequency_score": 71,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "promote civic engagement",
+      "increase civic engagement",
+      "lack of civic engagement",
+      "community civic engagement"
+    ],
+    "example_sentence": "Higher levels of civic engagement are associated with stronger communities and more responsive local government.",
+    "synonyms": [
+      "citizen participation",
+      "community involvement",
+      "public participation"
+    ],
+    "common_mistakes": [
+      "civic 是 civil 的同源词；civic 强调城市/公民事务，civil 更广泛"
+    ],
+    "ielts_context": "Reading: social studies / urban sociology; Writing Task 2: community / democracy"
+  },
+  {
+    "id": "city-039",
+    "word": "parking space",
+    "translation": "停车位",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 68,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "limited parking space",
+      "shortage of parking spaces",
+      "find a parking space",
+      "designated parking space"
+    ],
+    "example_sentence": "The shortage of parking spaces in the city centre has led to higher charges and increased use of public transport.",
+    "synonyms": [
+      "parking spot",
+      "parking bay",
+      "car park space"
+    ],
+    "common_mistakes": [
+      "parking space 可数；注意不要与 parking lot（停车场整体）混淆"
+    ],
+    "ielts_context": "Speaking Part 1: driving / transport; Listening Section 1: directions"
+  },
+  {
+    "id": "city-040",
+    "word": "residential building",
+    "translation": "住宅楼",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 67,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "high-rise residential building",
+      "modern residential building",
+      "residential building complex",
+      "new residential building"
+    ],
+    "example_sentence": "The city has approved the construction of several new high-rise residential buildings to address the housing shortage.",
+    "synonyms": [
+      "apartment building",
+      "housing block",
+      "dwelling"
+    ],
+    "common_mistakes": [
+      "residential 和 residence 区分：residence 是名词（住所），residential 是形容词"
+    ],
+    "ielts_context": "Speaking Part 1: accommodation; Listening Section 1: property viewing"
+  },
+  {
+    "id": "city-041",
+    "word": "landfill site",
+    "translation": "垃圾填埋场",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 58,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "designate a landfill site",
+      "overflowing landfill site",
+      "close a landfill site",
+      "waste to landfill site"
+    ],
+    "example_sentence": "As landfill sites reach capacity, cities must invest in recycling and waste-to-energy technologies.",
+    "synonyms": [
+      "rubbish dump",
+      "waste disposal site",
+      "garbage dump"
+    ],
+    "common_mistakes": [
+      "landfill 一个词；可数（指场地）或不可数（指处理方式）"
+    ],
+    "ielts_context": "Reading: waste management; Listening Section 4: environmental lecture"
+  },
+  {
+    "id": "city-042",
+    "word": "traffic violation",
+    "translation": "交通违规",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 64,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "commit a traffic violation",
+      "minor traffic violation",
+      "traffic violation fine",
+      "repeat traffic violation"
+    ],
+    "example_sentence": "Installing more traffic cameras has led to a significant decrease in traffic violations at major intersections.",
+    "synonyms": [
+      "traffic offence",
+      "traffic infraction",
+      "driving violation"
+    ],
+    "common_mistakes": [
+      "violation 来自动词 violate；可数名词"
+    ],
+    "ielts_context": "Speaking Part 3: road safety; Listening Section 2: police announcement"
+  },
+  {
+    "id": "city-043",
+    "word": "urban landscape",
+    "translation": "城市景观",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 62,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "transforming urban landscape",
+      "modern urban landscape",
+      "dominate the urban landscape",
+      "changing urban landscape"
+    ],
+    "example_sentence": "The proliferation of high-rise buildings has fundamentally altered the urban landscape of many Asian cities.",
+    "synonyms": [
+      "cityscape",
+      "townscape",
+      "urban scenery"
+    ],
+    "common_mistakes": [
+      "landscape 可数；the urban landscape 指城市总体面貌"
+    ],
+    "ielts_context": "Writing Task 1: describing places; Speaking Part 3: hometown changes"
+  },
+  {
+    "id": "city-044",
+    "word": "heritage site",
+    "translation": "遗产地",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 60,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "protect a heritage site",
+      "UNESCO World Heritage site",
+      "cultural heritage site",
+      "preserve heritage sites"
+    ],
+    "example_sentence": "The city's historic district has been designated a UNESCO World Heritage site, attracting millions of tourists annually.",
+    "synonyms": [
+      "historic site",
+      "cultural site",
+      "listed site"
+    ],
+    "common_mistakes": [
+      "heritage 不可数；a World Heritage site（可数，指具体地点）"
+    ],
+    "ielts_context": "Reading: tourism / culture; Listening Section 2: guided tour information"
+  },
+  {
+    "id": "city-045",
+    "word": "drainage system",
+    "translation": "排水系统",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 56,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "listening"
+    ],
+    "collocations": [
+      "inadequate drainage system",
+      "improve the drainage system",
+      "urban drainage system",
+      "blocked drainage system"
+    ],
+    "example_sentence": "Flash flooding in the city is largely due to an outdated drainage system unable to cope with heavy rainfall.",
+    "synonyms": [
+      "sewer system",
+      "stormwater system",
+      "wastewater system"
+    ],
+    "common_mistakes": [
+      "drainage 来自 drain（排水）；发音 /ˈdreɪnɪdʒ/"
+    ],
+    "ielts_context": "Reading: urban infrastructure; Listening Section 4: civil engineering lecture"
+  },
+  {
+    "id": "city-046",
+    "word": "garbage disposal",
+    "translation": "垃圾处理",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 65,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "writing",
+      "speaking"
+    ],
+    "collocations": [
+      "proper garbage disposal",
+      "illegal garbage disposal",
+      "municipal garbage disposal",
+      "garbage disposal problem"
+    ],
+    "example_sentence": "Improper garbage disposal in rapidly growing cities poses serious health and environmental risks.",
+    "synonyms": [
+      "waste disposal",
+      "rubbish disposal",
+      "trash disposal"
+    ],
+    "common_mistakes": [
+      "garbage (US) / rubbish (UK) / waste（正式）；IELTS 三种均可"
+    ],
+    "ielts_context": "Writing Task 2: waste management; Speaking Part 3: environmental problems"
+  },
+  {
+    "id": "city-047",
+    "word": "noise complaint",
+    "translation": "噪音投诉",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 52,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "file a noise complaint",
+      "noise complaint from residents",
+      "deal with noise complaints",
+      "repeated noise complaint"
+    ],
+    "example_sentence": "The council receives hundreds of noise complaints each year, mostly relating to late-night bars and construction work.",
+    "synonyms": [
+      "noise grievance",
+      "sound complaint",
+      "noise nuisance report"
+    ],
+    "common_mistakes": [
+      "complaint 是名词（投诉），complain 是动词；complaint about + 噪音来源"
+    ],
+    "ielts_context": "Speaking Part 3: neighbourhood problems; Listening Section 1: complaint form"
+  },
+  {
+    "id": "city-048",
+    "word": "pedestrian crossing",
+    "translation": "人行横道",
+    "part_of_speech": "noun phrase",
+    "band_level": "5.5",
+    "frequency_score": 54,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "designated pedestrian crossing",
+      "use the pedestrian crossing",
+      "safe pedestrian crossing",
+      "zebra pedestrian crossing"
+    ],
+    "example_sentence": "Installing more signal-controlled pedestrian crossings near schools has improved safety for children.",
+    "synonyms": [
+      "crosswalk",
+      "zebra crossing",
+      "foot crossing"
+    ],
+    "common_mistakes": [
+      "crossing (UK) 和 crosswalk (US)；IELTS 均可使用"
+    ],
+    "ielts_context": "Speaking Part 1: neighbourhood; Listening Section 1: giving directions"
+  },
+  {
+    "id": "city-049",
+    "word": "public art installation",
+    "translation": "公共艺术装置",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 51,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "speaking",
+      "listening"
+    ],
+    "collocations": [
+      "commission a public art installation",
+      "temporary public art installation",
+      "controversial public art installation",
+      "outdoor public art installation"
+    ],
+    "example_sentence": "Public art installations can transform neglected urban spaces and foster a sense of community identity.",
+    "synonyms": [
+      "street art",
+      "civic art",
+      "urban sculpture"
+    ],
+    "common_mistakes": [
+      "installation 可数；指具体艺术作品时 a public art installation"
+    ],
+    "ielts_context": "Speaking Part 3: culture / public spaces; Listening Section 2: city festival"
+  },
+  {
+    "id": "city-050",
+    "word": "real estate developer",
+    "translation": "房地产开发商",
+    "part_of_speech": "noun phrase",
+    "band_level": "6.0",
+    "frequency_score": 57,
+    "topics": [
+      "city"
+    ],
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "collocations": [
+      "commercial real estate developer",
+      "property developer",
+      "private real estate developer",
+      "real estate developer profits"
+    ],
+    "example_sentence": "Real estate developers have been accused of prioritizing profits over community needs and environmental considerations.",
+    "synonyms": [
+      "property developer",
+      "land developer",
+      "housing developer"
+    ],
+    "common_mistakes": [
+      "real estate 为美式英语；英式用 property；IELTS 均可"
+    ],
+    "ielts_context": "Reading: business / urban development; Writing Task 2: housing / economy"
   }
 ]
