@@ -27,20 +27,29 @@ export function RegisterForm() {
       return;
     }
 
-    const { error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        data: { target_band: targetBand },
-      },
-    });
+    try {
+      const { error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: { target_band: targetBand },
+        },
+      });
 
-    if (error) {
-      setError(error.message === "User already registered"
-        ? "该邮箱已注册"
-        : "注册失败，请重试");
-    } else {
-      setSuccess("注册成功！请检查邮箱确认链接（如未收到，可直接登录）。");
+      if (error) {
+        if (error.message === "User already registered") {
+          setError("该邮箱已注册，请直接登录");
+        } else if (error.status === 429) {
+          setError("注册请求太频繁，请稍等几分钟再试（免费套餐限流）");
+        } else {
+          setError("注册失败，请重试");
+        }
+      } else {
+        setSuccess("注册成功！即将跳转...");
+        setTimeout(() => window.location.href = "/", 1000);
+      }
+    } catch {
+      setError("网络连接失败，请尝试科学上网后刷新页面");
     }
 
     setLoading(false);

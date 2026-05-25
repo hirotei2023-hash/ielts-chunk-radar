@@ -16,12 +16,16 @@ export function LoginForm() {
     setError("");
     setLoading(true);
 
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    try {
+      const { error } = await supabase.auth.signInWithPassword({ email, password });
 
-    if (error) {
-      setError(error.message === "Invalid login credentials"
-        ? "邮箱或密码错误"
-        : "登录失败，请重试");
+      if (error) {
+        setError(error.message === "Invalid login credentials"
+          ? "邮箱或密码错误"
+          : "登录失败，请重试");
+      }
+    } catch {
+      setError("网络连接失败，请尝试科学上网后刷新页面");
     }
 
     setLoading(false);

@@ -6,10 +6,11 @@ export function generateStaticParams() {
   return getAllChunks().map((c) => ({ id: c.id }));
 }
 
-export default function ChunkPage({
+export default async function ChunkPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
-  return <ChunkPageClient id={params.id} />;
+  const { id } = await params;
+  return <ChunkPageClient id={id} />;
 }
