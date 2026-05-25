@@ -29,7 +29,7 @@ function generateCollocationGap(chunk: Chunk): ReviewQuestion {
     chunkId: chunk.id,
     prompt: sentence,
     correctAnswer: chunk.word,
-    hint: `提示：${chunk.translation}（${chunk.part_of_speech}）`,
+    hint: `提示：${chunk.translation}（${chunk.part_of_speech}）\n例句翻译：${chunk.example_sentence_cn || ""}`,
   };
 }
 

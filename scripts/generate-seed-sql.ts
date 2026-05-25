@@ -10,7 +10,7 @@ for (const c of chunks as any[]) {
   const arr = (a: string[]) => `'{${a.map((x) => `"${escape(x)}"`).join(",")}}'`;
 
   console.log(
-    `INSERT INTO public.chunks (id, word, translation, part_of_speech, band_level, frequency_score, topics, modules, collocations, example_sentence, synonyms, common_mistakes, ielts_context) VALUES (` +
+    `INSERT INTO public.chunks (id, word, translation, part_of_speech, band_level, frequency_score, topics, modules, collocations, collocations_cn, example_sentence, example_sentence_cn, synonyms, synonyms_cn, common_mistakes, ielts_context, pronunciation) VALUES (` +
       `'${escape(c.id)}', ` +
       `'${escape(c.word)}', ` +
       `'${escape(c.translation)}', ` +
@@ -20,10 +20,14 @@ for (const c of chunks as any[]) {
       `${arr(c.topics)}, ` +
       `${arr(c.modules)}, ` +
       `${arr(c.collocations)}, ` +
+      `${arr(c.collocations_cn || [])}, ` +
       `'${escape(c.example_sentence)}', ` +
+      `'${escape(c.example_sentence_cn || "")}', ` +
       `${arr(c.synonyms)}, ` +
+      `${arr(c.synonyms_cn || [])}, ` +
       `${arr(c.common_mistakes)}, ` +
-      `'${escape(c.ielts_context)}'` +
+      `'${escape(c.ielts_context)}', ` +
+      `'${escape(c.pronunciation || "")}'` +
       `);`
   );
 }

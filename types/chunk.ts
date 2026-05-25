@@ -12,8 +12,12 @@ export interface Chunk {
   topics: Topic[];
   modules: Module[];
   collocations: string[];
+  collocations_cn: string[];
   example_sentence: string;
+  example_sentence_cn: string;
   synonyms: string[];
+  synonyms_cn: string[];
   common_mistakes: string[];
   ielts_context: string;
+  pronunciation: string;
 }

@@ -39,7 +39,9 @@ export function filterChunks(filters: ChunkFilters): Chunk[] {
         c.word.toLowerCase().includes(q) ||
         c.translation.includes(q) ||
         c.collocations.some((col) => col.toLowerCase().includes(q)) ||
-        c.ielts_context.toLowerCase().includes(q)
+        (c.collocations_cn || []).some((col) => col.includes(q)) ||
+        c.ielts_context.toLowerCase().includes(q) ||
+        (c.example_sentence_cn || "").includes(q)
     );
   }
 

@@ -22,6 +22,11 @@ export function ChunkDetail({ chunk }: ChunkDetailProps) {
             <p className="mt-1 text-sm" style={{ color: "#a8a29e" }}>
               {chunk.translation} · {chunk.part_of_speech}
             </p>
+            {chunk.pronunciation && (
+              <p className="mt-0.5 text-xs" style={{ color: "#78716c" }}>
+                {chunk.pronunciation}
+              </p>
+            )}
           </div>
           <FavoriteButton chunkId={chunk.id} size={22} />
         </div>
@@ -60,6 +65,11 @@ export function ChunkDetail({ chunk }: ChunkDetailProps) {
               style={{ backgroundColor: "#292524", color: "#fafaf9" }}
             >
               {col}
+              {chunk.collocations_cn?.[i] && (
+                <span className="ml-1.5 text-xs" style={{ color: "#78716c" }}>
+                  {chunk.collocations_cn[i]}
+                </span>
+              )}
             </div>
           ))}
         </div>
@@ -84,6 +94,11 @@ export function ChunkDetail({ chunk }: ChunkDetailProps) {
               </span>
             )
           )}
+          {chunk.example_sentence_cn && (
+            <p className="mt-1.5 text-xs" style={{ color: "#78716c" }}>
+              {chunk.example_sentence_cn}
+            </p>
+          )}
         </div>
       </section>
 
@@ -106,13 +121,16 @@ export function ChunkDetail({ chunk }: ChunkDetailProps) {
           🔄 近义表达
         </h3>
         <div className="flex flex-wrap gap-1">
-          {chunk.synonyms.map((s) => (
+          {chunk.synonyms.map((s, i) => (
             <span
               key={s}
               className="rounded px-2 py-1 text-xs"
               style={{ backgroundColor: "#1c1917", color: "#a8a29e" }}
             >
               {s}
+              {chunk.synonyms_cn?.[i] && (
+                <span style={{ color: "#78716c" }}>（{chunk.synonyms_cn[i]}）</span>
+              )}
             </span>
           ))}
         </div>
