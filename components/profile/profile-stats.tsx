@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useAuth } from "@/lib/auth";
 import { getStudyStats } from "@/lib/progress";
-import { getFavoriteCount } from "@/lib/favorites-supabase";
+import { getFavoriteCount } from "@/lib/favorites";
 import { Target, TrendingUp, Star, Clock } from "lucide-react";
 
 interface Stats {
@@ -21,7 +21,7 @@ export function ProfileStats() {
 
   useEffect(() => {
     getStudyStats().then(setStats);
-    getFavoriteCount().then(setFavCount);
+    setFavCount(getFavoriteCount());
   }, []);
 
   const cards = [

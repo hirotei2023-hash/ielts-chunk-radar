@@ -4,7 +4,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { getFavoriteIds } from "@/lib/favorites-supabase";
+import { getFavoriteIds } from "@/lib/favorites";
 import { getChunkById } from "@/lib/chunks";
 import type { Chunk } from "@/types/chunk";
 import { PageContainer } from "@/components/layout/page-container";
@@ -16,11 +16,10 @@ export default function FavoritesPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getFavoriteIds().then((ids) => {
-      const loaded = ids.map((id) => getChunkById(id)).filter(Boolean) as Chunk[];
-      setChunks(loaded);
-      setLoading(false);
-    });
+    const ids = getFavoriteIds();
+    const loaded = ids.map((id) => getChunkById(id)).filter(Boolean) as Chunk[];
+    setChunks(loaded);
+    setLoading(false);
   }, []);
 
   return (

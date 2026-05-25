@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Star } from "lucide-react";
-import { useAuth } from "@/lib/auth";
-import { isFavorite, toggleFavorite } from "@/lib/favorites-supabase";
+import { isFavorite, toggleFavorite } from "@/lib/favorites";
 
 interface FavoriteButtonProps {
   chunkId: string;
@@ -11,20 +10,17 @@ interface FavoriteButtonProps {
 }
 
 export function FavoriteButton({ chunkId, size = 18 }: FavoriteButtonProps) {
-  const { user } = useAuth();
   const [fav, setFav] = useState(false);
 
   useEffect(() => {
-    if (!user) return;
-    isFavorite(chunkId).then(setFav);
-  }, [chunkId, user]);
+    setFav(isFavorite(chunkId));
+  }, [chunkId]);
 
-  const handleClick = async (e: React.MouseEvent) => {
+  const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    if (!user) return;
-    const result = await toggleFavorite(chunkId);
-    setFav(result);
+    toggleFavorite(chunkId);
+    setFav(!fav);
   };
 
   return (
