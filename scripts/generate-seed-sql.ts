@@ -7,7 +7,7 @@ import chunks from "../data/chunks.json";
 const escape = (s: string) => s.replace(/'/g, "''");
 
 for (const c of chunks as any[]) {
-  const arr = (a: string[]) => `{${a.map((x) => `"${escape(x)}"`).join(",")}}`;
+  const arr = (a: string[]) => `'{${a.map((x) => `"${escape(x)}"`).join(",")}}'`;
 
   console.log(
     `INSERT INTO public.chunks (id, word, translation, part_of_speech, band_level, frequency_score, topics, modules, collocations, example_sentence, synonyms, common_mistakes, ielts_context) VALUES (` +

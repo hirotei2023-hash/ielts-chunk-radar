@@ -18,7 +18,7 @@ CREATE TABLE public.chunks (
   synonyms TEXT[],
   common_mistakes TEXT[],
   ielts_context TEXT,
-  last_updated DATE DEFAULT '2026-05'
+  last_updated DATE DEFAULT '2026-05-01'
 );
 
 ALTER TABLE public.chunks ENABLE ROW LEVEL SECURITY;
