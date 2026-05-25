@@ -14,6 +14,9 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (loading) return;
 
+    // 没有配置 Supabase 时跳过认证，直接放行
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL) return;
+
     if (!user && !PUBLIC_PATHS.includes(pathname)) {
       router.replace("/login");
     }

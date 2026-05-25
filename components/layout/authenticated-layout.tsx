@@ -9,7 +9,7 @@ export function AuthenticatedLayout({ children }: { children: React.ReactNode })
   return (
     <div className="mx-auto max-w-lg">
       {children}
-      {user && <BottomNav />}
+      {(user || !process.env.NEXT_PUBLIC_SUPABASE_URL) && <BottomNav />}
     </div>
   );
 }

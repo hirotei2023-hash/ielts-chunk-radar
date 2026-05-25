@@ -26,6 +26,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     let cancelled = false;
 
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
+      setLoading(false);
+      return;
+    }
+
     supabase.auth.getSession()
       .then(({ data: { session } }) => {
         if (cancelled) return;
