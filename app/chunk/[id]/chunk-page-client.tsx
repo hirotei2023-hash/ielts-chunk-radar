@@ -84,10 +84,8 @@ export function ChunkPageClient({ id }: { id: string }) {
           )}
         </div>
 
-        <ChunkDetail chunk={chunk} />
-
         {/* Prev / Next navigation */}
-        <div className="mt-6 mb-4 flex items-center justify-between">
+        <div className="mb-4 flex items-center justify-between">
           {prevId ? (
             <button
               onClick={() => router.replace(`/chunk/${prevId}`)}
@@ -118,6 +116,8 @@ export function ChunkPageClient({ id }: { id: string }) {
             <div />
           )}
         </div>
+
+        <ChunkDetail chunk={chunk} />
       </div>
     </PageContainer>
   );
