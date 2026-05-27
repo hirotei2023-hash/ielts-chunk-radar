@@ -52,8 +52,8 @@ function generateTopicMatch(chunk: Chunk, allChunks: Chunk[]): ReviewQuestion {
 }
 
 export function generateQuestions(chunks: Chunk[], allChunks: Chunk[]): ReviewQuestion[] {
-  return chunks.map((chunk, i) => {
-    const typeIdx = i % 3;
+  return chunks.map((chunk) => {
+    const typeIdx = Math.floor(Math.random() * 3);
     switch (typeIdx) {
       case 0:
         return generateChineseToEnglish(chunk);

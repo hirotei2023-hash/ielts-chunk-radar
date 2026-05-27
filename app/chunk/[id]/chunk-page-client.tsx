@@ -1,25 +1,38 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { getChunkById } from "@/lib/chunks";
+import { getChunkById, getAllChunks } from "@/lib/chunks";
 import { getProgress } from "@/lib/progress";
 import type { Chunk } from "@/types/chunk";
 import type { ChunkProgress } from "@/lib/progress";
 import { PageContainer } from "@/components/layout/page-container";
 import { ChunkDetail } from "@/components/chunks/chunk-detail";
 import { MasteryBadge } from "@/components/chunks/mastery-badge";
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export function ChunkPageClient({ id }: { id: string }) {
+  const router = useRouter();
   const [chunk, setChunk] = useState<Chunk | null>(null);
   const [progress, setProgress] = useState<ChunkProgress | null>(null);
+  const [prevId, setPrevId] = useState<string | null>(null);
+  const [nextId, setNextId] = useState<string | null>(null);
+  const [chunkIndex, setChunkIndex] = useState(0);
+  const [totalChunks, setTotalChunks] = useState(0);
 
   useEffect(() => {
     const c = getChunkById(id);
     if (c) {
       setChunk(c);
       getProgress(id).then(setProgress);
+
+      const all = getAllChunks();
+      const idx = all.findIndex((ch) => ch.id === id);
+      setChunkIndex(idx + 1);
+      setTotalChunks(all.length);
+      if (idx > 0) setPrevId(all[idx - 1].id);
+      if (idx < all.length - 1) setNextId(all[idx + 1].id);
     }
   }, [id]);
 
@@ -72,6 +85,39 @@ export function ChunkPageClient({ id }: { id: string }) {
         </div>
 
         <ChunkDetail chunk={chunk} />
+
+        {/* Prev / Next navigation */}
+        <div className="mt-6 mb-4 flex items-center justify-between">
+          {prevId ? (
+            <button
+              onClick={() => router.replace(`/chunk/${prevId}`)}
+              className="flex items-center gap-1 rounded-lg px-3 py-2 text-sm transition-colors hover:brightness-110"
+              style={{ backgroundColor: "#292524", color: "#a8a29e" }}
+            >
+              <ChevronLeft size={16} />
+              上一个
+            </button>
+          ) : (
+            <div />
+          )}
+
+          <span className="text-xs" style={{ color: "#78716c" }}>
+            {chunkIndex} / {totalChunks}
+          </span>
+
+          {nextId ? (
+            <button
+              onClick={() => router.replace(`/chunk/${nextId}`)}
+              className="flex items-center gap-1 rounded-lg px-3 py-2 text-sm transition-colors hover:brightness-110"
+              style={{ backgroundColor: "#292524", color: "#a8a29e" }}
+            >
+              下一个
+              <ChevronRight size={16} />
+            </button>
+          ) : (
+            <div />
+          )}
+        </div>
       </div>
     </PageContainer>
   );
