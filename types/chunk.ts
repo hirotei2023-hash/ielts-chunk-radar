@@ -1,4 +1,4 @@
-export type Topic = "education" | "environment" | "technology" | "work" | "health" | "city";
+export type Topic = "education" | "environment" | "technology" | "work" | "health" | "city" | "economy" | "culture" | "society" | "science";
 
 export type Module = "listening" | "reading" | "writing" | "speaking";
 

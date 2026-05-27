@@ -1,0 +1,236 @@
+// 第 3 批缺失双语数据 (word → bilingual)，共 38 条
+export const BATCH3: Record<string, {
+  pronunciation: string;
+  collocations_cn: string[];
+  example_sentence_cn: string;
+  synonyms_cn: string[];
+}> = {
+  "salary negotiation": {
+    pronunciation: "/ˈsæl.ər.i nɪˌɡəʊ.ʃiˈeɪ.ʃən/",
+    collocations_cn: ["参与薪资谈判", "成功的薪资谈判", "薪资谈判技巧", "在薪资谈判中"],
+    example_sentence_cn: "许多求职者对薪资谈判感到不自在，接受收到的第一份录用通知。",
+    synonyms_cn: ["薪酬谈判", "工资协商", "报酬谈判"],
+  },
+  "performance evaluation": {
+    pronunciation: "/pəˈfɔː.məns ɪˌvæl.juˈeɪ.ʃən/",
+    collocations_cn: ["接受绩效评估", "年度绩效评估", "进行绩效评估", "绩效评估体系"],
+    example_sentence_cn: "定期的绩效评估为员工提供宝贵的改进反馈。",
+    synonyms_cn: ["绩效审查", "绩效考评", "绩效评定"],
+  },
+  "flexible working hours": {
+    pronunciation: "/ˈflek.sɪ.bəl ˈwɜː.kɪŋ aʊəz/",
+    collocations_cn: ["提供弹性工作时间", "申请弹性工作时间", "受益于弹性工作时间", "引入弹性工作时间"],
+    example_sentence_cn: "弹性工作时间让员工能更好地平衡职业责任和个人责任。",
+    synonyms_cn: ["弹性工时", "灵活时间表", "灵活工作安排"],
+  },
+  "team collaboration": {
+    pronunciation: "/tiːm kəˌlæb.əˈreɪ.ʃən/",
+    collocations_cn: ["加强团队协作", "有效的团队协作", "促进团队协作", "跨职能团队协作"],
+    example_sentence_cn: "现代项目管理工具促进了不同时区之间的团队协作。",
+    synonyms_cn: ["团队合作", "团队合作", "协作工作"],
+  },
+  "staff turnover": {
+    pronunciation: "/stɑːf ˈtɜːnˌəʊ.vər/",
+    collocations_cn: ["高员工流动率", "降低员工流动率", "员工流动率", "过高的员工流动率"],
+    example_sentence_cn: "员工流动率高的行业往往难以维持一致的服务质量。",
+    synonyms_cn: ["员工流失率", "人员流动", "劳动力流动"],
+  },
+  "career path": {
+    pronunciation: "/kəˈrɪə pɑːθ/",
+    collocations_cn: ["选择职业道路", "遵循传统职业道路", "非线性职业道路", "改变职业道路"],
+    example_sentence_cn: "如今的年轻人在其职业生涯中更有可能多次改变职业道路。",
+    synonyms_cn: ["职业轨迹", "专业路径", "职业方向"],
+  },
+  "occupational health": {
+    pronunciation: "/ˌɒk.jʊˈpeɪ.ʃən.əl helθ/",
+    collocations_cn: ["职业健康与安全", "职业健康标准", "职业健康风险", "职业健康服务"],
+    example_sentence_cn: "雇主有法律义务保护员工的职业健康与安全。",
+    synonyms_cn: ["工作场所健康", "工业卫生", "职业健康"],
+  },
+  "employee benefits": {
+    pronunciation: "/ɪmˈplɔɪ.iː ˈben.ɪ.fɪts/",
+    collocations_cn: ["有吸引力的员工福利", "全面的员工福利方案", "提供员工福利", "削减员工福利"],
+    example_sentence_cn: "除了有竞争力的薪资，公司还提供全面的员工福利。",
+    synonyms_cn: ["员工津贴", "职工福利", "工作场所福利"],
+  },
+  "labour productivity": {
+    pronunciation: "/ˈleɪ.bər ˌprɒd.ʌkˈtɪv.ə.ti/",
+    collocations_cn: ["提高劳动生产率", "衡量劳动生产率", "劳动生产率下降", "保持高劳动生产率"],
+    example_sentence_cn: "研究表明，定期休息可以显著提高劳动生产率和准确度。",
+    synonyms_cn: ["员工生产力", "员工产出", "工作场所生产力"],
+  },
+  "labour force participation": {
+    pronunciation: "/ˈleɪ.bər fɔːs pɑːˌtɪs.ɪˈpeɪ.ʃən/",
+    collocations_cn: ["劳动力参与率", "提高劳动力参与率", "劳动力参与率下降", "女性劳动力参与"],
+    example_sentence_cn: "人口老龄化导致发达国家劳动力参与率逐步下降。",
+    synonyms_cn: ["劳动力参与", "劳动参与", "经济参与"],
+  },
+  "career prospects": {
+    pronunciation: "/kəˈrɪə ˈprɒs.pekts/",
+    collocations_cn: ["光明的职业前景", "有限的职业前景", "未来职业前景", "改善职业前景"],
+    example_sentence_cn: "许多学生基于未来的职业前景而非个人兴趣来选择学位。",
+    synonyms_cn: ["就业前景", "职业展望", "职业未来"],
+  },
+  "commuting time": {
+    pronunciation: "/kəˈmjuː.tɪŋ taɪm/",
+    collocations_cn: ["长通勤时间", "减少通勤时间", "平均通勤时间", "浪费数小时的通勤时间"],
+    example_sentence_cn: "长时间通勤与更高的压力水平和降低的工作满意度有关。",
+    synonyms_cn: ["上班路程时间", "通勤时长", "上下班时间"],
+  },
+  "salary package": {
+    pronunciation: "/ˈsæl.ər.i ˈpæk.ɪdʒ/",
+    collocations_cn: ["有竞争力的薪资方案", "谈判更好的薪资方案", "有吸引力的薪资方案", "整体薪资方案"],
+    example_sentence_cn: "评估工作邀请时，求职者应考虑整个薪资方案而不仅仅是基本工资。",
+    synonyms_cn: ["薪酬方案", "报酬方案", "工资待遇"],
+  },
+  "physical health": {
+    pronunciation: "/ˈfɪz.ɪ.kəl helθ/",
+    collocations_cn: ["保持身体健康", "有益身体健康", "对身体健康的影响", "忽视身体健康"],
+    example_sentence_cn: "定期锻炼对于保持身体健康和心理健康至关重要。",
+    synonyms_cn: ["身体健康", "身体康健", "体质健康"],
+  },
+  "healthy lifestyle": {
+    pronunciation: "/ˈhel.θi ˈlaɪf.staɪl/",
+    collocations_cn: ["采用健康生活方式", "促进健康生活方式", "过健康的生活方式", "保持健康生活方式"],
+    example_sentence_cn: "学校应该从小教育儿童保持健康生活方式的重要性。",
+    synonyms_cn: ["注重健康的生活方式", "有益健康的生活方式", "促进健康的生活方式"],
+  },
+  "mental disorder": {
+    pronunciation: "/ˈmen.təl dɪˈsɔː.dər/",
+    collocations_cn: ["患有精神障碍", "诊断精神障碍", "常见的精神障碍", "治疗精神障碍"],
+    example_sentence_cn: "抑郁症是最常见的精神障碍之一，影响着全球数百万人。",
+    synonyms_cn: ["精神疾病", "心理障碍", "精神疾患"],
+  },
+  "physical activity": {
+    pronunciation: "/ˈfɪz.ɪ.kəl ækˈtɪv.ə.ti/",
+    collocations_cn: ["进行身体活动", "缺乏身体活动", "定期身体活动", "身体活动的好处"],
+    example_sentence_cn: "儿童每天应进行至少一小时的中等强度身体活动。",
+    synonyms_cn: ["运动", "身体锻炼", "体育活动"],
+  },
+  "health insurance": {
+    pronunciation: "/helθ ɪnˈʃʊə.rəns/",
+    collocations_cn: ["购买健康保险", "全面的健康保险", "缺乏健康保险", "私人健康保险"],
+    example_sentence_cn: "在没有全民医保的国家，健康保险对于获得可负担的医疗服务至关重要。",
+    synonyms_cn: ["医疗保险", "健康保障", "医疗覆盖"],
+  },
+  "obesity epidemic": {
+    pronunciation: "/əʊˈbiː.sə.ti ˌep.ɪˈdem.ɪk/",
+    collocations_cn: ["应对肥胖流行病", "抗击肥胖流行病", "日益严重的肥胖流行病", "儿童肥胖流行病"],
+    example_sentence_cn: "肥胖流行病是由不良饮食、久坐生活方式和激进的食品营销共同驱动的。",
+    synonyms_cn: ["肥胖危机", "超重流行病", "体重问题流行病"],
+  },
+  "medical treatment": {
+    pronunciation: "/ˈmed.ɪ.kəl ˈtriːt.mənt/",
+    collocations_cn: ["接受医疗治疗", "寻求医疗治疗", "获得医疗治疗", "延迟医疗治疗"],
+    example_sentence_cn: "早期诊断和及时的医疗治疗能显著改善大多数疾病的康复效果。",
+    synonyms_cn: ["医疗护理", "治疗方法", "临床治疗"],
+  },
+  "nutritional intake": {
+    pronunciation: "/njuːˈtrɪʃ.ən.əl ˈɪn.teɪk/",
+    collocations_cn: ["充足的营养摄入", "每日营养摄入", "监测营养摄入", "营养摄入不足"],
+    example_sentence_cn: "幼儿期不良的营养摄入会对认知发展产生持久影响。",
+    synonyms_cn: ["膳食摄入", "营养消费", "营养摄取"],
+  },
+  "cardiovascular disease": {
+    pronunciation: "/ˌkɑː.di.əʊˈvæs.kjʊ.lər dɪˈziːz/",
+    collocations_cn: ["心血管疾病的风险", "预防心血管疾病", "患上心血管疾病", "心血管疾病预防"],
+    example_sentence_cn: "吸烟、不良饮食和缺乏身体活动是全球心血管疾病的主要诱因。",
+    synonyms_cn: ["心脏病", "心血管病", "冠状动脉疾病"],
+  },
+  "sleep deprivation": {
+    pronunciation: "/sliːp ˌdep.rɪˈveɪ.ʃən/",
+    collocations_cn: ["长期睡眠不足", "遭受睡眠不足", "睡眠不足的影响", "严重的睡眠不足"],
+    example_sentence_cn: "长期睡眠不足会损害认知功能并增加事故和慢性疾病的风险。",
+    synonyms_cn: ["睡眠缺乏", "睡眠不足", "睡眠短缺"],
+  },
+  "substance abuse": {
+    pronunciation: "/ˈsʌb.stəns əˈbjuːs/",
+    collocations_cn: ["与药物滥用作斗争", "治疗药物滥用", "药物滥用问题", "青少年药物滥用"],
+    example_sentence_cn: "青少年药物滥用是一个日益严重的公共卫生危机，需要早期干预。",
+    synonyms_cn: ["药物滥用", "物质误用", "化学依赖"],
+  },
+  "preventive care": {
+    pronunciation: "/prɪˈven.tɪv keə/",
+    collocations_cn: ["投资预防性护理", "强调预防性护理", "获得预防性护理", "预防性护理服务"],
+    example_sentence_cn: "投资预防性护理比治疗晚期疾病更具成本效益。",
+    synonyms_cn: ["预防医学", "预防性医疗", "主动医疗"],
+  },
+  "health screening": {
+    pronunciation: "/helθ ˈskriː.nɪŋ/",
+    collocations_cn: ["常规健康筛查", "接受健康筛查", "定期健康筛查", "国家健康筛查计划"],
+    example_sentence_cn: "定期健康筛查可以在疾病早期阶段发现，此时更容易治疗。",
+    synonyms_cn: ["医学筛查", "健康体检", "诊断筛查"],
+  },
+  "fast food consumption": {
+    pronunciation: "/fɑːst fuːd kənˈsʌmp.ʃən/",
+    collocations_cn: ["过度的快餐消费", "减少快餐消费", "快餐消费的增加", "减少快餐消费"],
+    example_sentence_cn: "快餐消费的急剧增加与肥胖及相关疾病发病率的上升有关。",
+    synonyms_cn: ["垃圾食品摄入", "方便食品消费", "快餐饮食"],
+  },
+  "urban development": {
+    pronunciation: "/ˈɜː.bən dɪˈvel.əp.mənt/",
+    collocations_cn: ["快速的城市发展", "不可持续的城市发展", "规划城市发展", "城市发展项目"],
+    example_sentence_cn: "快速的城市发展给现有基础设施和公共服务带来了巨大压力。",
+    synonyms_cn: ["城市发展", "城市增长", "都市发展"],
+  },
+  "public transportation system": {
+    pronunciation: "/ˈpʌb.lɪk ˌtræn.spɔːˈteɪ.ʃən ˈsɪs.təm/",
+    collocations_cn: ["可靠的公共交通系统", "投资公共交通系统", "高效的公共交通系统", "扩展公共交通系统"],
+    example_sentence_cn: "高效的公共交通系统是任何可持续城市的支柱。",
+    synonyms_cn: ["大众交通系统", "公交网络", "交通系统"],
+  },
+  "infrastructure investment": {
+    pronunciation: "/ˈɪn.frəˌstrʌk.tʃər ɪnˈvest.mənt/",
+    collocations_cn: ["增加基础设施投资", "公共基础设施投资", "大规模基础设施投资", "基础设施投资项目"],
+    example_sentence_cn: "持续的基础设施投资对支持经济增长和提高生活水平至关重要。",
+    synonyms_cn: ["资本投资", "基础设施支出", "公共工程投资"],
+  },
+  "housing market": {
+    pronunciation: "/ˈhaʊ.zɪŋ ˈmɑː.kɪt/",
+    collocations_cn: ["过热的住房市场", "可负担的住房市场", "住房市场崩盘", "监管住房市场"],
+    example_sentence_cn: "许多大城市的住房市场对首次购房的年轻人来说已变得越来越难以负担。",
+    synonyms_cn: ["房地产市场", "房产市场", "住宅市场"],
+  },
+  "sustainable city": {
+    pronunciation: "/səˈsteɪ.nə.bəl ˈsɪt.i/",
+    collocations_cn: ["建设可持续城市", "设计可持续城市", "可持续城市倡议", "可持续城市愿景"],
+    example_sentence_cn: "可持续城市在经济、环境和社会公平之间取得平衡。",
+    synonyms_cn: ["生态城市", "绿色城市", "宜居城市"],
+  },
+  "city dweller": {
+    pronunciation: "/ˈsɪt.i ˈdwel.ər/",
+    collocations_cn: ["现代城市居民", "城市居民面临挑战", "大多数城市居民", "城市居民"],
+    example_sentence_cn: "城市居民通常面临更高的生活成本，但也享有更多文化和娱乐设施。",
+    synonyms_cn: ["城市居民", "城市住户", "市民"],
+  },
+  "public facilities": {
+    pronunciation: "/ˈpʌb.lɪk fəˈsɪl.ɪ.tiz/",
+    collocations_cn: ["使用公共设施", "改善公共设施", "缺乏公共设施", "投资公共设施"],
+    example_sentence_cn: "对图书馆、公园和体育中心等公共设施的投资大大增强了社区福祉。",
+    synonyms_cn: ["公共便利设施", "社区设施", "市政设施"],
+  },
+  "public amenity": {
+    pronunciation: "/ˈpʌb.lɪk əˈmiː.nə.ti/",
+    collocations_cn: ["提供公共便利设施", "基本公共便利设施", "使用公共便利设施", "公共便利设施投资"],
+    example_sentence_cn: "充足的公共便利设施，如清洁的水源和卫生设施，是健康城市环境的基础。",
+    synonyms_cn: ["公共服务", "市政便利设施", "社区设施"],
+  },
+  "road network": {
+    pronunciation: "/rəʊd ˈnet.wɜːk/",
+    collocations_cn: ["广泛的道路网络", "发达的道路网络", "扩展道路网络", "拥堵的道路网络"],
+    example_sentence_cn: "高效的道路网络对城市内货物和人员的顺畅流动至关重要。",
+    synonyms_cn: ["街道网络", "公路系统", "交通网络"],
+  },
+  "city council": {
+    pronunciation: "/ˈsɪt.i ˈkaʊn.səl/",
+    collocations_cn: ["地方市议会", "市议会选举", "市议会成员", "竞选市议会"],
+    example_sentence_cn: "市议会已批准一项新的五年计划，以扩大自行车道和步行区。",
+    synonyms_cn: ["市政委员会", "镇议会", "地方议会"],
+  },
+  "downtown area": {
+    pronunciation: "/ˈdaʊn.taʊn ˈeə.ri.ə/",
+    collocations_cn: ["繁华的市中心区域", "市中心景点", "在市中心购物", "振兴的市中心区域"],
+    example_sentence_cn: "市中心区域通过新的商店、餐厅和文化场所得到了振兴。",
+    synonyms_cn: ["市中心", "城镇中心", "中央商务区"],
+  },
+};

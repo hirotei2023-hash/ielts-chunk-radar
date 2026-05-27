@@ -1,10 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useAuth } from "@/lib/auth";
+import { useRouter } from "next/navigation";
 import { getStudyStats } from "@/lib/progress";
 import { getFavoriteCount } from "@/lib/favorites";
-import { Target, TrendingUp, Star, Clock } from "lucide-react";
+import { getSettings, saveSettings } from "@/lib/user-settings";
+import type { UserSettings } from "@/lib/user-settings";
+import { Target, TrendingUp, Star, Clock, Settings2 } from "lucide-react";
 
 interface Stats {
   totalLearned: number;
@@ -15,38 +17,116 @@ interface Stats {
 }
 
 export function ProfileStats() {
-  const { user } = useAuth();
+  const router = useRouter();
   const [stats, setStats] = useState<Stats | null>(null);
   const [favCount, setFavCount] = useState(0);
+  const [settings, setSettings] = useState<UserSettings>(getSettings());
+  const [editing, setEditing] = useState(false);
+  const [draftNickname, setDraftNickname] = useState(settings.nickname);
+  const [draftBand, setDraftBand] = useState(settings.targetBand);
 
   useEffect(() => {
     getStudyStats().then(setStats);
     setFavCount(getFavoriteCount());
   }, []);
 
+  const displayName = settings.nickname || "烤鸭选手";
+  const displayInitial = displayName.charAt(0).toUpperCase();
+
+  const handleStartEdit = () => {
+    setDraftNickname(settings.nickname);
+    setDraftBand(settings.targetBand);
+    setEditing(true);
+  };
+
+  const handleSave = () => {
+    const updated: UserSettings = {
+      nickname: draftNickname.trim(),
+      targetBand: draftBand || "6.0",
+    };
+    saveSettings(updated);
+    setSettings(updated);
+    setEditing(false);
+  };
+
   const cards = [
-    { icon: TrendingUp, label: "已学习", value: stats?.totalLearned ?? 0, color: "#f59e0b" },
-    { icon: Target, label: "已掌握", value: stats?.masteredCount ?? 0, color: "#84cc16" },
-    { icon: Star, label: "收藏", value: favCount, color: "#f59e0b" },
-    { icon: Clock, label: "今日待复习", value: stats?.dueToday ?? 0, color: "#ea580c" },
+    { icon: TrendingUp, label: "已学习", value: stats?.totalLearned ?? 0, color: "#f59e0b", href: "/library?status=learned" },
+    { icon: Target, label: "已掌握", value: stats?.masteredCount ?? 0, color: "#84cc16", href: "/library?status=mastered" },
+    { icon: Star, label: "收藏", value: favCount, color: "#f59e0b", href: "/profile/favorites" },
+    { icon: Clock, label: "今日待复习", value: stats?.dueToday ?? 0, color: "#ea580c", href: "/review" },
   ];
 
   return (
     <div>
       {/* User info */}
       <div className="mb-4 rounded-lg p-4" style={{ backgroundColor: "#292524" }}>
-        <div className="flex items-center gap-3">
-          <div
-            className="flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold"
-            style={{ backgroundColor: "#78350f", color: "#fbbf24" }}
-          >
-            {user?.email?.charAt(0).toUpperCase() ?? "?"}
+        {editing ? (
+          <div className="space-y-3">
+            <div>
+              <label className="mb-1 block text-xs" style={{ color: "#a8a29e" }}>昵称</label>
+              <input
+                type="text"
+                value={draftNickname}
+                onChange={(e) => setDraftNickname(e.target.value)}
+                placeholder="给自己起个名字"
+                maxLength={20}
+                className="w-full rounded-lg px-3 py-2 text-sm outline-none"
+                style={{ backgroundColor: "#1c1917", color: "#fafaf9", border: "1px solid #44403c" }}
+              />
+            </div>
+            <div>
+              <label className="mb-1 block text-xs" style={{ color: "#a8a29e" }}>雅思目标分数</label>
+              <select
+                value={draftBand}
+                onChange={(e) => setDraftBand(e.target.value)}
+                className="w-full rounded-lg px-3 py-2 text-sm outline-none"
+                style={{ backgroundColor: "#1c1917", color: "#fafaf9", border: "1px solid #44403c" }}
+              >
+                {["5.0", "5.5", "6.0", "6.5", "7.0", "7.5", "8.0", "8.5", "9.0"].map((b) => (
+                  <option key={b} value={b}>Band {b}</option>
+                ))}
+              </select>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={handleSave}
+                className="rounded-full px-4 py-1.5 text-sm font-medium"
+                style={{ backgroundColor: "#f59e0b", color: "#1c1917" }}
+              >
+                保存
+              </button>
+              <button
+                onClick={() => setEditing(false)}
+                className="rounded-full px-4 py-1.5 text-sm"
+                style={{ backgroundColor: "#1c1917", color: "#a8a29e" }}
+              >
+                取消
+              </button>
+            </div>
           </div>
-          <div>
-            <p className="font-medium" style={{ color: "#fafaf9" }}>{user?.email ?? "未知"}</p>
-            <p className="text-xs" style={{ color: "#a8a29e" }}>目标分数：Band {user?.user_metadata?.target_band ?? "6.0"}</p>
+        ) : (
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div
+                className="flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold"
+                style={{ backgroundColor: "#78350f", color: "#fbbf24" }}
+              >
+                {displayInitial}
+              </div>
+              <div>
+                <p className="font-medium" style={{ color: "#fafaf9" }}>{displayName}</p>
+                <p className="text-xs" style={{ color: "#a8a29e" }}>目标：Band {settings.targetBand}</p>
+              </div>
+            </div>
+            <button
+              onClick={handleStartEdit}
+              className="rounded-lg p-2 transition-colors hover:brightness-110"
+              style={{ backgroundColor: "#1c1917" }}
+            >
+              <Settings2 size={18} color="#a8a29e" />
+            </button>
           </div>
-        </div>
+        )}
       </div>
 
       {/* Stats cards */}
@@ -56,7 +136,8 @@ export function ProfileStats() {
           return (
             <div
               key={card.label}
-              className="rounded-lg p-4"
+              onClick={() => router.push(card.href)}
+              className="cursor-pointer rounded-lg p-4 transition-colors hover:brightness-110"
               style={{ backgroundColor: "#292524" }}
             >
               <Icon size={20} color={card.color} />

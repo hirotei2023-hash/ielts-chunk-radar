@@ -7,6 +7,10 @@ export const TOPIC_META: Record<Topic, { label: string; icon: string }> = {
   work: { label: "Work & Career", icon: "💼" },
   health: { label: "Health", icon: "🏥" },
   city: { label: "City & Transport", icon: "🚇" },
+  economy: { label: "Economy", icon: "💰" },
+  culture: { label: "Culture", icon: "🎨" },
+  society: { label: "Society", icon: "👥" },
+  science: { label: "Science", icon: "🔬" },
 };
 
 export const TOPICS: Topic[] = Object.keys(TOPIC_META) as Topic[];

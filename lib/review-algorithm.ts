@@ -2,7 +2,7 @@
 
 import type { Chunk } from "@/types/chunk";
 
-export type QuestionType = "chinese-to-english" | "collocation-gap" | "topic-match";
+export type QuestionType = "chinese-to-english" | "collocation-gap" | "english-to-chinese";
 
 export interface ReviewQuestion {
   type: QuestionType;
@@ -23,30 +23,37 @@ function generateChineseToEnglish(chunk: Chunk): ReviewQuestion {
 }
 
 function generateCollocationGap(chunk: Chunk): ReviewQuestion {
-  const sentence = chunk.example_sentence.replace(chunk.word, "_____");
+  const escaped = chunk.word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const sentence = chunk.example_sentence.replace(new RegExp(escaped, "i"), "_____");
+
+  const parts: string[] = [`提示：${chunk.translation}（${chunk.part_of_speech}）`];
+  if (chunk.example_sentence_cn) {
+    parts.push(`例句翻译：${chunk.example_sentence_cn}`);
+  }
+
   return {
     type: "collocation-gap",
     chunkId: chunk.id,
     prompt: sentence,
     correctAnswer: chunk.word,
-    hint: `提示：${chunk.translation}（${chunk.part_of_speech}）\n例句翻译：${chunk.example_sentence_cn || ""}`,
+    hint: parts.join("\n"),
   };
 }
 
-function generateTopicMatch(chunk: Chunk, allChunks: Chunk[]): ReviewQuestion {
+function generateEnglishToChinese(chunk: Chunk, allChunks: Chunk[]): ReviewQuestion {
   const distractors = allChunks
-    .filter((c) => c.id !== chunk.id && c.topics.some((t) => chunk.topics.includes(t)))
+    .filter((c) => c.id !== chunk.id && c.translation !== chunk.translation)
     .sort(() => Math.random() - 0.5)
     .slice(0, 3)
-    .map((c) => c.word);
+    .map((c) => c.translation);
 
-  const options = [chunk.word, ...distractors].sort(() => Math.random() - 0.5);
+  const options = [chunk.translation, ...distractors].sort(() => Math.random() - 0.5);
 
   return {
-    type: "topic-match",
+    type: "english-to-chinese",
     chunkId: chunk.id,
-    prompt: `写作场景：「${chunk.ielts_context}」\n\n最适合使用的词块是？`,
-    correctAnswer: chunk.word,
+    prompt: `「${chunk.word}」的中文意思是？`,
+    correctAnswer: chunk.translation,
     options,
   };
 }
@@ -61,7 +68,7 @@ export function generateQuestions(chunks: Chunk[], allChunks: Chunk[]): ReviewQu
         return generateCollocationGap(chunk);
       case 2:
       default:
-        return generateTopicMatch(chunk, allChunks);
+        return generateEnglishToChinese(chunk, allChunks);
     }
   });
 }

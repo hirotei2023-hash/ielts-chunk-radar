@@ -9,9 +9,10 @@ interface ReviewCardProps {
   questionIndex: number;
   totalQuestions: number;
   onAnswer: (chunkId: string, correct: boolean) => void;
+  onNext: () => void;
 }
 
-export function ReviewCard({ question, questionIndex, totalQuestions, onAnswer }: ReviewCardProps) {
+export function ReviewCard({ question, questionIndex, totalQuestions, onAnswer, onNext }: ReviewCardProps) {
   const [inputValue, setInputValue] = useState("");
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -38,7 +39,7 @@ export function ReviewCard({ question, questionIndex, totalQuestions, onAnswer }
           {questionIndex + 1} / {totalQuestions}
         </span>
         <span className="rounded px-2 py-0.5 text-[10px]" style={{ backgroundColor: "#1c1917", color: "#a8a29e" }}>
-          {question.type === "chinese-to-english" ? "中→英" : question.type === "collocation-gap" ? "搭配填空" : "场景匹配"}
+          {question.type === "chinese-to-english" ? "中→英" : question.type === "collocation-gap" ? "搭配填空" : "英→中"}
         </span>
       </div>
 
@@ -55,7 +56,7 @@ export function ReviewCard({ question, questionIndex, totalQuestions, onAnswer }
       )}
 
       {/* Input for non-choice questions */}
-      {question.type !== "topic-match" && (
+      {!question.options && (
         <form onSubmit={handleSubmit} className="space-y-3">
           <input
             type="text"
@@ -80,7 +81,7 @@ export function ReviewCard({ question, questionIndex, totalQuestions, onAnswer }
       )}
 
       {/* Choice for topic-match */}
-      {question.type === "topic-match" && question.options && (
+      {question.options && (
         <div className="space-y-2">
           {question.options.map((opt) => (
             <button
@@ -117,17 +118,37 @@ export function ReviewCard({ question, questionIndex, totalQuestions, onAnswer }
         </div>
       )}
 
-      {/* Result feedback */}
-      {submitted && (
-        <div
-          className="mt-3 rounded-lg p-3 text-sm"
-          style={{
-            backgroundColor: isCorrect ? "rgba(132,204,22,0.1)" : "rgba(239,68,68,0.1)",
-            color: isCorrect ? "#bef264" : "#fca5a5",
-          }}
+      {/* Skip button */}
+      {!submitted && (
+        <button
+          onClick={() => checkAnswer("")}
+          className="mt-3 w-full rounded-full py-1.5 text-xs transition-colors hover:brightness-110"
+          style={{ backgroundColor: "#1c1917", color: "#78716c" }}
         >
-          {isCorrect ? "正确！" : `正确答案：${question.correctAnswer}`}
-        </div>
+          跳过
+        </button>
+      )}
+
+      {/* Result feedback + Next button */}
+      {submitted && (
+        <>
+          <div
+            className="mt-3 rounded-lg p-3 text-sm"
+            style={{
+              backgroundColor: isCorrect ? "rgba(132,204,22,0.1)" : "rgba(239,68,68,0.1)",
+              color: isCorrect ? "#bef264" : "#fca5a5",
+            }}
+          >
+            {isCorrect ? "正确！" : `正确答案：${question.correctAnswer}`}
+          </div>
+          <button
+            onClick={onNext}
+            className="mt-3 w-full rounded-full py-2 text-sm font-medium transition-colors hover:brightness-110"
+            style={{ backgroundColor: "#f59e0b", color: "#1c1917" }}
+          >
+            {questionIndex + 1 >= totalQuestions ? "查看结果" : "下一题"}
+          </button>
+        </>
       )}
     </div>
   );

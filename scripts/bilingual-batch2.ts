@@ -1,0 +1,236 @@
+// 第 2 批缺失双语数据 (word → bilingual)，共 38 条
+export const BATCH2: Record<string, {
+  pronunciation: string;
+  collocations_cn: string[];
+  example_sentence_cn: string;
+  synonyms_cn: string[];
+}> = {
+  "environmental awareness": {
+    pronunciation: "/ɪnˌvaɪ.rənˈmen.təl əˈweə.nəs/",
+    collocations_cn: ["提高环保意识", "日益增长的环保意识", "促进环保意识", "缺乏环保意识"],
+    example_sentence_cn: "学校在提高年轻一代的环保意识方面发挥着至关重要的作用。",
+    synonyms_cn: ["生态意识", "环境意识", "绿色意识"],
+  },
+  "air pollution": {
+    pronunciation: "/eə pəˈluː.ʃən/",
+    collocations_cn: ["治理空气污染", "减少空气污染", "严重的空气污染", "室内空气污染"],
+    example_sentence_cn: "大城市空气污染已达到危险水平，对居民健康构成严重风险。",
+    synonyms_cn: ["大气污染", "雾霾", "空气污染"],
+  },
+  "energy consumption": {
+    pronunciation: "/ˈen.ə.dʒi kənˈsʌmp.ʃən/",
+    collocations_cn: ["减少能源消耗", "过度能源消耗", "家庭能源消耗", "能源消耗模式"],
+    example_sentence_cn: "安装智能电表可以帮助家庭监控和减少能源消耗。",
+    synonyms_cn: ["能源使用", "电力消耗", "能源支出"],
+  },
+  "waste disposal": {
+    pronunciation: "/weɪst dɪˈspəʊ.zəl/",
+    collocations_cn: ["不当的废物处理", "废物处理系统", "家庭废物处理", "安全的废物处理"],
+    example_sentence_cn: "不当的废物处理已导致该地区土壤和地下水的广泛污染。",
+    synonyms_cn: ["垃圾处理", "废物管理", "废弃物处理"],
+  },
+  "biodiversity loss": {
+    pronunciation: "/ˌbaɪ.əʊ.daɪˈvɜː.sə.ti lɒs/",
+    collocations_cn: ["阻止生物多样性丧失", "快速的生物多样性丧失", "导致生物多样性丧失", "生物多样性丧失的后果"],
+    example_sentence_cn: "栖息地破坏是全球热带地区生物多样性丧失的主要原因。",
+    synonyms_cn: ["物种灭绝", "生物多样性减少", "生态衰退"],
+  },
+  "eco-friendly": {
+    pronunciation: "/ˈiː.kəʊ ˈfrend.li/",
+    collocations_cn: ["环保产品", "环保替代品", "环保生活方式", "环保包装"],
+    example_sentence_cn: "消费者越来越多地选择环保产品以减少对环境的影响。",
+    synonyms_cn: ["环保的", "绿色的", "可持续的", "对地球友好的"],
+  },
+  "environmental impact": {
+    pronunciation: "/ɪnˌvaɪ.rənˈmen.təl ˈɪm.pækt/",
+    collocations_cn: ["评估环境影响", "最小化环境影响", "环境影响评估", "负面环境影响"],
+    example_sentence_cn: "公司现在在启动重大项目之前必须进行环境影响评估。",
+    synonyms_cn: ["生态影响", "环境后果", "环境效应"],
+  },
+  "marine ecosystem": {
+    pronunciation: "/məˈriːn ˈiː.kəʊˌsɪs.təm/",
+    collocations_cn: ["保护海洋生态系统", "对海洋生态系统的威胁", "海洋生态系统健康", "脆弱的海洋生态系统"],
+    example_sentence_cn: "塑料污染对海洋生态系统及其依赖的无数物种构成日益严重的威胁。",
+    synonyms_cn: ["海洋生态系统", "水生生态系统", "海洋环境"],
+  },
+  "technological advancement": {
+    pronunciation: "/ˌtek.nəˈlɒdʒ.ɪ.kəl ədˈvɑːns.mənt/",
+    collocations_cn: ["快速的技术进步", "受技术进步推动", "跟上技术进步的步伐"],
+    example_sentence_cn: "技术进步已经改变了人们交流和获取信息的方式。",
+    synonyms_cn: ["技术进步", "科技发展"],
+  },
+  "digital technology": {
+    pronunciation: "/ˈdɪdʒ.ɪ.təl tekˈnɒl.ə.dʒi/",
+    collocations_cn: ["拥抱数字技术", "数字技术的进步", "数字技术的采用", "数字技术的影响"],
+    example_sentence_cn: "数字技术已经彻底改变了企业运营和向客户提供服务的方式。",
+    synonyms_cn: ["信息技术", "数字工具", "电子技术"],
+  },
+  "online learning": {
+    pronunciation: "/ˈɒn.laɪn ˈlɜː.nɪŋ/",
+    collocations_cn: ["在线学习平台", "转向在线学习", "在线学习环境", "在线学习的好处"],
+    example_sentence_cn: "在线学习使教育机会民主化，让任何能上网的人都能学习。",
+    synonyms_cn: ["电子学习", "远程教育", "虚拟学习", "网络学习"],
+  },
+  "information technology": {
+    pronunciation: "/ˌɪn.fəˈmeɪ.ʃən tekˈnɒl.ə.dʒi/",
+    collocations_cn: ["信息技术行业", "发展信息技术", "信息技术基础设施", "信息技术专家"],
+    example_sentence_cn: "信息技术行业一直是许多国家经济增长的驱动力。",
+    synonyms_cn: ["IT", "计算技术", "信息系统", "数字技术"],
+  },
+  "screen time": {
+    pronunciation: "/skriːn taɪm/",
+    collocations_cn: ["限制屏幕时间", "过度的屏幕使用时间", "减少屏幕时间", "管理屏幕时间"],
+    example_sentence_cn: "家长越来越担心过多屏幕使用时间对儿童发展的影响。",
+    synonyms_cn: ["设备使用时间", "数字暴露时间", "电子设备使用"],
+  },
+  "data privacy": {
+    pronunciation: "/ˈdeɪ.tə ˈprɪv.ə.si/",
+    collocations_cn: ["保护数据隐私", "数据隐私担忧", "数据隐私法规", "侵犯数据隐私"],
+    example_sentence_cn: "需要更严格的数据隐私法规来保护数字时代的个人。",
+    synonyms_cn: ["信息隐私", "数字隐私", "个人数据保护"],
+  },
+  "cutting-edge technology": {
+    pronunciation: "/ˌkʌt.ɪŋ ˈedʒ tekˈnɒl.ə.dʒi/",
+    collocations_cn: ["采用尖端技术", "尖端技术公司", "获取尖端技术", "投资尖端技术"],
+    example_sentence_cn: "该医院投资尖端技术以改善患者诊断和治疗效果。",
+    synonyms_cn: ["最先进的技术", "先进技术", "前沿技术", "领先技术"],
+  },
+  "digital literacy": {
+    pronunciation: "/ˈdɪdʒ.ɪ.təl ˈlɪt.ər.ə.si/",
+    collocations_cn: ["提高数字素养", "数字素养技能", "促进数字素养", "缺乏数字素养"],
+    example_sentence_cn: "数字素养现在被视为与传统读写能力同等重要的现代劳动力必备技能。",
+    synonyms_cn: ["技术素养", "计算机素养", "IT技能", "技术熟练度"],
+  },
+  "technological innovation": {
+    pronunciation: "/ˌtek.nəˈlɒdʒ.ɪ.kəl ˌɪn.əˈveɪ.ʃən/",
+    collocations_cn: ["推动技术创新", "技术创新的步伐", "促进技术创新", "技术创新导致"],
+    example_sentence_cn: "过去二十年间技术创新以前所未有的速度加速发展。",
+    synonyms_cn: ["技术创新", "科学进步", "技术突破"],
+  },
+  "automation technology": {
+    pronunciation: "/ˌɔː.təˈmeɪ.ʃən tekˈnɒl.ə.dʒi/",
+    collocations_cn: ["引入自动化技术", "被自动化技术取代", "工业自动化技术", "投资自动化技术"],
+    example_sentence_cn: "自动化技术正在重塑制造业，提高效率的同时降低劳动力成本。",
+    synonyms_cn: ["机器人技术", "机械化系统", "自动化技术"],
+  },
+  "internet access": {
+    pronunciation: "/ˈɪn.tə.net ˈæk.ses/",
+    collocations_cn: ["提供互联网接入", "宽带互联网接入", "普及互联网接入", "缺乏互联网接入"],
+    example_sentence_cn: "弥合数字鸿沟需要为服务不足的社区提供可负担的互联网接入。",
+    synonyms_cn: ["网络接入", "在线访问", "网络连接"],
+  },
+  "cybersecurity threat": {
+    pronunciation: "/ˌsaɪ.bə.sɪˈkjʊə.rə.ti θret/",
+    collocations_cn: ["防范网络安全威胁", "日益增长的网络安全威胁", "网络安全威胁格局", "应对网络安全威胁"],
+    example_sentence_cn: "不断增长的网络安全威胁迫使组织大量投资数字防御体系。",
+    synonyms_cn: ["网络威胁", "数字安全风险", "在线安全威胁"],
+  },
+  "tech giant": {
+    pronunciation: "/tek ˈdʒaɪ.ənt/",
+    collocations_cn: ["全球科技巨头", "科技巨头面临审查", "被科技巨头主导", "监管科技巨头"],
+    example_sentence_cn: "像谷歌和苹果这样的科技巨头已经积累了前所未有的市场力量和影响力。",
+    synonyms_cn: ["科技集团", "大型科技公司", "科技巨兽"],
+  },
+  "digital revolution": {
+    pronunciation: "/ˈdɪdʒ.ɪ.təl ˌrev.əˈluː.ʃən/",
+    collocations_cn: ["引发了数字革命", "数字革命已经改变了", "数字革命时代", "数字革命的影响"],
+    example_sentence_cn: "数字革命从根本上改变了我们工作、交流和获取信息的方式。",
+    synonyms_cn: ["信息革命", "技术革命", "数字化转型"],
+  },
+  "big data analytics": {
+    pronunciation: "/bɪɡ ˈdeɪ.tə ˌæn.əˈlɪt.ɪks/",
+    collocations_cn: ["利用大数据分析", "大数据分析工具", "应用大数据分析", "大数据分析平台"],
+    example_sentence_cn: "大数据分析使公司能够理解客户行为并做出数据驱动的决策。",
+    synonyms_cn: ["大规模数据分析", "数据挖掘", "预测分析"],
+  },
+  "the internet of things": {
+    pronunciation: "/ði ˈɪn.tə.net əv θɪŋz/",
+    collocations_cn: ["物联网使", "物联网设备", "物联网技术", "物联网的兴起"],
+    example_sentence_cn: "物联网将日常设备连接到互联网，实现更智能的家居和城市。",
+    synonyms_cn: ["IoT", "互联设备", "智能网络", "环境计算"],
+  },
+  "remote working": {
+    pronunciation: "/rɪˈməʊt ˈwɜː.kɪŋ/",
+    collocations_cn: ["拥抱远程办公", "远程办公安排", "转向远程办公", "远程办公技术"],
+    example_sentence_cn: "在全球疫情之后，远程办公已成为许多行业的永久性特征。",
+    synonyms_cn: ["远程办公", "在家工作", "分布式工作", "弹性工作"],
+  },
+  "wearable device": {
+    pronunciation: "/ˈweə.rə.bəl dɪˈvaɪs/",
+    collocations_cn: ["可穿戴设备市场", "智能可穿戴设备", "与健康相关的可穿戴设备", "采用可穿戴设备"],
+    example_sentence_cn: "智能手表等可穿戴设备可以监测心率和睡眠模式等健康指标。",
+    synonyms_cn: ["可穿戴技术", "智能配件", "随身设备"],
+  },
+  "digital divide": {
+    pronunciation: "/ˈdɪdʒ.ɪ.təl dɪˈvaɪd/",
+    collocations_cn: ["弥合数字鸿沟", "扩大数字鸿沟", "城乡之间的数字鸿沟", "缩小数字鸿沟"],
+    example_sentence_cn: "政府必须采取措施弥合城乡社区之间的数字鸿沟。",
+    synonyms_cn: ["技术差距", "信息鸿沟", "数字不平等", "连接鸿沟"],
+  },
+  "electronic commerce": {
+    pronunciation: "/ˌel.ekˈtrɒn.ɪk ˈkɒm.ɜːs/",
+    collocations_cn: ["电子商务平台", "电子商务的增长", "电子商务行业", "跨境电子商务"],
+    example_sentence_cn: "电子商务通过让企业进入全球市场重塑了零售业。",
+    synonyms_cn: ["电商", "在线零售", "数字商务", "互联网购物"],
+  },
+  "genetic engineering": {
+    pronunciation: "/dʒəˈnet.ɪk ˌen.dʒɪˈnɪə.rɪŋ/",
+    collocations_cn: ["基因工程的进步", "基因工程技术", "对基因工程的担忧", "基因工程领域"],
+    example_sentence_cn: "基因工程为医学开辟了新的可能性，但也引发了伦理方面的担忧。",
+    synonyms_cn: ["基因改造", "遗传修饰", "生物技术干预"],
+  },
+  "smartphone addiction": {
+    pronunciation: "/ˈsmɑːt.fəʊn əˈdɪk.ʃən/",
+    collocations_cn: ["患有手机沉迷", "对抗手机沉迷", "克服手机沉迷", "手机沉迷的迹象"],
+    example_sentence_cn: "青少年手机沉迷已成为全球家长和教育工作者日益关注的问题。",
+    synonyms_cn: ["手机依赖", "移动设备成瘾", "数字依赖"],
+  },
+  "algorithm recommendation": {
+    pronunciation: "/ˈæl.ɡə.rɪð.əm ˌrek.əˈmenˈdeɪ.ʃən/",
+    collocations_cn: ["由算法推荐驱动", "算法推荐系统", "个性化算法推荐", "算法推荐引擎"],
+    example_sentence_cn: "算法推荐系统引发了人们对信息茧房和信息偏见的担忧。",
+    synonyms_cn: ["算法建议", "自动推荐", "机器学习推荐"],
+  },
+  "mental well-being": {
+    pronunciation: "/ˈmen.təl ˌwel ˈbiː.ɪŋ/",
+    collocations_cn: ["促进心理健康", "对心理健康的影响", "优先考虑心理健康"],
+    example_sentence_cn: "定期锻炼对身体健康和心理健康都有显著的影响。",
+    synonyms_cn: ["心理福祉", "心理健康", "情绪健康"],
+  },
+  "employment opportunities": {
+    pronunciation: "/ɪmˈplɔɪ.mənt ˌɒp.əˈtjuː.nə.tiz/",
+    collocations_cn: ["创造就业机会", "有限的就业机会", "扩大就业机会", "获得就业机会"],
+    example_sentence_cn: "政府应投资职业培训以扩大年轻人的就业机会。",
+    synonyms_cn: ["工作机会", "就业前景", "职业机会"],
+  },
+  "workplace environment": {
+    pronunciation: "/ˈwɜːk.pleɪs ɪnˈvaɪ.rən.mənt/",
+    collocations_cn: ["积极的工作环境", "有毒的工作环境", "创造安全的工作环境", "竞争激烈的工作环境"],
+    example_sentence_cn: "积极的工作环境能提升员工士气和整体生产力。",
+    synonyms_cn: ["工作环境", "工作氛围", "办公环境"],
+  },
+  "job security": {
+    pronunciation: "/dʒɒb sɪˈkjʊə.rə.ti/",
+    collocations_cn: ["保障工作稳定性", "威胁工作稳定性", "失去工作稳定性", "工作稳定感"],
+    example_sentence_cn: "在经济不确定时期，工作稳定性成为工人的首要考虑因素。",
+    synonyms_cn: ["就业保障", "工作稳定", "职业保障"],
+  },
+  "unemployment rate": {
+    pronunciation: "/ˌʌn.ɪmˈplɔɪ.mənt reɪt/",
+    collocations_cn: ["上升的失业率", "降低失业率", "青年失业率", "官方失业率"],
+    example_sentence_cn: "尽管技术进步，许多国家的失业率仍然居高不下。",
+    synonyms_cn: ["失业比率", "失业水平", "失业程度"],
+  },
+  "transferable skills": {
+    pronunciation: "/trænsˈfɜː.rə.bəl skɪlz/",
+    collocations_cn: ["培养可迁移技能", "获取可迁移技能", "展示可迁移技能", "高度可迁移的技能"],
+    example_sentence_cn: "志愿服务帮助年轻人培养沟通和团队合作等可迁移技能。",
+    synonyms_cn: ["可转移技能", "跨职能技能", "通用技能"],
+  },
+  "corporate culture": {
+    pronunciation: "/ˈkɔː.pər.ət ˈkʌl.tʃər/",
+    collocations_cn: ["强大的企业文化", "塑造企业文化", "有毒的企业文化", "企业文化转型"],
+    example_sentence_cn: "健康的企业文化鼓励创新和员工之间的开放沟通。",
+    synonyms_cn: ["组织文化", "公司文化", "商业文化"],
+  },
+};

@@ -12,9 +12,51 @@ export interface ChunkProgress {
   next_review_at: string | null;
 }
 
-export async function getProgress(chunkId: string): Promise<ChunkProgress | null> {
+const LOCAL_KEY = "ielts-chunk-radar-progress";
+
+// ====== localStorage fallback ======
+
+function readLocal(): ChunkProgress[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = localStorage.getItem(LOCAL_KEY);
+    return raw ? (JSON.parse(raw) as ChunkProgress[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeLocal(records: ChunkProgress[]) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(LOCAL_KEY, JSON.stringify(records));
+}
+
+function getLocal(chunkId: string): ChunkProgress | null {
+  return readLocal().find((p) => p.chunk_id === chunkId) || null;
+}
+
+function upsertLocal(record: ChunkProgress) {
+  const all = readLocal();
+  const idx = all.findIndex((p) => p.chunk_id === record.chunk_id);
+  if (idx >= 0) all[idx] = record;
+  else all.push(record);
+  writeLocal(all);
+}
+
+// ====== public API ======
+
+async function hasSupabaseUser(): Promise<boolean> {
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL) return false;
   const { data: { user } } = await supabase.auth.getUser();
-  if (!user) return null;
+  return !!user;
+}
+
+export async function getProgress(chunkId: string): Promise<ChunkProgress | null> {
+  const hasUser = await hasSupabaseUser();
+  if (!hasUser) return getLocal(chunkId);
+
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return getLocal(chunkId);
 
   const { data } = await supabase
     .from("user_chunk_progress")
@@ -23,27 +65,35 @@ export async function getProgress(chunkId: string): Promise<ChunkProgress | null
     .eq("chunk_id", chunkId)
     .maybeSingle();
 
-  return data as ChunkProgress | null;
+  return (data as ChunkProgress) || getLocal(chunkId);
 }
 
 export async function getAllProgress(): Promise<ChunkProgress[]> {
+  const hasUser = await hasSupabaseUser();
+  if (!hasUser) return readLocal();
+
   const { data: { user } } = await supabase.auth.getUser();
-  if (!user) return [];
+  if (!user) return readLocal();
 
   const { data } = await supabase
     .from("user_chunk_progress")
     .select("*")
     .eq("user_id", user.id);
 
-  return (data as ChunkProgress[]) || [];
+  return (data as ChunkProgress[]) || readLocal();
 }
 
 export async function getReviewQueue(): Promise<ChunkProgress[]> {
+  const hasUser = await hasSupabaseUser();
+  if (!hasUser) {
+    const now = new Date();
+    return readLocal().filter((p) => !p.next_review_at || new Date(p.next_review_at) <= now);
+  }
+
   const { data: { user } } = await supabase.auth.getUser();
-  if (!user) return [];
+  if (!user) return readLocal();
 
   const now = new Date().toISOString();
-
   const { data } = await supabase
     .from("user_chunk_progress")
     .select("*")
@@ -59,12 +109,9 @@ export async function updateMastery(
   chunkId: string,
   correct: boolean
 ): Promise<ChunkProgress> {
-  const { data: { user } } = await supabase.auth.getUser();
-  if (!user) throw new Error("Not authenticated");
-
   const existing = await getProgress(chunkId);
-
   const now = new Date();
+
   let masteryScore = existing?.mastery_score ?? 0;
   let correctCount = existing?.correct_count ?? 0;
   let wrongCount = existing?.wrong_count ?? 0;
@@ -81,7 +128,7 @@ export async function updateMastery(
   const nextReviewAt = new Date(now.getTime() + intervalDays * 24 * 60 * 60 * 1000);
 
   const record: ChunkProgress = {
-    user_id: user.id,
+    user_id: "local",
     chunk_id: chunkId,
     mastery_score: masteryScore,
     correct_count: correctCount,
@@ -90,16 +137,48 @@ export async function updateMastery(
     next_review_at: nextReviewAt.toISOString(),
   };
 
-  await supabase
-    .from("user_chunk_progress")
-    .upsert(record, { onConflict: "user_id,chunk_id" });
+  const hasUser = await hasSupabaseUser();
+  if (hasUser) {
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user) {
+      await supabase
+        .from("user_chunk_progress")
+        .upsert({ ...record, user_id: user.id }, { onConflict: "user_id,chunk_id" });
+      return record;
+    }
+  }
 
+  // localStorage fallback
+  upsertLocal(record);
   return record;
 }
 
 export async function getStudyStats() {
+  const hasUser = await hasSupabaseUser();
+  if (!hasUser) {
+    const all = readLocal();
+    const now = new Date();
+    return {
+      totalLearned: all.length,
+      masteredCount: all.filter((p) => p.mastery_score >= 85).length,
+      learningCount: all.filter((p) => p.mastery_score >= 1 && p.mastery_score < 85).length,
+      newCount: all.filter((p) => p.mastery_score === 0).length,
+      dueToday: all.filter((p) => p.next_review_at && new Date(p.next_review_at) <= now).length,
+    };
+  }
+
   const { data: { user } } = await supabase.auth.getUser();
-  if (!user) return null;
+  if (!user) {
+    const all = readLocal();
+    const now = new Date();
+    return {
+      totalLearned: all.length,
+      masteredCount: all.filter((p) => p.mastery_score >= 85).length,
+      learningCount: all.filter((p) => p.mastery_score >= 1 && p.mastery_score < 85).length,
+      newCount: all.filter((p) => p.mastery_score === 0).length,
+      dueToday: all.filter((p) => p.next_review_at && new Date(p.next_review_at) <= now).length,
+    };
+  }
 
   const { data } = await supabase
     .from("user_chunk_progress")
@@ -111,9 +190,9 @@ export async function getStudyStats() {
 
   return {
     totalLearned: progress.length,
-    masteredCount: progress.filter((p) => p.mastery_score >= 85).length,
-    learningCount: progress.filter((p) => p.mastery_score >= 1 && p.mastery_score < 85).length,
-    newCount: progress.filter((p) => p.mastery_score === 0).length,
-    dueToday: progress.filter((p) => p.next_review_at && new Date(p.next_review_at) <= now).length,
+    masteredCount: progress.filter((p: any) => p.mastery_score >= 85).length,
+    learningCount: progress.filter((p: any) => p.mastery_score >= 1 && p.mastery_score < 85).length,
+    newCount: progress.filter((p: any) => p.mastery_score === 0).length,
+    dueToday: progress.filter((p: any) => p.next_review_at && new Date(p.next_review_at) <= now).length,
   };
 }
